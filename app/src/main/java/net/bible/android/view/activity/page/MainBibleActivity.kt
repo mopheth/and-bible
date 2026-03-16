@@ -921,6 +921,14 @@ class MainBibleActivity : CustomTitlebarActivityBase() {
                 val intent = Intent(this, WorkspaceSelectorActivity::class.java)
                 startActivityForResult(intent, WORKSPACE_CHANGED)
             }, opensDialog = true)
+
+            R.id.menu_reading_theme -> CommandPreference(launch = { _, _, _ ->
+            ThemePickerDialog(this, themeManager) { _ ->
+                bibleView.applyReadingTheme()
+                syncAndroidUiToTheme(this, themeManager.currentTheme)
+            }.show()
+            }, opensDialog = true)
+            
             else -> throw RuntimeException("Illegal menu item")
         }
     }

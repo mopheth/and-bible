@@ -288,6 +288,8 @@
     <string name="cpv_select">Select</string>
     <string name="cpv_transparency">Transparency</string>
 
+    <string name="reading_theme">Color theme</string>
+
     <!-- Window -->
     <string name="new_window">New window</string>
     <string name="windowClose">Close</string>

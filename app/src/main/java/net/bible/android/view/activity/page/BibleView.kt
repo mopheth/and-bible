@@ -835,6 +835,29 @@ class BibleView(val mainBibleActivity: MainBibleActivity,
         addJavascriptInterface(bibleJavascriptInterface, "android")
     }
 
+    fun applyReadingTheme() {
+        val activity = context as? ActivityBase ?: return
+        val css = activity.themeManager.currentCss()
+            .replace("\\", "\\\\")
+            .replace("\"", "\\\"")
+            .replace("\n", " ")
+            .replace("\r", "")
+
+        evaluateJavascript("""
+            (function() {
+                var el = document.getElementById('andbible-reading-theme');
+                if (!el) {
+                    el = document.createElement('style');
+                    el.id = 'andbible-reading-theme';
+                    document.head.appendChild(el);
+                }
+                el.textContent = "$css";
+            })();
+        """.trimIndent(), null)
+
+        setBackgroundColor(activity.themeManager.currentTheme.background)
+    }
+
     class BibleLink(val type: String, val target: String, private val v11nName: String? = null, val forceDoc: Boolean = false) {
         val versification: Versification get() =
             Versifications.instance().getVersification(v11nName ?: SystemKJVA.V11N_NAME) ?: KJVA
@@ -1315,6 +1338,11 @@ class BibleView(val mainBibleActivity: MainBibleActivity,
                 Log.w(TAG, "WebView parent is null in onRenderProcessGone, cannot recreate")
             }
             return true
+        }
+
+        override fun onPageFinished(view: WebView?, url: String?) {
+            super.onPageFinished(view, url)
+            applyReadingTheme()
         }
     }
 

@@ -78,6 +78,9 @@ abstract class ActivityBase : AppCompatActivity(), AndBibleActivity {
     private var wasPaused = false
     private var returningFromCalculator = false
 
+    /** Theme manager for handling theme-related operations */
+    val themeManager: ThemeManager by lazy { ThemeManager(this) }
+
     /** Called when the activity is first created.  */
     @SuppressLint("MissingSuperCall")
     public override fun onCreate(savedInstanceState: Bundle?) {
@@ -179,6 +182,28 @@ abstract class ActivityBase : AppCompatActivity(), AndBibleActivity {
         }
         Log.i(TAG, "applyTheme: nightMode = ${ScreenSettings.nightMode}")
         AppCompatDelegate.setDefaultNightMode(newNightMode)
+
+        if (themeManager.currentTheme.id != "github_light") {
+            syncAndroiUiToTheme(this, themeManager.currentTheme)
+        }
+    }
+
+    fun syncAndroidUiToTheme(activity: AppCompatActivity, theme: ReadingTheme) {
+        activity.supportActionBar?.setBackgroundDrawable(
+            ColorDrawable(theme.background)
+        )
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            activity.window.statusBarColor = theme.background
+            WindowInsetsControllerCompat(activity.window, activity.window.decorView)
+                .isAppearanceLightStatusBars = isColorLight(theme.background)
+        }
+    }
+
+    private fun isColorLight(color: Int): Boolean {
+        val r = Color.red(color) / 255.0
+        val g = Color.green(color) / 255.0
+        val b = Color.blue(color) / 255.0
+        return (0.2126 * r + 0.7152 * g + 0.0722 * b) > 0.5
     }
 
     protected fun buildActivityComponent() = CommonUtils.buildActivityComponent()
