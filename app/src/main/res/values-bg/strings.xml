@@ -1,24 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--
-  ~ Copyright (c) 2022 Martin Denham, Tuomas Airaksinen and the AndBible contributors.
-  ~
-  ~ This file is part of AndBible: Bible Study (http://github.com/AndBible/and-bible).
-  ~
-  ~ AndBible is free software: you can redistribute it and/or modify it under the
-  ~ terms of the GNU General Public License as published by the Free Software Foundation,
-  ~ either version 3 of the License, or (at your option) any later version.
-  ~
-  ~ AndBible is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-  ~ See the GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License along with AndBible.
-  ~ If not, see http://www.gnu.org/licenses/.
-  -->
-
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="version_text">Версия %s</string>
-  <!--Main menu-->
+  
   <string name="menu">Меню</string>
   <string name="chooseBook">Ресурси</string>
   <string name="selectPassage">Пасаж</string>
@@ -28,22 +11,22 @@
   <string name="help">Помощ</string>
   <string name="administration">Управление...</string>
   <string name="chooce_document">Избери документ</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Избери книга</string>
   <string name="choosePassageChapterName">Избери глава</string>
   <string name="choosePassageVerseName">Избери стих</string>
   <string name="bible">Библия</string>
   <string name="deuterocanonical">Неканонични</string>
-  <!--Search-->
+  
   <string name="search_index">Индексация за търсене</string>
   <string name="indexing_wait_msg">Екранът за търсене ще се покаже, след като индексирането приключи.</string>
   <string name="index_create">Създай</string>
   <string name="rebuild_index">Поднови индексирането</string>
-  <!--Tasks-->
+  
   <string name="progress_status">Прогрес</string>
   <string name="task_kill_warning">Тези дълги задачи могат да бъдат прекъснати, ако затворите And Bible преди те да са приключили.</string>
   <string name="no_tasks_running">Няма други задачи.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Намери стиховете.</string>
   <string name="search_all_words">Всички думи.</string>
   <string name="search_any_word">Която и да е от думите.</string>
@@ -56,7 +39,7 @@
   <string name="search_old_testament">Старият Завет</string>
   <string name="search_current_book">Текуща книга</string>
   <string name="error_executing_search">Невалидно търсене</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_title1">Номерът на стиха</string>
   <string name="prefs_verse_per_line_summary">Всеки стих да бъде написан на отделен ред</string>
   <string name="prefs_show_bookmarks_summary">Скриване всички отметки</string>
@@ -85,55 +68,55 @@
   <string name="prefs_interface_locale_summary">Избери езика на интерфейса</string>
   <string name="reset_fontsize">Изчистване</string>
   <string name="prefs_request_sdcard_permission_title">Има ръчно инсталирани документи</string>
-  <!--Colors preferences-->
+  
   <string name="colors_night_mode_title">Нощен режим</string>
-  <!--Window-->
+  
   <string name="new_window">Нов прозорец</string>
   <string name="windowClose">Затвори</string>
   <string name="windowMaximise">Уголеми</string>
   <string name="windowMinimise">Смали</string>
   <string name="windowSynchronise">Синхронизирай</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Няма коментари за тази глава</string>
   <string name="no_verse_notes">Няма коментари за този стих</string>
   <string name="previous">Назад</string>
   <string name="next">Напред</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Моля изтеглете от интернет речници за Гръцки и Еврейски</string>
   <string name="no_indexed_bible_with_strongs_ref">Трябва да изтеглите текст който съдържа числата на Стронг, както и сътветен индекс за текста.</string>
   <string name="morph_robinson_not_installed">Моля изтеглете речникът \"Robinson\'s Morphological Analysis Codes\"</string>
-  <!--Module download-->
+  
   <string name="download">Изтеглете ресурси</string>
   <string name="download_document_confirm_prefix">Изтегляне</string>
   <string name="download_refresh_book_list_menu_item">Обнови</string>
   <string name="storage_space_warning">Недотатъчно пространство на устройството.</string>
   <string name="document_not_installed">Моля, изтеглете \'%s\'</string>
   <string name="free_text_search_documents">Търси</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Зареди документ от ZIP архив</string>
   <string name="install_zip_module">Инсталирай модул</string>
   <string name="install_zip_successfull">Успешна инсталация на модула</string>
   <string name="invalid_module">Файлът не съдържа валиден SWORD модул</string>
   <string name="install_zip_title">Моля изчакайте. Зареждане на Zip файла.</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">План за четене</string>
   <string name="rdg_plan_selector_title">Избери план за четене</string>
   <string name="rdg_plan_day">Ден %s</string>
   <string name="done">Готово</string>
-  <!--Document context menu-->
+  
   <string name="delete">Изтрий</string>
   <string name="delete_index">Изтрий индекса за търсене</string>
   <string name="about">Относно</string>
   <string name="delete_doc">Изтрий %s?</string>
   <string name="delete_search_index_doc">Изтриване на индекса  %s?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Бележки и препратки</string>
   <string name="compare_translations">Сравни преводи</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Отваряй препратките тук</string>
   <string name="open_link_in_new_window">Отваряй препратките в нов прозорец</string>
   <string name="open_link_in_special_window">Отваряй препратките в специален прозорец</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks">Отметките</string>
   <string name="bookmark_added">Отметката е добавена</string>
   <string name="assign_labels">Задай етикет</string>
@@ -141,30 +124,30 @@
   <string name="new_label">Нов етикет</string>
   <string name="label_name_prompt">Име</string>
   <string name="label_unlabelled">Етикетът е махнат</string>
-  <!--can be removed-->
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
+  
   <string name="sort_by_date">По дата</string>
   <string name="sort_by_bible_book">Подредба</string>
   <string name="sort_by_alphabetical">По азбучен ред</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Речник</string>
   <string name="search_dictionary_hint">Намери речник</string>
-  <!--General Book-->
+  
   <string name="general_book">Книга</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d глава</string>
   <string name="some_chapters">%d глави</string>
   <string name="rest_of_book">до края на книгата</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d стиха</string>
   <string name="some_verses">%d стиха</string>
   <string name="rest_of_chapter">до края на главата</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d страница</string>
   <string name="some_pages">%d страници</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Спри</string>
   <string name="pause">Пауза</string>
   <string name="rewind">Назад</string>
@@ -172,7 +155,7 @@
   <string name="tts_lang_not_available">Езикът не е инсталиран</string>
   <string name="speak_queue">Опашка</string>
   <string name="speak_repeat">Повтори</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Скорост на говора</string>
   <string name="conf_replace_divinename">Показвай Yahweh вместо името на Бога</string>
   <string name="conf_change_title">Заглавия</string>
@@ -183,43 +166,34 @@
   <string name="speak_previous">Предишен</string>
   <string name="widget_toggle_sleep_timer">Покажи/скрий таймера</string>
   <string name="speak_status_stopped">спрян</string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
-  <!--param is bookmark icon-->
-  <!--param is auto-assign label icon-->
-  <!--param is heart icon-->
-  <!--param is refresh icon-->
-  <!--Parameter is actual icon-->
-  <!--Parameter is actual icon-->
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
-  <!--User Notes-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="mynotes">Мои бележки</string>
-  <!--Backup and restore-->
+  
   <string name="backup_and_restore">Резервно копие</string>
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
-  <!--About-->
+  
+  
   <string name="module_about_copyright">Авторско право: %s</string>
   <string name="module_about_versification">Версификация: %s</string>
-  <!--Bug reporting-->
-  <!--Document types-->
+  
+  
   <string name="doc_type_bible">Библия</string>
   <string name="doc_type_commentary">Коментар</string>
   <string name="doc_type_dictionary">Речник</string>
   <string name="doc_type_book">Книга</string>
   <string name="doc_type_map">Карта</string>
-  <!--Languages-->
+  
   <string name="lang_default">По подразбиране</string>
-  <!--General-->
+  
   <string name="okay">ОК</string>
   <string name="cancel">Отмяна</string>
   <string name="yes">Да</string>
@@ -230,43 +204,43 @@
   <string name="edit">Редактирай</string>
   <string name="reset_generic">Изчистване</string>
   <string name="watch_tutorial_video">Гледай гид на потребителя (на английски)</string>
-  <!--Errors-->
+  
   <string name="report_error">Изпрати отчет</string>
   <string name="error_occurred">Грешка</string>
   <string name="error_no_content">Избранният стих няма съдържание</string>
   <string name="error_page_too_large">Страницата е твърде голяма за да бъде отворена</string>
   <string name="error_key_not_in_document">Не се намира в зададения ресурс</string>
   <string name="empty_list">Нищо за показване</string>
-  <!--Notifications-->
-  <!--Workspaces-->
+  
+  
   <string name="new_workspace">Ново</string>
   <string name="rename_workspace">Преименуване</string>
   <string name="save_and_exit">Запази</string>
   <string name="reset_settings">Изчистване</string>
-  <!--Beta notice-->
-  <!--History-->
-  <!--Help-->
+  
+  
+  
   <string name="help_nav_title">Навигация</string>
   <string name="help_contextmenus_title">Контекстни менюта</string>
   <string name="help_search_title">Търси</string>
   <string name="help_search_text">Текстът за търсене може да включва специални знаци като *, ?, AND, OR, NOT
         (виж документацията на \"Apache Lucene - Query Parser Syntax\")
     </string>
-  <!--Welcome text-->
-  <!--Uncategorized-->
+  
+  
   <string name="close">Затвори</string>
   <string name="my_notes_abbreviation">Мои бележки</string>
   <string name="compare_description">Сравни преводи</string>
   <string name="verse_action_copy">Копирай</string>
   <string name="show_versenumbers">Покажи номерата на стиховете.</string>
   <string name="backup_button">Резервно копие</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
-  <!--parameters are actions (file a bug, send email)-->
-  <!--param is "please report maintainers"-->
-  <!--param is "please read what you can do"-->
+  
+  
+  
+  
   <string name="system_items1">Още</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
+  
   <string name="incomplete_translation">Съжаляваме, но имаме само частичен превод на потребителски интерфейс на език %s. Това е така, защото %s е изцяло разработен от доброволци. Ако можете да помогнете при превода, моля, вижте %s.</string>
-  <!--will be added to incomplete_translation as a link-->
+  
   <string name="instructions_for_translators">инструкции за преводачи</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

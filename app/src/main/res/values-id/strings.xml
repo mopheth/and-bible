@@ -1,24 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--
-  ~ Copyright (c) 2022 Martin Denham, Tuomas Airaksinen and the AndBible contributors.
-  ~
-  ~ This file is part of AndBible: Bible Study (http://github.com/AndBible/and-bible).
-  ~
-  ~ AndBible is free software: you can redistribute it and/or modify it under the
-  ~ terms of the GNU General Public License as published by the Free Software Foundation,
-  ~ either version 3 of the License, or (at your option) any later version.
-  ~
-  ~ AndBible is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-  ~ See the GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License along with AndBible.
-  ~ If not, see http://www.gnu.org/licenses/.
-  -->
-
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="version_text">Versi %s</string>
-  <!--Main menu-->
+  
   <string name="menu">Menu</string>
   <string name="chooseBook">Dokumen</string>
   <string name="selectPassage">Nats</string>
@@ -28,22 +11,22 @@
   <string name="help">Bantuan</string>
   <string name="administration">Administrasi</string>
   <string name="chooce_document">Pilih dokumen</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Pilih Buku</string>
   <string name="choosePassageChapterName">Pilih Pasal</string>
   <string name="choosePassageVerseName">Pilih Ayat</string>
   <string name="bible">Alkitab</string>
   <string name="deuterocanonical">Deuterokanonika</string>
-  <!--Search-->
+  
   <string name="search_index">Cari Indeks</string>
   <string name="indexing_wait_msg">Ketika indeks sudah lengkap anda akan dibawa ke layar pencarian.</string>
   <string name="index_create">Buat baru</string>
   <string name="rebuild_index">Bangun kembail indeks</string>
-  <!--Tasks-->
+  
   <string name="progress_status">Kemajuan</string>
   <string name="task_kill_warning">Hubungan akan terputus jika anda beralih ke aplikasi lain sebelum tugas selesai.</string>
   <string name="no_tasks_running">Tidak ada tugas yang sedang berjalan.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Temukan ayat</string>
   <string name="search_all_words">Semua kata</string>
   <string name="search_any_word">Kata apa saja</string>
@@ -56,7 +39,7 @@
   <string name="search_old_testament">Perjanjian Lama</string>
   <string name="search_current_book">Buku sekarang</string>
   <string name="error_executing_search">Permintaan pencarian salah</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_title1">Nomor ayat</string>
   <string name="prefs_verse_per_line_summary">Tunjukan setiap ayat di baris yang berbeda</string>
   <string name="prefs_show_bookmarks_summary">Hapus tanda klik untuk menyembunyikan semua bookmark</string>
@@ -90,37 +73,37 @@
   <string name="prefs_request_sdcard_permission_title">Tersedia dokumen yang diinstal secara manual</string>
   <string name="auto_fullscreen">Full screen dengan menggulir</string>
   <string name="reversed_split_mode">Kembali dari mode terbagi</string>
-  <!--Colors preferences-->
+  
   <string name="colors_night_mode_title">Mode malam</string>
-  <!--Window-->
+  
   <string name="new_window">Jendela baru</string>
   <string name="windowClose">Tutup</string>
   <string name="windowMaximise">Membesarkan</string>
   <string name="windowMinimise">Mengecilkan</string>
   <string name="windowSynchronise">Sinkronkan</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Tidak ada catatan dalam pasal ini</string>
   <string name="no_verse_notes">Tidak ada catatan dalam ayat ini</string>
   <string name="previous">Sebelumnya</string>
   <string name="next">Berikutnya</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Silahkan download kamus Strong Ibrani dan Yunani</string>
   <string name="no_indexed_bible_with_strongs_ref">Anda harus mengunduh Alkitab berisi nomor Strong dan unduh indeksnya melalui Penelusuran/Pencarian</string>
   <string name="morph_robinson_not_installed">Silahkan mengunduh kamus \'Robinson\'s Morphological Analysis Codes\'</string>
-  <!--Module download-->
+  
   <string name="download">Unduh Dokumen</string>
   <string name="download_document_confirm_prefix">Unduh</string>
   <string name="download_refresh_book_list_menu_item">Refresh</string>
   <string name="storage_space_warning">Kurangnya tempat penyimpanan lokal.</string>
   <string name="document_not_installed">Silahkan unduh \'%s\'</string>
   <string name="free_text_search_documents">Pencarian</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Buka Dokumen dari Zip</string>
   <string name="install_zip_module">Instal Modul Alkitab</string>
   <string name="install_zip_successfull">Modul telah berhasil diinstal</string>
   <string name="invalid_module">File tidak berisi modul SWORD yang berlaku</string>
   <string name="install_zip_title">Silahkan tunggu. Memuat file Zip</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">Rencana Bacaan</string>
   <string name="rdg_plan_selector_title">Pilih Rencana Bacaan</string>
   <string name="rdg_plan_day">Hari %s</string>
@@ -158,20 +141,20 @@
   <string name="plan_description_y2ot1ntps2">
  Baca Alkitab dalam 2 tahun, PB dan Mazmur sebanyak 2 kali.
  Atas izin dari Wholesome Words, http://www.wholesomewords.org/, permission granted</string>
-  <!--Document context menu-->
+  
   <string name="delete">Hapus</string>
   <string name="delete_index">Hapus indeks pencarian</string>
   <string name="about">Tentang</string>
   <string name="delete_doc">Hapus %s?</string>
   <string name="delete_search_index_doc">Hapus indeks dari %s?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Catatan kaki dan referensi</string>
   <string name="compare_translations">Bandingkan terjemahan</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Buka link di sini</string>
   <string name="open_link_in_new_window">Buka link di jendela baru</string>
   <string name="open_link_in_special_window">Buka link di jendela khusus</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks">Penanda Buku</string>
   <string name="bookmark_added">Penanda buku ditambahkan</string>
   <string name="assign_labels">Tetapkan label</string>
@@ -179,30 +162,30 @@
   <string name="new_label">Label Baru</string>
   <string name="label_name_prompt">Nama</string>
   <string name="label_unlabelled">Tanpa label</string>
-  <!--can be removed-->
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
+  
   <string name="sort_by_date">Urutan tanggal</string>
   <string name="sort_by_bible_book">Urutan Alkitab</string>
   <string name="sort_by_alphabetical">Urutan abjad</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Kamus</string>
   <string name="search_dictionary_hint">Cari kamus</string>
-  <!--General Book-->
+  
   <string name="general_book">Buku</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d pasal</string>
   <string name="some_chapters">%d pasal-pasal</string>
   <string name="rest_of_book">Ke akhir buku</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d ayat</string>
   <string name="some_verses">%d ayat-ayat</string>
   <string name="rest_of_chapter">Ke akhir pasal</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d halaman</string>
   <string name="some_pages">%d halaman-halaman</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Hentikan</string>
   <string name="pause">Jeda</string>
   <string name="rewind">Mundur</string>
@@ -210,7 +193,7 @@
   <string name="tts_lang_not_available">Bahasa tidak tersedia.</string>
   <string name="speak_queue">Antrian</string>
   <string name="speak_repeat">Ulangi</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Kecepatan berbicara</string>
   <string name="speak_and_play_earcons_title">Bicara dan putar efek suara untuk</string>
   <string name="playback_settings_title">Pengaturan Pemutaran</string>
@@ -245,14 +228,14 @@
   <string name="speak_status_stopped">Terhenti</string>
   <string name="speak_autobookmarking_disabled">Penanda buku otomatis dinonaktifkan!</string>
   <string name="system_speak_settings">Buka pengaturan sistem bicara</string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
-  <!--param is bookmark icon-->
-  <!--param is auto-assign label icon-->
-  <!--param is heart icon-->
-  <!--param is refresh icon-->
-  <!--Parameter is actual icon-->
-  <!--Parameter is actual icon-->
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
+  
+  
+  
+  
+  
+  
+  
+  
   <string name="speak_bookmark_help">Bantuan untuk penanda buku Bicara</string>
   <string name="speak_help_auto_bookmark">
  Penanda buku Bicara akan ditambahkan secara otomatis ketika Bicara dijeda atau dihentikan.
@@ -270,30 +253,21 @@ ingin mendengarkan Kejadian dibaca dengan cepat tanpa notifikasi pergantian pasa
 tetapi ingin mendengarkan Roma dengan kecepatan lebih lambat dengan notifikasi pada pergantian pasal,
 anda dapat memilih pengaturan pemutaran yang berbeda pada buku yang berbeda,
 ketika pengaturan-pengaturan ini disimpan pada penanda buku yang bersangkutan.</string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>Tuhan</item>
     <item>Allah</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Yahweh</item>
     <item>Yahweh</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_book_changed">Kitab terganti.</string>
   <string name="speak_chapter_changed">Pasal</string>
@@ -305,26 +279,26 @@ ketika pengaturan-pengaturan ini disimpan pada penanda buku yang bersangkutan.</
   <string name="verse_range_mode_disabled">
 Mode pengulangan bagian dinonaktifkan secara otomatis karena
 bicara dimulai di luar bagian yang telah ditentukan.</string>
-  <!--User Notes-->
+  
   <string name="mynotes">Catatanku</string>
-  <!--Backup and restore-->
+  
   <string name="backup_and_restore">Cadangkan &amp; Pulihkan</string>
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
+  
   <string name="loading_backup">Memuat basis data dari cadangan...</string>
   <string name="restore_unsuccessfull">Pemulihan basis data tidak berhasil. Mungkin terdapat kesalahan pada file basis data yang diberikan.</string>
-  <!--About-->
+  
   <string name="module_about_copyright">Hak cipta: %s</string>
   <string name="module_about_versification">Versifikasi: %s</string>
-  <!--Bug reporting-->
-  <!--Document types-->
+  
+  
   <string name="doc_type_bible">Alkitab</string>
   <string name="doc_type_commentary">Tafsiran</string>
   <string name="doc_type_dictionary">Kamus</string>
   <string name="doc_type_book">Buku</string>
   <string name="doc_type_map">Peta</string>
-  <!--Languages-->
+  
   <string name="lang_default">Default</string>
-  <!--General-->
+  
   <string name="okay">OK</string>
   <string name="cancel">Batalkan</string>
   <string name="yes">Iya</string>
@@ -337,17 +311,17 @@ bicara dimulai di luar bagian yang telah ditentukan.</string>
   <string name="reset_generic">Atur Ulang</string>
   <string name="watch_tutorial_video">Lihat video tutorial (dalam bahasa Inggris)</string>
   <string name="verse_not_found">Ayat tidak dapat ditemukan</string>
-  <!--Errors-->
+  
   <string name="report_error">Kirim laporan</string>
   <string name="error_occurred">Sebuah kesalahan telah terjadi</string>
   <string name="error_no_content">Tidak ada isi pada ayat yang dipilih</string>
   <string name="error_page_too_large">Halaman terlalu besar untuk dimuat</string>
   <string name="error_key_not_in_document">Tidak ditemukan dalam dokumen</string>
   <string name="empty_list">Tidak ada item untuk ditampilkan</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">Teks ke bicara</string>
   <string name="notification_channel_progress_status">Notifikasi status perkembangan untuk pengunduhan dokumen dll.</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">Baru</string>
   <string name="switch_to_workspace">Ruang Kerja</string>
   <string name="workspace_number">Ruang Kerja %d</string>
@@ -355,7 +329,7 @@ bicara dimulai di luar bagian yang telah ditentukan.</string>
   <string name="save_and_exit">Simpan</string>
   <string name="reset_settings">Atur Ulang</string>
   <string name="workspace_dismiss">Singkirkan</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">Ini adalah versi beta!</string>
   <string name="beta_notice_content_1">
 Dalam versi beta, terdapat beberapa fitur-fitur baru yang belum diuji dengan benar,
@@ -368,29 +342,29 @@ Pengguna versi beta didorong untuk melaporkan bug melalui Google Play atau (seba
   <string name="beta_notice_github">Github</string>
   <string name="beta_notice_dismiss">Singkirkan</string>
   <string name="beta_notice_dismiss_until_update">Singkirkan sampai update berikutnya</string>
-  <!--History-->
-  <!--Help-->
+  
+  
   <string name="help_nav_title">Navigasi</string>
   <string name="help_contextmenus_title">Menu konteks</string>
   <string name="help_search_title">Pencarian</string>
   <string name="help_search_text">Pencarian teks dapat menyertakan karakter khusus seperti *, ?, AND, OR, NOT
 (lihat \"Apache Lucene - Query Parser Syntax\" untuk penjelasan lebih lanjut)</string>
   <string name="help_workspaces_title">Ruang Kerja</string>
-  <!--Welcome text-->
-  <!--Uncategorized-->
+  
+  
   <string name="close">Tutup</string>
   <string name="my_notes_abbreviation">Catatanku</string>
   <string name="compare_description">Bandingkan terjemahan</string>
   <string name="verse_action_copy">Salin</string>
   <string name="show_versenumbers">Tampilkan nomor ayat</string>
   <string name="backup_button">Backup</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
-  <!--parameters are actions (file a bug, send email)-->
-  <!--param is "please report maintainers"-->
-  <!--param is "please read what you can do"-->
+  
+  
+  
+  
   <string name="system_items1">Lebih</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
+  
   <string name="incomplete_translation">Maaf, kami hanya memiliki sebagian terjemahan antarmuka pengguna dalam bahasa %s. Ini disebabkan karena %s sepenuhnya dikembangkan oleh sukarelawan. Jika Anda dapat membantu menerjemahkan, silakan lihat %s.</string>
-  <!--will be added to incomplete_translation as a link-->
+  
   <string name="instructions_for_translators">instruksi untuk penerjemah</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="app_name_andbible">AndBible</string>
   <string name="app_name_short">Biblia</string>
@@ -7,7 +7,7 @@
   <string name="project">AndBible, Proiect cu cod sursă public</string>
   <string name="version_text">Versiunea %s</string>
   <string name="no_sdcard_error">Introdu o memorie SD și repornește aplicația.</string>
-  <!--Main menu-->
+  
   <string name="menu">Opțiuni</string>
   <string name="chooseBook">Document</string>
   <string name="selectPassage">Pasaj</string>
@@ -23,13 +23,13 @@
   <string name="administration">Administrare</string>
   <string name="rate_application">Evaluări și Recenzii</string>
   <string name="chooce_document">Alege documentul</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Alege cartea</string>
   <string name="choosePassageChapterName">Alege capitolul</string>
   <string name="choosePassageVerseName">Alege versetul</string>
   <string name="bible">Biblia</string>
   <string name="deuterocanonical">Apocrife</string>
-  <!--Search-->
+  
   <string name="search_index">Index de căutare</string>
   <string name="index_creation_required">Pentru căutare este necesar un index.</string>
   <string name="create_index_for">Pentru căutare este necesar un index. \n\nCreezi un index pentru %s?</string>
@@ -41,13 +41,13 @@
   <string name="do_in_background">Continuă în ascuns</string>
   <string name="rebuild_index_button">Refă</string>
   <string name="creating_index_for">Se creează indexul pentru %s…</string>
-  <!--X results in module Y-->
+  
   <string name="search_with_results2">%1s rezultate în %2s</string>
-  <!--Tasks-->
+  
   <string name="progress_status">Progres</string>
   <string name="task_kill_warning">Aceste lucrări de lungă durată se pot întrerupe dacă treci la o altă aplicație înainte de terminarea lor.</string>
   <string name="no_tasks_running">Nu există lucrări în curs de execuție.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Caută versete</string>
   <string name="search_all_words">Toate cuvintele</string>
   <string name="search_any_word">Fiecare cuvînt</string>
@@ -62,11 +62,11 @@
   <string name="search_current_book">Cartea actuală</string>
   <string name="error_executing_search">Căutare greșită</string>
   <string name="type_text_or_bible_reference">Introdu textul sau trimiterea biblică</string>
-  <!--Open (bible reference X)-->
+  
   <string name="go_to_ref">Deschide %s</string>
-  <!--Finx "(keywords x)", keywords based on text selection-->
+  
   <string name="search_what">Caută „%s”</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_title">Numărul capitolului și al versetului</string>
   <string name="prefs_show_verseno_summary">Arată numărul capitolului și al versetului</string>
   <string name="prefs_e_ink_mode_title">Fond negru și alb</string>
@@ -189,7 +189,7 @@
   <string name="prefs_enable_bluetooth_summary">Folosește butoanele media Bluetooth pentru a începe/opri vorbirea.</string>
   <string name="create_bookmark">Creează un nou semn de carte</string>
   <string name="create_bookmark_with_a_note">Creează un nou semn de carte cu o notiță</string>
-  <!--Colors preferences-->
+  
   <string name="prefs_text_colors_menutitle">Culori</string>
   <string name="window_color_settings_title">Culoarea ferestrei</string>
   <string name="workspace_color_settings_title">Culoarea prestabilită a spațiului de studiu</string>
@@ -205,7 +205,7 @@
   <string name="cpv_custom">Personalizează</string>
   <string name="cpv_select">Alege</string>
   <string name="cpv_transparency">Transparenţă</string>
-  <!--Window-->
+  
   <string name="new_window">Fereastră nouă</string>
   <string name="windowClose">Închide</string>
   <string name="windowMaximise">Maximizează</string>
@@ -218,17 +218,17 @@
   <string name="copy_settings_to_window">Fereastra %1$d (%2$s: %3$s)</string>
   <string name="change_to_normal">Treci la fereastra normală</string>
   <string name="window_pin_mode">Fixează</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Nu există notițe în acest capitol</string>
   <string name="no_verse_notes">Nu există notițe în acest verset</string>
   <string name="previous">Înapoi</string>
   <string name="next">Înainte</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Descarcă dicționarele ebraic și grecesc Strong</string>
   <string name="no_indexed_bible_with_strongs_ref">Trebuie descărcată o Biblie care să conțină numerele Strong și să construiești indexul acesteia prin opțiunea „Caută”</string>
   <string name="morph_robinson_not_installed">Descarcă dicționarul de coduri de analiză morfologică al lui Robinson</string>
   <string name="go_to_downloads">Du-te la Descărcări</string>
-  <!--Module download-->
+  
   <string name="download">Descarcă documente</string>
   <string name="redownload">Redescarcă documente</string>
   <string name="download_confirmation">Descarci o biblie din internet?</string>
@@ -260,7 +260,7 @@
   <string name="failed_repositories_message">Nu s-a putut conecta la următorul server: \n\n%s\n\n</string>
   <string name="failed_downloads_message">Următoarele fișiere nu au putut fi descărcate:\n\n%s\n\n</string>
   <string name="cant_delete_document">Acest document nu poate fi șters.</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Folosește documente din fișiere</string>
   <string name="install_zip_module">Instalează documentul</string>
   <string name="install_zip_module_discrete">Instalează modulul Calculator</string>
@@ -273,7 +273,7 @@
   <string name="overwrite_files_title">Scrii peste fișiere?</string>
   <string name="could_not_overwrite_files">Nu s-a putut scrie peste fișierele: %s. În afară de asta, instalarea a avut succes.</string>
   <string name="install_do_you_want">Vrei să instalezi modulul (%s)?</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">Plan de citire</string>
   <string name="reading_plans_plural">Planuri de citire</string>
   <string name="rdg_plan_selector_title">Alege un plan de citire</string>
@@ -336,28 +336,28 @@
         Citește toată Biblia în 2 ani, citind NT și Psalmii de două ori.
         Prin amabilitatea Wholesome Words, http://www.wholesomewords.org/.
     </string>
-  <!--Document context menu-->
+  
   <string name="delete">Șterge</string>
   <string name="delete_index">Șterge indexul de căutare</string>
   <string name="about">Despre</string>
   <string name="delete_doc">Ștergi %s?</string>
   <string name="delete_search_index_doc">Ștergi indexul pentru %s?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Note de subsol și trimiteri</string>
   <string name="share_verse">Trimite…</string>
   <string name="share_verse_widget_title">Trimite textul</string>
   <string name="share_verse_subject_2">Un verset biblic a fost împărtășit cu tine folosind %s.</string>
   <string name="compare_translations">Compară traduceri</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Deschide aici legătura</string>
   <string name="open_link_in_new_window">Deschide legătura într-o fereastră nouă</string>
   <string name="open_link_in_special_window">Deschide legătura într-o fereastră specială</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks_and_mynotes_title">Semne de carte și notițe</string>
   <string name="migrated_my_notes">Notițe transferate</string>
   <string name="bookmarks">Semne de carte</string>
   <string name="bookmark_added">Semn de carte adăugat</string>
-  <!--Bookmark / note labels-->
+  
   <string name="labels">Etichete</string>
   <string name="manage_labels">Gestionează etichete</string>
   <string name="assign_labels">Pune etichete</string>
@@ -380,7 +380,7 @@
   <string name="auto_assign_labels1">Pune automat etichete la noile semne de carte</string>
   <string name="auto_assign_labels_primary">Pune automat ca principală</string>
   <string name="label_color">Culoarea etichetei</string>
-  <!--can be removed-->
+  
   <string name="label_color_example">Exemplu</string>
   <string name="marker_style">Evidențiază numai semnele de carte ale textului ales</string>
   <string name="marker_style_whole_verse">Evidențiază numai semnele de carte ale versetului</string>
@@ -393,31 +393,31 @@
     </string>
   <string name="bookmark_warning3">Mai vrei să actualizezi modulul?</string>
   <string name="bookmark_warning4">Se recomandă efectuarea unei copii de rezervă a modulului înainte de actualizare.</string>
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
   <string name="sort_by_date">În ordinea datei</string>
   <string name="sort_by_bible_book">În ordine biblică</string>
   <string name="sort_by_alphabetical">În ordine alfabetică</string>
-  <!--notes = user notes ("My Notes") that are attached to bookmark-->
+  
   <string name="filter_by_notes">Caută notițe</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Dicționar</string>
   <string name="search_dictionary_hint">Caută în dicționar</string>
-  <!--General Book-->
+  
   <string name="general_book">Carte</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d capitol</string>
   <string name="some_chapters">%d capitole</string>
   <string name="rest_of_book">Sfîrșitul cărții</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d verset</string>
   <string name="some_verses">%d versete</string>
   <string name="rest_of_chapter">Sfîrșitul capitolului</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d pagină</string>
   <string name="some_pages">%d pagini</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Stop</string>
   <string name="pause">Pausă</string>
   <string name="rewind">Înapoi</string>
@@ -425,7 +425,7 @@
   <string name="tts_lang_not_available">Limba nu e disponibilă.</string>
   <string name="speak_queue">Coadă</string>
   <string name="speak_repeat">Repetă</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Viteza de vorbire</string>
   <string name="speak_and_play_earcons_title">Audio cu efecte sonore pentru</string>
   <string name="playback_settings_title">Reglări audio</string>
@@ -462,28 +462,28 @@
   <string name="speak_autobookmarking_disabled">Semn de carte automat dezactivat</string>
   <string name="system_speak_settings">Deschide reglările TTS ale sistemului</string>
   <string name="auto_assing_labels_help1">Aici poți stabili ce etichete vor fi atribuite automat semnelor de carte pe care le creezi.</string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
+  
   <string name="setting_scope">Reglarea se aplică pentru %s.</string>
   <string name="setting_scope_window">această fereastră</string>
   <string name="setting_scope_workspace">acest spațiu de studiu</string>
   <string name="assing_labels_help1">Fiecare semn de carte poate avea mai multe etichete. </string>
-  <!--param is bookmark icon-->
+  
   <string name="assing_labels_help2">Folosește %s pentru a specifica ce culoare de etichetă este afișată.</string>
-  <!--param is auto-assign label icon-->
+  
   <string name="assing_labels_help3">Apasă pe simbolul %s pentru ca eticheta respectivă să fie atribuită automat noilor semne de carte.</string>
-  <!--param is heart icon-->
+  
   <string name="assing_labels_help4">Apasă %s pentru a adăuga eticheta la lista de preferate pentru acces rapid.</string>
-  <!--param is refresh icon-->
+  
   <string name="assing_labels_help5">Apasă %s pentru a reordona lista în funcție de alegerile tale.</string>
   <string name="workspace_text_options_help_title">Opțiuni de text ale spațiului de studiu</string>
   <string name="workspace_text_options_help1">Aceste reglări decid valorile prestabilite pentru toate ferestrele spațiului de studiu.</string>
   <string name="workspace_text_options_help2">Poți să le anulezi modificînd reglările individuale ale ferestrelor.</string>
   <string name="window_text_options_help_title">Opțiuni de text ale ferestrei</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help1">Simbolul %s  arată că valoarea provine din reglările spațiului de studiu.</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help2">Simbolul%s arată că reglările au fost modificate pentru această fereastră.</string>
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
+  
   <string name="text_options_reset_help">Folosește butonul  %1$s pentru a readuce aceste reglări la %2$s.</string>
   <string name="reset_defaults">valori prestabilite</string>
   <string name="reset_workspace_defaults">valori prestabilite ale spațiului de studiu</string>
@@ -508,30 +508,21 @@
         poți avea reglări audio diferite pentru aceste cărți,
         dacă aceste reglări sînt salvate în semnele de carte corespunzătoare.
     </string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>Domnul</item>
     <item>Dumnezeu</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Yahweh</item>
     <item>Yahweh</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_book_changed">Carte modificată.</string>
   <string name="speak_chapter_changed">Capitol</string>
@@ -544,9 +535,9 @@
         Modul de repetare a pasajului a fost dezactivat automat deoarece
         vorbirea a început în afara intervalului de versete definit.
     </string>
-  <!--User Notes-->
+  
   <string name="mynotes">Notița mea</string>
-  <!--Backup and restore-->
+  
   <string name="backup_backup_title">Unde salvez copia?</string>
   <string name="backup_backup_message">Copiezi în telefon sau în altă parte (e-mail, Google Drive etc.)?</string>
   <string name="backup_phone_storage">Memoria telefonului</string>
@@ -562,12 +553,12 @@
   <string name="backup_document_info">Biblii, comentarii, dicționare, hărți, etc.</string>
   <string name="backup_to">Copiază în…</string>
   <string name="backup_restore_from">Recuperează din…</string>
-  <!--Restore = overwrite existing. Import = merge into existing-->
+  
   <string name="backup_restore_from2">Recuperează sau importă din…</string>
   <string name="backup_restore">Recuperează</string>
   <string name="backup_restore2">Recuperează sau importă</string>
   <string name="overwrite_something">Înlocuiești %s?</string>
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
+  
   <string name="restore_what">Ce vrei să recuperezi?</string>
   <string name="restore_app_database">Recuperează baza de date a aplicației din…</string>
   <string name="restore_database">Recuperează fișierul bazei de date</string>
@@ -593,16 +584,16 @@
   <string name="restore">Recuperează</string>
   <string name="import2">Importă</string>
   <string name="export_studypads_help">Fișierul care conține notițele de studiu exportate (adică etichete și semne de carte) poate fi importat prin intermediul opțiunilor principale -&gt; Copie de rezervă &amp; Recuperează.</string>
-  <!--First argument is the name of first label, second and third are the counts of labels & bookmarks, respectively-->
+  
   <string name="bookmarks_db_stats">„%1$s” și %2$s altă(e) Etichetă(e) / Notiță(e) de studiu și %3$s Semne de carte</string>
-  <!--About-->
+  
   <string name="module_about_copyright">Drepturi de autor: %s</string>
   <string name="module_about_installed_version">Versiunea instalată: %1$s (%2$s)</string>
   <string name="module_about_latest_version">Ultima versiune: %1$s (%2$s)</string>
   <string name="module_about_versification">Versificare: %s</string>
   <string name="module_about_repository">Server de distribuție: %s</string>
   <string name="module_about_osisId">OSIS ID: %s</string>
-  <!--Bug reporting-->
+  
   <string name="send_bug_report_title1">Raportare erori</string>
   <string name="send_feedback_title">Părere</string>
   <string name="send_bug_report_title">Părere / Raportare erori</string>
@@ -623,7 +614,7 @@
   <string name="bug_report_screenshot">Captură de ecran a aplicației atunci cînd a avut loc problema sau cînd a fost creat raportul de eroare.</string>
   <string name="bug_report_attachment_line_1">Atașarea acestor fișiere îi ajută foarte mult pe programatorii de aplicații să rezolve problema raportată.</string>
   <string name="report_bug_heading_4">Informații despre aparat:</string>
-  <!--Document types-->
+  
   <string name="doc_type_all">Toate tipurile</string>
   <string name="doc_type_bible">Biblia</string>
   <string name="doc_type_commentary">Comentariu</string>
@@ -631,9 +622,9 @@
   <string name="doc_type_book">Carte</string>
   <string name="doc_type_map">Hartă</string>
   <string name="doc_type_addons">Extensii</string>
-  <!--Languages-->
+  
   <string name="lang_default">Prestabilit</string>
-  <!--General-->
+  
   <string name="okay">Aprobă</string>
   <string name="cancel">Renunță</string>
   <string name="yes">Da</string>
@@ -646,7 +637,7 @@
   <string name="reset_generic">Restabilește</string>
   <string name="watch_tutorial_video">Vezi instrucțiunile video (engleză)</string>
   <string name="verse_not_found">Versetul nu a fost găsit</string>
-  <!--Errors-->
+  
   <string name="report_error">Trimite raportul</string>
   <string name="error_occurred">A apărut o eroare</string>
   <string name="error_occurred_crash_last_time">Ultima dată cînd ai folosit aplicația, aceasta s-a blocat. Pentru a ne ajuta să rezolvăm problema, ne-ar fi de folos dacă ne-ai trimite un raport de erori.</string>
@@ -659,10 +650,10 @@
   <string name="error_skip">Saltă</string>
   <string name="bug_report_email_title">Trimite un raport de eroare prin e-mail</string>
   <string name="bug_report_email_text">Apoi, alege aplicația de e-mail preferată (Gmail, de exemplu) pentru a trimite raportul către echipa de programatori.</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">Vorbitor</string>
   <string name="notification_channel_progress_status">Notificare a stării de progres pentru descărcarea documentelor etc.</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">Nou</string>
   <string name="switch_to_workspace">Spații de studiu</string>
   <string name="delete_workspace">Elimină</string>
@@ -682,7 +673,7 @@
   <string name="reset_settings">Restabilește</string>
   <string name="workspace_dismiss">Ignoră</string>
   <string name="workspace_listing_with_current">%s (actual)</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">Aceasta este versiunea beta!</string>
   <string name="beta_flag">BETA</string>
   <string name="beta_notice_content_1">
@@ -703,9 +694,9 @@
   <string name="stable_notice_title">Aplicația a fost actualizată!</string>
   <string name="upgrade_video_message">Te rugăm să vezi videoclipul cu noile caracteristici ale acestei versiuni (%s).</string>
   <string name="stable_notice_par1">Versiunea %1$s a %2$s a fost instalată cu succes!</string>
-  <!--History-->
+  
   <string name="history_for">Cronologia (%1$s: Fereastra %2$d)</string>
-  <!--Help-->
+  
   <string name="help_nav_title">Navigare</string>
   <string name="help_nav_text">Treci la capitolul următor sau anterior mișcînd lateral cu degetul pe ecran.
         Atinge de două ori textul Bibliei pentru a da pe tot ecranul.
@@ -733,7 +724,7 @@
         Pe lîngă semnele de carte, în notițele de studiu pot fi introduse texte personalizate.
     </string>
   <string name="help_search_title">Caută</string>
-  <!--TODO: to be removed-->
+  
   <string name="help_search_text">Textul de căutat poate include caractere speciale, cum ar fi *, ?, AND, OR, NOT
         (vezi „Apache Lucene - Query Parser Syntax” pentru detalii)
     </string>
@@ -766,18 +757,18 @@
         documentele biblice mereu deschise și poți trece rapid de la comentarii la alte materiale
         suplimentare atunci cînd studiezi Biblia.
     </string>
-  <!--Welcome text-->
+  
   <string name="redownload_documents">Redescarcă rapid</string>
   <string name="welcome_message">Mulțumim că ai descărcat %s. În prezent, nu există Biblii sau documente instalate. Pentru a continua, instalează
         cel puțin 1 document descărcîndu-l de pe internet sau încărcîndu-l dintr-un fișier
         Zip de rezervă.
     </string>
-  <!--Supported file formats for documents-->
+  
   <string name="supported_formats_title">Formate acceptate</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="choose_file">Trebuie să alegi fișierul pe care vrei să-l încarci în %s. </string>
   <string name="supported_formats">Formate acceptate pentru încărcarea documentelor dintr-un fișier: %s</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="format_zip">Fișier zip care conține modul(e) Sword sau copie de rezervă a documentelor (*.abmd) creată de %s</string>
   <string name="format_mysword">Documente MySword (*.mybible)</string>
   <string name="format_mybible">Documente MyBible (*.SQLite3)</string>
@@ -787,7 +778,7 @@
   <string name="redownload_message">
         A fost găsită o listă de cărți/documente anterioare. Apasă mai jos pentru a le descărca din nou.
     </string>
-  <!--Uncategorized-->
+  
   <string name="close">Închide</string>
   <string name="something_with_parenthesis">%1$s (%2$s)</string>
   <string name="first_time_help_do_not_show_again">Am înțeles</string>
@@ -848,7 +839,7 @@
   <string name="show_reference_at_front">Arată în fața versetului</string>
   <string name="abbreviate_reference">Trimitere prescurtată</string>
   <string name="version_name">Numele traducerii</string>
-  <!--meaning, bible version name-->
+  
   <string name="show_version_name">Include numele versiunii</string>
   <string name="show_ellipsis">Arată trei puncte (…)</string>
   <string name="show_quotes">Arată ghilimele</string>
@@ -858,7 +849,7 @@
   <string name="upgrading_database">Se actualizează baza de date. Așteaptă…</string>
   <string name="initializing_app">Se inițializează aplicația…</string>
   <string name="show_notes">Arată notițele</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
+  
   <string name="old_webview">Android WebView este prea veche (%1$s). Trebuie să actualizezi aplicația Android WebView la versiunea %2$s pentru a folosi %3$s. Pentru majoritatea telefoanelor, acest lucru se poate face prin %4$s.</string>
   <string name="play">Google Play</string>
   <string name="proceed_anyway">Continuă oricum</string>
@@ -870,15 +861,15 @@
   <string name="rate_message6">
         Înainte de a scrie o recenzie negativă, ia în considerare următoarele:
     </string>
-  <!--parameters are actions (file a bug, send email)-->
+  
   <string name="rate_message1">
         Dacă ai o problemă cu aplicația, %1$s sau %2$s.
     </string>
-  <!--param is "please report maintainers"-->
+  
   <string name="rate_message2">
         Dacă vreun text/traducere biblică are o problemă, %s.
     </string>
-  <!--param is "please read what you can do"-->
+  
   <string name="rate_message3">
         Dacă un anumit text nu este disponibil în aplicație, %s.
     </string>
@@ -953,24 +944,24 @@
   <string name="import_from_db">Importă din baza de date a aplicației</string>
   <string name="import_error">Importarea din baza de date a aplicației a eșuat. Fișierul bazei de date ar putea avea un format greșit sau a fost creat cu o versiune prea veche de %s.</string>
   <string name="export_bookmarks_csv">Exportă semnele de carte ca %s</string>
-  <!--OSIS reference is the Bible reference in OSIS standard format, e.g. "Gen.1.1-Gen.1.3"-->
+  
   <string name="osis_reference">Trimitere OSIS</string>
-  <!--Bible reference is the Bible reference in human readable format, e.g. "Genesis 1:1-3"-->
+  
   <string name="bible_reference">Trimitere biblică</string>
   <string name="document">Document</string>
   <string name="book">Carte</string>
-  <!--Chapter is the chapter number in the book, starting from 1-->
+  
   <string name="chapter_start">Capitolul de început</string>
-  <!--Verse is the verse number in the chapter, starting from 1-->
+  
   <string name="verse_start">Versetul de început</string>
   <string name="chapter_end">Capitolul de sfârșit</string>
   <string name="verse_end">Versetul de sfârșit</string>
   <string name="id">Identificator</string>
-  <!--Ordinals are running index of Bible verses in a bible document, starting from 0.-->
+  
   <string name="ordinal_start">Numărul de început</string>
   <string name="ordinal_end">Numărul de sfârșit</string>
   <string name="created_at">Creat la</string>
-  <!--Offsets are used to indicate from which character a bookmark starts.-->
+  
   <string name="start_offset">Poziția de început</string>
   <string name="end_offset">Poziția de sfârșit</string>
   <string name="custom_icon">Simbol personalizat</string>
@@ -984,9 +975,9 @@
   <string name="chooser_style_lists">Liste</string>
   <string name="chooser_select">Alege %s</string>
   <string name="chooser_pref_reset">Nu restabili capitolul/versul la 1 cînd alegi cartea/capitolul</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
+  
   <string name="incomplete_translation">Ne pare rău, dar avem doar o traducere parțială a interfeței cu utilizatorul în limba %1$s. Acest lucru se datorează faptului că %2$s este realizată în întregime de voluntari. Dacă poți ajuta la traducere, te rugăm să vezi %3$s.</string>
-  <!--will be added to incomplete_translation as a link-->
+  
   <string name="instructions_for_translators">instrucțiuni pentru traducători</string>
   <string name="questions_title">Întrebări?</string>
   <string name="questions_title2">Ai nevoie de ajutor?</string>
@@ -1005,7 +996,7 @@
   <string name="search_results_matches">%d rezultate</string>
   <string name="search_results_match">1 rezultat</string>
   <string name="progress_status_permission">Pentru a arăta notificări (starea descărcării, procesarea, starea vorbirii), este nevoie de permisiunea ta.</string>
-  <!--Discrete mode settings-->
+  
   <string name="app_name_calculator">Calculator simplu</string>
   <string name="prefs_persecution_cat">Reglări pentru cei prigoniți</string>
   <string name="prefs_discrete_mode">Ascunde simbolurile religioase</string>
@@ -1014,11 +1005,11 @@
   <string name="prefs_calculator_pin">PIN Calculator</string>
   <string name="prefs_calculator_pin_desc">Codul PIN pentru a intra în aplicație cînd este afișat calculatorul.</string>
   <string name="calc_division_by_zero">Împărțirea la zero nu este permisă</string>
-  <!--Context: calculator. Wrong number format etc.-->
+  
   <string name="calc_wrong_format">Format greșit</string>
   <string name="calc_wrong_format_operand">Format greșit. Operand fără numere?</string>
   <string name="prefs_persecuted_help">Citește asta înainte!</string>
-  <!--Gives sintructions about the settings (for discrete mode) and also information about another app version that is available to be downloaded, that is better suited for persecuted.-->
+  
   <string name="prefs_persecuted_summary">Instrucțiuni și informații despre versiunile discrete ale aplicației.</string>
   <string name="calculator_par1">
         Înainte de a intra în aplicație, apare pe ecran calculatorul.
@@ -1041,13 +1032,13 @@
   <string name="discrete_mode_link">
         Poți descărca cea mai recentă versiune discretă de la %s.
     </string>
-  <!--Window synchronize groups-->
+  
   <string name="sync_group_submenu">Sincronizează grupul</string>
   <string name="sync_group_n">Grupul %d</string>
   <string name="disable_sync">Dezactivează sincronizarea</string>
   <string name="open_in_window">Deschide rezultatele într-o fereastră</string>
-  <!--Custom repositories-->
-  <!--Custom document repositories that can store any AndBible-compatible documents. User can easily install documents from such repositories by adding repository url here.-->
+  
+  
   <string name="custom_repositories">Depozite personalizate</string>
   <string name="custom_repositories_empty_list_message">Niciun depozit personalizat stabilit</string>
   <string name="custom_repositories_create_button_label">Adaugă un depozit personalizat</string>
@@ -1063,12 +1054,12 @@
   <string name="duplicate_custom_repository">Depozitul cu numele %s există deja, nu se poate adăuga altul.</string>
   <string name="packages_dir">Dosarul pachetelor (fișiere Zip)</string>
   <string name="warn_bad_document">Avertisment: Acest document poate fi (cel puțin parțial) de proastă calitate tehnică.</string>
-  <!--Open links in AndBible (Deep linking)-->
+  
   <string name="open_bible_links_title">Deschide legăturile Bibliei în AndBible</string>
   <string name="open_bible_links_summary">Dacă apeși pe legături care se referă la URL-ul Bibliei susținut de AndBible, deschide-le în AndBible</string>
   <string name="copyReference">Copiază legătura în memorie</string>
   <string name="reference_copied_to_clipboard">Trimitere copiată în memorie</string>
-  <!--Device cloud synchronization-->
+  
   <string name="prefs_sync_introduction_summary1">
         Alege serviciul Cloud pe care vrei să-l folosești pentru a sincroniza mai multe aparate.
     </string>
@@ -1114,7 +1105,7 @@
   <string name="sync_disabling">Dezactivarea sincronizării pentru %s deocamdată.</string>
   <string name="sync_update_app">Actualizează aplicația pentru a continua sincronizarea.</string>
   <string name="sign_in_failed">Conectarea la serviciul de sincronizare a eșuat.</string>
-  <!--... after restoring from backup file-->
+  
   <string name="disabling_sync">Se dezactivează sincronizarea în „cloud”. Trebuie reactivată manual după recuperare.</string>
   <string name="report">Raport</string>
   <string name="sync_error">A apărut o eroare în sincronizarea Cloud</string>
@@ -1122,12 +1113,12 @@
   <string name="restore_from_cloud_description">Dacă ai activată funcția „Sincronizarea aparatului” în alt aparat, poți începe prin recuperarea bazei de date din Cloud.</string>
   <string name="enable_sync">Activează sincronizarea</string>
   <string name="last_updated">Ultima actualizare: %s</string>
-  <!--MyBible/MySword module support-->
+  
   <string name="sqlite_cant_read">Nu se poate citi fișierul</string>
   <string name="sqlite_invalid_file">Fișier sau nume de fișier incorect: %s</string>
   <string name="sqlite_cant_write">Nu se poate (supra)scrie fișierul</string>
   <string name="install_failed_reason">Instalarea modulului a eșuat din următorul motiv: %s.</string>
-  <!--Other / uncategorized-->
+  
   <string name="app_opened_elsewhere">Aplicație deschisă în altă parte</string>
   <string name="open_here">Deschide aici</string>
   <string name="external_link">Legătură externă</string>
@@ -1171,4 +1162,4 @@
   <string name="invalid_url_message">URL-ul introdus este greșit. Iată un exemplu de URL corect (https://nextcloud.exemplu.com)</string>
   <string name="memorize_description">Memorează versete biblice</string>
   <string name="memorize_abbreviation">Memorează</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

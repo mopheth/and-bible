@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="app_name_andbible">AndBible</string>
   <string name="app_name_short">Kutsal Kitap Çalışması</string>
@@ -7,7 +7,7 @@
   <string name="project">AndBible Açık Kaynak Projesi</string>
   <string name="version_text">Sürüm %s</string>
   <string name="no_sdcard_error">Lütfen bir hafıza kartı takıp uygulamayı yeniden başlatın.</string>
-  <!--Main menu-->
+  
   <string name="menu">Menü</string>
   <string name="chooseBook">Belge</string>
   <string name="selectPassage">Parça</string>
@@ -23,13 +23,13 @@
   <string name="administration">Yönetici</string>
   <string name="rate_application">Puanla &amp; Değerlendir</string>
   <string name="chooce_document">Belge Seç</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Kitabı Seç</string>
   <string name="choosePassageChapterName">Bölümü Seç</string>
   <string name="choosePassageVerseName">Ayeti Seç</string>
   <string name="bible">Kutsal Kitap</string>
   <string name="deuterocanonical">Deuterokanonik</string>
-  <!--Search-->
+  
   <string name="search_index">Arama Dizini</string>
   <string name="index_creation_required">Arama yapmak için dizin gerekir.</string>
   <string name="create_index_for">Arama yapmak için dizin gerekir. \n\n%s için dizin oluşturulsun mu?</string>
@@ -41,13 +41,13 @@
   <string name="do_in_background">Arka planda devam et</string>
   <string name="rebuild_index_button">Yeniden oluştur</string>
   <string name="creating_index_for">%s için dizin yeniden oluşturuluyor…</string>
-  <!--X results in module Y-->
+  
   <string name="search_with_results2">%1s içinde %2s sonuç</string>
-  <!--Tasks-->
+  
   <string name="progress_status">İlerleme</string>
   <string name="task_kill_warning">Bu işlem zaman alacaktır. Eğer uygulamadan çıkarsanız, işlem bitmeden sonlandırılabilir.</string>
   <string name="no_tasks_running">İşlem gören görev yok.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Ayet bul</string>
   <string name="search_all_words">Kelimelerin hepsi</string>
   <string name="search_any_word">Herhangi bir kelime</string>
@@ -61,11 +61,11 @@
   <string name="search_current_book">Seçili Kitapta</string>
   <string name="error_executing_search">Arama metini geçersiz</string>
   <string name="type_text_or_bible_reference">Metin ya da Kutsal Kitap referansı girin</string>
-  <!--Open (bible reference X)-->
+  
   <string name="go_to_ref">%s aç</string>
-  <!--Finx "(keywords x)", keywords based on text selection-->
+  
   <string name="search_what">\"%s\" için ara</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_title">Bölüm ve ayet rakamları</string>
   <string name="prefs_show_verseno_summary">Bölüm ve ayet rakamlarını göster</string>
   <string name="prefs_e_ink_mode_title">Siyah beyaz modu</string>
@@ -188,7 +188,7 @@
   <string name="prefs_enable_bluetooth_summary">Konuşmayı başlatmak/durdurmak için Bluetooth medya düğmelerini kullanın.</string>
   <string name="create_bookmark">Yeni bir Yer İmi Oluşturun</string>
   <string name="create_bookmark_with_a_note">Not içeren yeni bir Yer İmi oluşturun</string>
-  <!--Colors preferences-->
+  
   <string name="prefs_text_colors_menutitle">Renk ayarları</string>
   <string name="window_color_settings_title">Pencere rengi ayarları</string>
   <string name="workspace_color_settings_title">Çalışma alanının renk ayarı varsayılanları</string>
@@ -204,7 +204,7 @@
   <string name="cpv_custom">Özel</string>
   <string name="cpv_select">Seç</string>
   <string name="cpv_transparency">Saydamlık</string>
-  <!--Window-->
+  
   <string name="new_window">Yeni pencere</string>
   <string name="windowClose">Kapat</string>
   <string name="windowMaximise">Büyüt</string>
@@ -217,17 +217,17 @@
   <string name="copy_settings_to_window">Pencere %1$d (%2$s: %3$s)</string>
   <string name="change_to_normal">Normal pencereye geç</string>
   <string name="window_pin_mode">İğnele</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Bu bölüme ait not bulunmadı</string>
   <string name="no_verse_notes">Bu ayete ait not bulunmadı</string>
   <string name="previous">Önceki</string>
   <string name="next">Sonraki</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Lütfen Strong’un Grekçe ve İbranice sözlüklerini indiriniz</string>
   <string name="no_indexed_bible_with_strongs_ref">Strong’un numaralarını içeren bir İncil indirmeli ve Arama yoluyla dizinini oluşturmalısınız</string>
   <string name="morph_robinson_not_installed">Lütfen “Robinson’s Morphological Analysis Codes” sözlüğünü indirin.</string>
   <string name="go_to_downloads">İndirmelere Git</string>
-  <!--Module download-->
+  
   <string name="download">Belge İndir</string>
   <string name="redownload">Belgeleri yeniden indir</string>
   <string name="download_confirmation">İnternet üzerinden Kutsal Kitap indirilsin mi?</string>
@@ -259,7 +259,7 @@
   <string name="failed_repositories_message">Aşağıdaki belge sunucusuna bağlanılamadı: \n\n%s\n\n</string>
   <string name="failed_downloads_message">Aşağıdaki dosyalar indirilemedi: \n\n%s\n\n</string>
   <string name="cant_delete_document">Bu belge silinemez.</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Dosyalardan Belge Yükle</string>
   <string name="install_zip_module">İncil Modülü Yükle</string>
   <string name="install_zip_module_discrete">Hesap Makinesi Modülünü Kurun</string>
@@ -272,7 +272,7 @@
   <string name="overwrite_files_title">Dosyaların üzerine yazılsın mı?</string>
   <string name="could_not_overwrite_files">Dosyaların üzerine yazılamadı: %s. Bunun dışında yükleme başarılı oldu.</string>
   <string name="install_do_you_want">Modül (%s) yüklemek istiyor musunuz?</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">Okuma Planı</string>
   <string name="reading_plans_plural">Okuma Planları</string>
   <string name="rdg_plan_selector_title">Okuma Planını Seçin</string>
@@ -335,28 +335,28 @@
     2 yılda Kutsal Kitap’ı baştan sona okuyun, YA ve Mezmurlar’ı iki kez okuyun.
     Wholosome Words’un nezaketiyle, http://www.wholesomewords.org/, izin verildi
   </string>
-  <!--Document context menu-->
+  
   <string name="delete">Sil</string>
   <string name="delete_index">Arama dizinini sil</string>
   <string name="about">Belge hakkında</string>
   <string name="delete_doc">%s silinsin mi?</string>
   <string name="delete_search_index_doc">%s’in dizini silinsin mi?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Dipnotlar ve iç göndermeler</string>
   <string name="share_verse">Paylaş</string>
   <string name="share_verse_widget_title">Seçimi paylaş</string>
   <string name="share_verse_subject_2">%s kullanılarak sizinle bir İncil ayeti paylaşıldı.</string>
   <string name="compare_translations">Çevirileri karşılaştır</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Bağlantıyı burada aç</string>
   <string name="open_link_in_new_window">Bağlantıyı yeni pencerede aç</string>
   <string name="open_link_in_special_window">Bağlantıyı özel pencerede aç</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks_and_mynotes_title">Yer imleri &amp; Notlarım</string>
   <string name="migrated_my_notes">Notlarım Taşındı</string>
   <string name="bookmarks">Yer İmleri</string>
   <string name="bookmark_added">Yer imi eklendi</string>
-  <!--Bookmark / note labels-->
+  
   <string name="labels">Etiketler</string>
   <string name="manage_labels">Etiketleri yönet</string>
   <string name="assign_labels">Etiketle</string>
@@ -379,7 +379,7 @@
   <string name="auto_assign_labels1">Etiketi yeni yer imlerine otomatik atayın</string>
   <string name="auto_assign_labels_primary">Birincil olarak otomatik ata</string>
   <string name="label_color">Etiket rengi</string>
-  <!--can be removed-->
+  
   <string name="label_color_example">Örnek</string>
   <string name="marker_style">Seçim yer imleri için yalnızca işaretleyiciyi göster</string>
   <string name="marker_style_whole_verse">Tüm ayet yer imleri için yalnızca işaretleyiciyi göster</string>
@@ -392,31 +392,31 @@
   </string>
   <string name="bookmark_warning3">Do you still want to update module?</string>
   <string name="bookmark_warning4">It is recommended that you backup the module before updating.</string>
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
   <string name="sort_by_date">Tarih Sırası</string>
   <string name="sort_by_bible_book">Kutsal Kitap Sırası</string>
   <string name="sort_by_alphabetical">Alfabetik sıralama</string>
-  <!--notes = user notes ("My Notes") that are attached to bookmark-->
+  
   <string name="filter_by_notes">Notlarda bul</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Sözlük</string>
   <string name="search_dictionary_hint">Sözlükte bul</string>
-  <!--General Book-->
+  
   <string name="general_book">Kitap</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d bölüm</string>
   <string name="some_chapters">%d bölüm</string>
   <string name="rest_of_book">Kitabın sonuna kadar</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d ayet</string>
   <string name="some_verses">%d ayet</string>
   <string name="rest_of_chapter">Bölümün sonuna kadar</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d sayfa</string>
   <string name="some_pages">%d sayfa</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Durdur</string>
   <string name="pause">Duraklat</string>
   <string name="rewind">Geri al</string>
@@ -424,7 +424,7 @@
   <string name="tts_lang_not_available">Dil bulunmadı.</string>
   <string name="speak_queue">Sıra</string>
   <string name="speak_repeat">Tekrar</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Sesli okuma hızı</string>
   <string name="speak_and_play_earcons_title">Şunlar için earcon sesleri çalın ve konuşun</string>
   <string name="playback_settings_title">Oynatma Ayarları</string>
@@ -461,28 +461,28 @@
   <string name="speak_autobookmarking_disabled">Otomatik yer imleme devre dışı bırakıldı!</string>
   <string name="system_speak_settings">Sistem MOÇ ayarlarını açın</string>
   <string name="auto_assing_labels_help1">Burada, oluşturduğunuz yer imlerine hangi etiketlerin otomatik olarak atanacağını ayarlayabilirsiniz. </string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
+  
   <string name="setting_scope">Bu ayar %s için geçerlidir.</string>
   <string name="setting_scope_window">bu pencere</string>
   <string name="setting_scope_workspace">bu çalışma alanı</string>
   <string name="assing_labels_help1">Her yer imine birden fazla etiket atanabilir.</string>
-  <!--param is bookmark icon-->
+  
   <string name="assing_labels_help2">Hangi etiket renginin gözükeceğini belirtmek için %s kullanın.</string>
-  <!--param is auto-assign label icon-->
+  
   <string name="assing_labels_help3">Bu etiketin otomatik olarak yeni yer imlerine atanmasını sağlamak için %s simgesine dokunun.</string>
-  <!--param is heart icon-->
+  
   <string name="assing_labels_help4">Hızlı erişim amacıyla favori listenize etiket eklemek için %s simgesine dokunun.</string>
-  <!--param is refresh icon-->
+  
   <string name="assing_labels_help5">Seçimlerinize göre listeyi yeniden sıralamak için %s simgesine dokunun.</string>
   <string name="workspace_text_options_help_title">Çalışma alanı metni ayarları</string>
   <string name="workspace_text_options_help1">Bu ayarlar, tüm çalışma alanı pencereleri için varsayılanı belirler.</string>
   <string name="workspace_text_options_help2">Kişisel pencere ayarlarını değiştirerek bunları geçersiz kılabilirsiniz.</string>
   <string name="window_text_options_help_title">Pencere metni ayarları</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help1">%s simgesi, ayarın çalışma ayarlarından geldiğini gösterir.</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help2">%s simgesi, bu belirli pencere için bu ayarın değiştiğini gösterir.</string>
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
+  
   <string name="text_options_reset_help">Tüm bu ayarları %2$s değerine sıfırlamak için %1$s düğmesini kullanın.</string>
   <string name="reset_defaults">varsayılan değerler</string>
   <string name="reset_workspace_defaults">çalışma alanı varsayılan değerleri</string>
@@ -507,30 +507,21 @@
     bu ayarlar ilgili yer imlerine kaydedildiğinde bu kitaplar için farklı oynatma ayarlarına
     sahip olabilirsiniz.
   </string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>Rab</item>
     <item>Tanrı</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Yahve</item>
     <item>Yahve</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_book_changed">Kitap değişti.</string>
   <string name="speak_chapter_changed">Bölüm</string>
@@ -543,9 +534,9 @@
     Kısmı tekrarlama modu otomatik olarak devre dışı bırakıldı çünkü
     konuşma tanımlanan ayet aralığının dışında başladı.
   </string>
-  <!--User Notes-->
+  
   <string name="mynotes">Notlarım</string>
-  <!--Backup and restore-->
+  
   <string name="backup_backup_title">Nereye yedeklensin?</string>
   <string name="backup_backup_message">Telefona ya da Paylaş fonksiyonuyla  (email, Google Drive vb.) başka yere yedekle?</string>
   <string name="backup_phone_storage">Telefon hafıza</string>
@@ -561,9 +552,9 @@
   <string name="backup_document_info">Kutsal Kitaplar, yorum kitaplar, sözlükler, haritalar vb.</string>
   <string name="backup_to">Yedekleme hedefi…</string>
   <string name="backup_restore_from">Geri yükle kaynağı…</string>
-  <!--Restore = overwrite existing. Import = merge into existing-->
+  
   <string name="backup_restore">Yedekten geri yükle</string>
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
+  
   <string name="restore_what">Neyi geri yüklemek istiyorsunuz?</string>
   <string name="restore_app_database">Uygulama veritabanını şuradan geri yükle…</string>
   <string name="restore_database">Veritabanı Dosyasını Geri Yükle</string>
@@ -586,15 +577,15 @@
   <string name="install_zip_canceled">Modül yüklemesi iptal edildi</string>
   <string name="restore">Yedekten geri yükle</string>
   <string name="import2">İçe aktarın</string>
-  <!--First argument is the name of first label, second and third are the counts of labels & bookmarks, respectively-->
-  <!--About-->
+  
+  
   <string name="module_about_copyright">Telif hakkı: %s</string>
   <string name="module_about_installed_version">Yüklü sürüm: %1$s (%2$s)</string>
   <string name="module_about_latest_version">Son sürüm: %1$s (%2$s)</string>
   <string name="module_about_versification">Ayet düzeni: %s</string>
   <string name="module_about_repository">Dağıtım sunucusu: %s</string>
   <string name="module_about_osisId">OSIS ID: %s</string>
-  <!--Bug reporting-->
+  
   <string name="send_bug_report_title1">Hata raporu</string>
   <string name="send_feedback_title">Geri bildirim</string>
   <string name="send_bug_report_title">Geri bildirim / hata raporu</string>
@@ -615,7 +606,7 @@
   <string name="bug_report_screenshot">Çökme gerçekleştiğinde veya hata raporu oluşturulduğunda uygulamanın ekran görüntüsü.</string>
   <string name="bug_report_attachment_line_1">Bu dosyaların ekli olması, uygulama geliştiricilerin bildirilen hatayı düzeltmesine çok yardımcı olur.</string>
   <string name="report_bug_heading_4">Cihaz bilgisi:</string>
-  <!--Document types-->
+  
   <string name="doc_type_all">Tüm tipler</string>
   <string name="doc_type_bible">Kutsal Kitap</string>
   <string name="doc_type_commentary">Yorum Kitabı</string>
@@ -623,9 +614,9 @@
   <string name="doc_type_book">Kitap</string>
   <string name="doc_type_map">Harita</string>
   <string name="doc_type_addons">Eklentiler</string>
-  <!--Languages-->
+  
   <string name="lang_default">Varsayılan</string>
-  <!--General-->
+  
   <string name="okay">Tamam</string>
   <string name="cancel">İptal</string>
   <string name="yes">Evet</string>
@@ -638,7 +629,7 @@
   <string name="reset_generic">Sıfırla</string>
   <string name="watch_tutorial_video">Kullanma rehber videosu izle (İngilizce)</string>
   <string name="verse_not_found">Ayet bulunamadı</string>
-  <!--Errors-->
+  
   <string name="report_error">Bildiri Gönder</string>
   <string name="error_occurred">Bir hata oldu</string>
   <string name="error_occurred_crash_last_time">Uygulamayı en son kullandığınızda çöktü. Hatayı düzeltmemize yardımcı olmak için bize bir hata raporu gönderirseniz memnun oluruz. </string>
@@ -651,10 +642,10 @@
   <string name="error_skip">Atla</string>
   <string name="bug_report_email_title">E-posta yoluyla hata raporu gönderme</string>
   <string name="bug_report_email_text">Ardından, raporu geliştirici ekibine göndermek için lütfen tercih ettiğiniz e-posta uygulamasını (örneğin Gmail) seçin.</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">Metin seslendirmesi</string>
   <string name="notification_channel_progress_status">Belge indirmeleri vb. için ilerleme durumu bildirimi</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">Yeni</string>
   <string name="switch_to_workspace">Çalışma alanları</string>
   <string name="delete_workspace">Kaldır</string>
@@ -674,7 +665,7 @@
   <string name="reset_settings">Sıfırla</string>
   <string name="workspace_dismiss">Yok say</string>
   <string name="workspace_listing_with_current">%s (aktif)</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">Bu deneme sürümdür!</string>
   <string name="beta_notice_content_1">
     Beta sürümünde henüz tam anlamıyla test edilmemiş yeni özellikler var,
@@ -694,9 +685,9 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="stable_notice_title">Uygulama güncellendi!</string>
   <string name="upgrade_video_message">Lütfen bu sürümün yeni özelliklerini içeren videoyu izleyin (%s)</string>
   <string name="stable_notice_par1">%2$s’nin yeni %1$s sürümü başarıyla yüklendi!</string>
-  <!--History-->
+  
   <string name="history_for">Geçmişi (%1$s: Pencere %2$d)</string>
-  <!--Help-->
+  
   <string name="help_nav_title">Navigasyon</string>
   <string name="help_nav_text">Parmağınızla ekranı kaydırarak sonraki ya da önceki bölüme gidin.
     Tam ekran modunu değiştirmek için Kutsal Kitap metnine çift dokunun..
@@ -724,7 +715,7 @@ katkıda bulunmayı düşünün. :-)</string>
     Yer imlerine ek olarak, bir çalışma defterinde özel metin girişleri de olabilir.
   </string>
   <string name="help_search_title">Arama</string>
-  <!--TODO: to be removed-->
+  
   <string name="help_search_text">
     Arama metni *, ?, AND, OR, NOT gibi özel karakterler içerebilir
     (Daha fazla bilgi için \"Apache Lucene - Sorgu Ayrıştırıcı Sözdizimi\" bölümüne bakın)
@@ -754,18 +745,18 @@ katkıda bulunmayı düşünün. :-)</string>
     Kutsal Kitap belgelerini her zaman açık tutabilir ve kutsal kitap üzerinde çalışırken yorumlar ve
     diğer ekstra materyaller arasında hızlıca geçiş yapabilirsiniz.
   </string>
-  <!--Welcome text-->
+  
   <string name="redownload_documents">Hızlı Yeniden İndirme</string>
   <string name="welcome_message">%s’yi indirdiğiniz için teşekkür ederiz. Şu anda yüklü Kutsal Kitap
     veya belge yok. Devam etmek için lütfen internetten indirerek veya bir zip dosyası belge
     yedeğinden yükleyerek en az 1 belge yükleyin.
   </string>
-  <!--Supported file formats for documents-->
+  
   <string name="supported_formats_title">Desteklenen formatlar</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="choose_file">%s’ye yüklemek istediğiniz dosyayı seçmeniz gerekir. </string>
   <string name="supported_formats">Bir dosyadan belge yüklemek için desteklenen biçimler: %s</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="format_zip">Sword modül(ler)ini içeren zip dosyası veya %s tarafından oluşturulan belge yedekleme dosyası (*.abmd)</string>
   <string name="format_mysword">MySword belgeleri (*.mybible)</string>
   <string name="format_mybible">MyBible belgeleri (*.SQLite3)</string>
@@ -773,7 +764,7 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="redownload_message">
     Önceki kitapların/belgelerin bir listesi bulundu. Bunları kolayca tekrar indirmek için aşağıya tıklayın.
   </string>
-  <!--Uncategorized-->
+  
   <string name="close">Kapat</string>
   <string name="something_with_parenthesis">%1$s (%2$s)</string>
   <string name="first_time_help_do_not_show_again">I understand</string>
@@ -826,7 +817,7 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="show_reference_at_front">Ayetin önünde göster</string>
   <string name="abbreviate_reference">Referans kısaltılsın</string>
   <string name="version_name">Çeviri adı</string>
-  <!--meaning, bible version name-->
+  
   <string name="show_version_name">Sürüm adını dahil et</string>
   <string name="show_ellipsis">Üç noktayı göster (…)</string>
   <string name="show_quotes">Alıntıları göster</string>
@@ -835,7 +826,7 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="upgrading_database">Veritabanı güncelleniyor. Lütfen bekleyin…</string>
   <string name="initializing_app">Uygulama başlatılıyor…</string>
   <string name="show_notes">Notları göster</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
+  
   <string name="old_webview">Android WebView paketi çok eski (%1$s). %3$s’yi kullanmak için Android WebView paketinizi en az %2$s sürümüne yükseltmeniz gerekir. Çoğu cihaz için bu %4$s aracılığıyla yapılabilir.</string>
   <string name="play">Google Play</string>
   <string name="proceed_anyway">Yine de devam et</string>
@@ -847,15 +838,15 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="rate_message6">
     Olumsuz inceleme getirmeden önce lütfen aşağıdakileri göz önünde bulundurun:
   </string>
-  <!--parameters are actions (file a bug, send email)-->
+  
   <string name="rate_message1">
     Uygulama ile ilgili bir sorununuz varsa, lütfen bunun yerine %1$s veya %2$s.
   </string>
-  <!--param is "please report maintainers"-->
+  
   <string name="rate_message2">
     Bazı metinler / İncil çevirisi bir sorun içeriyorsa, %s
   </string>
-  <!--param is "please read what you can do"-->
+  
   <string name="rate_message3">
     Belirli bir metin uygulamada mevcut değilse, %s
   </string>
@@ -919,20 +910,20 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="import_items">%s içe aktarın</string>
   <string name="import_from_db">Uygulama Veritabanı dosyasından içe aktar</string>
   <string name="import_error">Uygulama Veritabanından içe aktarma başarısız oldu. Veritabanı dosyası yanlış biçimde olabilir veya %suygulamasının çok eski sürümüyle yapılmış olabilir.</string>
-  <!--OSIS reference is the Bible reference in OSIS standard format, e.g. "Gen.1.1-Gen.1.3"-->
+  
   <string name="osis_reference">OSIS Referansı</string>
-  <!--Bible reference is the Bible reference in human readable format, e.g. "Genesis 1:1-3"-->
+  
   <string name="bible_reference">Ayet Referansı</string>
   <string name="document">Belge</string>
   <string name="book">Kitap</string>
-  <!--Chapter is the chapter number in the book, starting from 1-->
+  
   <string name="chapter_start">Bölüm Başlangıcı</string>
-  <!--Verse is the verse number in the chapter, starting from 1-->
+  
   <string name="verse_start">Ayet Başlangıcı</string>
   <string name="chapter_end">Bölüm Sonu</string>
   <string name="verse_end">Ayet Sonu</string>
-  <!--Ordinals are running index of Bible verses in a bible document, starting from 0.-->
-  <!--Offsets are used to indicate from which character a bookmark starts.-->
+  
+  
   <string name="custom_icon">Özel Simge</string>
   <string name="chooser_range">Menzil</string>
   <string name="chooser_jump">Atla</string>
@@ -942,9 +933,9 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="chooser_style_lists">Listeler</string>
   <string name="chooser_select">%s ayet(ler)i seç</string>
   <string name="chooser_pref_reset">Kitap/bölüm seçildiğinde bölüm/ayet’i 1’e sıfırlamayın.</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
+  
   <string name="incomplete_translation">Üzgünüz, ancak %1$s dilinde yalnızca kısmi arayüzü çevirimiz var. Bunun nedeni %2$s’nin tamamen gönüllüler tarafından geliştirilmiş olmasıdır. Çeviride yardımcı olabilirseniz, lütfen %3$s’e bakın.</string>
-  <!--will be added to incomplete_translation as a link-->
+  
   <string name="instructions_for_translators">çevirmenler için talimatlar</string>
   <string name="questions_title">Sorularınız?</string>
   <string name="questions_title2">Yardıma mı ihtiyacınız var?</string>
@@ -958,7 +949,7 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="permission_required">İzin gerekli</string>
   <string name="labels_search_hint">Ara</string>
   <string name="progress_status_permission">Bildirimleri (indirme durumu, işleme, konuşma durumu) göstermek için izninize ihtiyacımız var. </string>
-  <!--Discrete mode settings-->
+  
   <string name="app_name_calculator">Basit Hesap Makinesi</string>
   <string name="prefs_persecution_cat">Zulme uğrayanlar için ayarlar</string>
   <string name="prefs_discrete_mode">Dini sembolleri gizleyin</string>
@@ -967,11 +958,11 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="prefs_calculator_pin">Hesap Makinesi PIN’i</string>
   <string name="prefs_calculator_pin_desc">Hesap makinesi gösterildiğinde uygulamaya girmek için PIN kodu. </string>
   <string name="calc_division_by_zero">Sıfıra bölmeye izin verilmez</string>
-  <!--Context: calculator. Wrong number format etc.-->
+  
   <string name="calc_wrong_format">Yanlış Format</string>
   <string name="calc_wrong_format_operand">Yanlış Biçim. Sayı içermeyen operand?</string>
   <string name="prefs_persecuted_help">Önce bunu oku!</string>
-  <!--Gives sintructions about the settings (for discrete mode) and also information about another app version that is available to be downloaded, that is better suited for persecuted.-->
+  
   <string name="prefs_persecuted_summary">Ayarlar için talimatlar ve belirli ayrık yapı hakkında bilgiler.</string>
   <string name="calculator_par1">
     Uygulamaya girmeden önce hesap makinesi ekranı görüntülenir.
@@ -994,13 +985,13 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="discrete_mode_link">
     Ayrık sürümün en son sürümünü %s adresinden indirebilirsiniz.
   </string>
-  <!--Window synchronize groups-->
+  
   <string name="sync_group_submenu">Synchronize group</string>
   <string name="sync_group_n">Grup %d</string>
   <string name="disable_sync">Senkronizasyonu devre dışı bırak</string>
   <string name="open_in_window">Sonuçları bir pencerede açın</string>
-  <!--Custom repositories-->
-  <!--Custom document repositories that can store any AndBible-compatible documents. User can easily install documents from such repositories by adding repository url here.-->
+  
+  
   <string name="custom_repositories">Özel depolar</string>
   <string name="custom_repositories_empty_list_message">Hiçbir özel depo tanımlanmamıştır</string>
   <string name="custom_repositories_create_button_label">Özel Depo Ekleme</string>
@@ -1016,12 +1007,12 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="duplicate_custom_repository">İsmi %s olan depo zaten mevcut, başka bir tane eklenemiyor.</string>
   <string name="packages_dir">Paketler dizini (Zip dosyaları)</string>
   <string name="warn_bad_document">Uyarı: Bu belgenin teknik kalitesi (en azından kısmen) kötü olabilir.</string>
-  <!--Open links in AndBible (Deep linking)-->
+  
   <string name="open_bible_links_title">AndBible’da Kutsal Kitap bağlantılarını açın</string>
   <string name="open_bible_links_summary">AndBible destekli Kutsal Kitap URL’sine atıfta bulunan bağlantılara tıkladığınızda, bunları AndBible’da açın</string>
   <string name="copyReference">Bağlantıyı panoya kopyala</string>
   <string name="reference_copied_to_clipboard">Referans panoya kopyalandı</string>
-  <!--Device cloud synchronization-->
+  
   <string name="prefs_sync_introduction_summary1">
     Birden fazla cihazı senkronize etmek için hangi arka uç bulut hizmetini kullanmak istediğinizi seçin.
   </string>
@@ -1067,7 +1058,7 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="sync_disabling">Şimdilik %s için senkronizasyon devre dışı bırakılıyor.</string>
   <string name="sync_update_app">Senkronizasyona devam etmek için lütfen uygulamayı güncelleyin.</string>
   <string name="sign_in_failed">Senkronizasyon arka uç hizmetinde oturum açma başarısız oldu.</string>
-  <!--... after restoring from backup file-->
+  
   <string name="disabling_sync">Bulut senkronizasyonu devre dışı bırakılıyor. Geri yüklemeden sonra manuel olarak yeniden etkinleştirmeniz gerekir.</string>
   <string name="report">Rapor</string>
   <string name="sync_error">Bulut senkronizasyonunda hata oluştu</string>
@@ -1075,12 +1066,12 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="restore_from_cloud_description">Başka bir cihazda Cihaz Senkronizasyonunu etkinleştirdiyseniz, veritabanını Buluttan geri yükleyerek başlayabilirsiniz.</string>
   <string name="enable_sync">Senkronizasyonu etkinleştir</string>
   <string name="last_updated">Son güncelleme: %s</string>
-  <!--MyBible/MySword module support-->
+  
   <string name="sqlite_cant_read">Dosya okunamıyor</string>
   <string name="sqlite_invalid_file">Geçersiz modül dosyası veya dosya adı: %s</string>
   <string name="sqlite_cant_write">Dosya (üzerine) yazılamıyor</string>
   <string name="install_failed_reason">Modülün yüklenmesi aşağıdaki nedenden dolayı başarısız oldu: %s.</string>
-  <!--Other / uncategorized-->
+  
   <string name="app_opened_elsewhere">Uygulama başka bir yerde açıldı</string>
   <string name="open_here">Burayı açın</string>
   <string name="external_link">Dış bağlantı</string>
@@ -1118,4 +1109,4 @@ katkıda bulunmayı düşünün. :-)</string>
   <string name="page_number_summary">Sayfa numarası kaplamasını göster. Sayfa numarası başlangıç konumuna göredir.</string>
   <string name="memorize_description">Kutsal Kitap ayetlerini ezberleyin</string>
   <string name="memorize_abbreviation">Ezberleyin</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

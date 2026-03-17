@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="app_name_short">Bibelstudie</string>
   <string name="app_name_long">AndBible: Bibelstudie</string>
   <string name="version_text">Versjon %s</string>
   <string name="no_sdcard_error">Sett inn minnekort og restart applikasjonen</string>
-  <!--Main menu-->
+  
   <string name="menu">Meny</string>
   <string name="chooseBook">Moduler</string>
   <string name="selectPassage">Bibelvers</string>
@@ -20,13 +20,13 @@
   <string name="administration">Administrasjon</string>
   <string name="rate_application">Vurdering og anmeldelser</string>
   <string name="chooce_document">Velg modul</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Velg bok</string>
   <string name="choosePassageChapterName">Velg kapittel</string>
   <string name="choosePassageVerseName">Velg vers</string>
   <string name="bible">Bibel</string>
   <string name="deuterocanonical">Apokryfiske bøker</string>
-  <!--Search-->
+  
   <string name="search_index">Lag søkeregister</string>
   <string name="index_creation_required">Det kreves en indeks for å søke.</string>
   <string name="create_index_for">Det kreves en indeks for å søke. \n\nBygge indeks for %s?</string>
@@ -37,12 +37,12 @@
   <string name="search_in">Finn i %s</string>
   <string name="do_in_background">Fortsett i bakgrunnen</string>
   <string name="rebuild_index_button">Bygg på nytt</string>
-  <!--X results in module Y-->
-  <!--Tasks-->
+  
+  
   <string name="progress_status">Fremdrift</string>
   <string name="task_kill_warning">Vær klar over at Android kan avlutte disse tidkrevende jobbende hvis du skifter til en annen applikasjon før jobben er utført.</string>
   <string name="no_tasks_running">Det er for tiden ingen jobber som utføres.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Type søk:</string>
   <string name="search_all_words">Alle ordene</string>
   <string name="search_any_word">Noen av ordene</string>
@@ -56,11 +56,11 @@
   <string name="search_current_book">Gjeldene bok</string>
   <string name="error_executing_search">Feil i søkestrengen</string>
   <string name="type_text_or_bible_reference">Skriv inn tekst eller bibelreferanse</string>
-  <!--Open (bible reference X)-->
+  
   <string name="go_to_ref">Åpne %s</string>
-  <!--Finx "(keywords x)", keywords based on text selection-->
+  
   <string name="search_what">Finn \"%s\"</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_title">Kapittel- og versnummer</string>
   <string name="prefs_show_verseno_summary">Vis kapittel- og versnummer</string>
   <string name="prefs_e_ink_mode_title">Svart/hvitt-modus</string>
@@ -171,7 +171,7 @@
   <string name="prefs_enable_bluetooth_title">Vis knapper for blåtann</string>
   <string name="create_bookmark">Lag et nytt bokmerke</string>
   <string name="create_bookmark_with_a_note">Lag et nytt bokmerke med et notat</string>
-  <!--Colors preferences-->
+  
   <string name="prefs_text_colors_menutitle">Fargeinnstillinger</string>
   <string name="window_color_settings_title">Fargeinnstillinger for vindu</string>
   <string name="workspace_color_settings_title">Standard fargeinnstillinger for arbeidsområde</string>
@@ -185,7 +185,7 @@
   <string name="cpv_presets">Forhåndsinnstillinger</string>
   <string name="cpv_select">Velg</string>
   <string name="cpv_transparency">Gjennomsiktighet</string>
-  <!--Window-->
+  
   <string name="new_window">Nytt vindu</string>
   <string name="windowClose">Lukk</string>
   <string name="windowMaximise">Maksimer</string>
@@ -198,17 +198,17 @@
   <string name="copy_settings_to_window">Vindu %1$d (%2$s: %3$s)</string>
   <string name="change_to_normal">Endre til normalt vindu</string>
   <string name="window_pin_mode">Fest</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Ingen notater eksisterer for dette kapittelet.</string>
   <string name="no_verse_notes">Ingen notat til dette verset</string>
   <string name="previous">Tilbake</string>
   <string name="next">Fram</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Vennligst last ned Strongs hebraiske og greske ordbøker</string>
   <string name="no_indexed_bible_with_strongs_ref">Du må laste ned en bibelmodul som inkluderer Strong-nummer og bygge en søkeindeks via Søk</string>
   <string name="morph_robinson_not_installed">Vennligst last ned ordboken \'Robinson\'s Morphological Analysis Codes\'</string>
   <string name="go_to_downloads">Gå til nedlastinger</string>
-  <!--Module download-->
+  
   <string name="download">Last ned moduler</string>
   <string name="redownload">Last ned dokumenter på nytt</string>
   <string name="download_confirmation">Laste ned en bibel fra internett?</string>
@@ -238,7 +238,7 @@
   <string name="failed_repositories_message">Kunne ikke koble til modulserver: \n\n%s\n\n</string>
   <string name="failed_downloads_message">Følgende filer kunne ikke lastes ned:\n\n%s\n\n</string>
   <string name="cant_delete_document">Dokumentet kan ikke slettes</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Last inn dokumenter fra filer</string>
   <string name="install_zip_module">Installer bibelmodul</string>
   <string name="install_zip_module_discrete">Installer kalkulatormodul</string>
@@ -250,7 +250,7 @@
   <string name="overwrite_files">Følgende filer finnes allerede: %s Overskrive?</string>
   <string name="overwrite_files_title">Overskrive filer?</string>
   <string name="install_do_you_want">Ønsker du å installere modulen (%s)?</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">Leseplan</string>
   <string name="reading_plans_plural">Leseplaner</string>
   <string name="rdg_plan_selector_title">Velg en leseplan</string>
@@ -297,27 +297,27 @@ og avslutt i Åpenbaringsboken. GT først, deretter NT.</string>
   <string name="plan_description_y2ot1ntps2">Les igjennom Bibelen på to år der du leser NT og salmene to ganger.
 Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
 </string>
-  <!--Document context menu-->
+  
   <string name="delete">Slett</string>
   <string name="delete_index">Slett søkeregister</string>
   <string name="about">Om</string>
   <string name="delete_doc">Slette %s?</string>
   <string name="delete_search_index_doc">Slette søkeregister for %s?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Notater og kryssreferanser</string>
   <string name="share_verse">Del…</string>
   <string name="share_verse_widget_title">Del utvalg</string>
   <string name="share_verse_subject_2">Et bibelvers har blitt delt med deg gjennom %s.</string>
   <string name="compare_translations">Sammenlign oversettelser</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Åpne lenken her</string>
   <string name="open_link_in_new_window">Åpne lenken i nytt vindu</string>
   <string name="open_link_in_special_window">Åpne lenken i spesialvindu</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks_and_mynotes_title">Bokmerker og mine notater</string>
   <string name="bookmarks">Bokmerker</string>
   <string name="bookmark_added">Bokmerke lagret</string>
-  <!--Bookmark / note labels-->
+  
   <string name="assign_labels">Legg til i grupper</string>
   <string name="new_item">Ny</string>
   <string name="new_label">Ny gruppe</string>
@@ -327,36 +327,36 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="add_bookmark2">Opprette bokmerke for merket tekst</string>
   <string name="add_bookmark_whole_verse">Bokmerke vers</string>
   <string name="remove_bookmark">Fjern</string>
-  <!--can be removed-->
+  
   <string name="label_color_example">Eksempel</string>
   <string name="bookmark_warning">Det eksisterer bokmerker og/eller notater for dette dokumentet</string>
   <string name="bookmark_warning3">Ønsker du fortsatt å oppdatere modulen?</string>
   <string name="bookmark_warning4">Det er anbefalt å ta en sikkerhetskopi av modulen før du oppdaterer.</string>
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
   <string name="sort_by_date">Datorekkefølge</string>
   <string name="sort_by_bible_book">Bibelsk rekkefølge</string>
   <string name="sort_by_alphabetical">Alfabetisk rekkefølge</string>
-  <!--notes = user notes ("My Notes") that are attached to bookmark-->
+  
   <string name="filter_by_notes">Søk i notater</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Bibelordbok</string>
   <string name="search_dictionary_hint">Søk i ordbok</string>
-  <!--General Book-->
+  
   <string name="general_book">Bok</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d kapittel</string>
   <string name="some_chapters">%d kapitler</string>
   <string name="rest_of_book">Til slutten av boken</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d vers</string>
   <string name="some_verses">%d vers</string>
   <string name="rest_of_chapter">Til slutten av kapittelet</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d side</string>
   <string name="some_pages">%d sider</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Stopp</string>
   <string name="pause">Pause</string>
   <string name="rewind">Spol tilbake</string>
@@ -364,7 +364,7 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="tts_lang_not_available">Språket er ikke tilgjengelig.</string>
   <string name="speak_queue">Legg i kø</string>
   <string name="speak_repeat">Repeter</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Talehastighet</string>
   <string name="speak_and_play_earcons_title">Uttal og spill av lyder for </string>
   <string name="playback_settings_title">Innstillinger for høytlesing</string>
@@ -381,50 +381,41 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="speak_previous">Forrige</string>
   <string name="speak_status_stopped">stoppet</string>
   <string name="speak_autobookmarking_disabled">Automatisk bokmerking avslått!</string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
+  
   <string name="setting_scope_window">dette vinduet</string>
   <string name="setting_scope_workspace">dette arbeidsområdet</string>
-  <!--param is bookmark icon-->
-  <!--param is auto-assign label icon-->
-  <!--param is heart icon-->
-  <!--param is refresh icon-->
+  
+  
+  
+  
   <string name="workspace_text_options_help_title">Tekstinnstillinger for arbeidsområde</string>
   <string name="workspace_text_options_help1">Disse innstillingene definerer standardverdier for alle arbeidsområder.</string>
   <string name="workspace_text_options_help2">Du kan overstyre disse ved å endre innstillingene for hvert vindu.</string>
   <string name="window_text_options_help_title">Tekstinnstillinger for vindu</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help1">%s ikon viser at innstillingen kommer fra arbeidsområde-innstillingene.</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help2">%s ikon viser at denne innstillingen har blitt endret for dette vinduet.</string>
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
+  
   <string name="reset_defaults">standardverdiene</string>
   <string name="reset_workspace_defaults">standardverdiene for arbeidsområder</string>
   <string name="speak_help_playback_settings_example">
 </string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>Herre</item>
     <item>Gud</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Jahve</item>
     <item>Jahve</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_chapter_changed">Kapittel</string>
   <string name="speak_first">Første</string>
@@ -432,9 +423,9 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="speak_third">Tredje</string>
   <string name="speak_fourth">Fjerde</string>
   <string name="speak_fifth">Femte</string>
-  <!--User Notes-->
+  
   <string name="mynotes">Mine notater</string>
-  <!--Backup and restore-->
+  
   <string name="backup_backup_title">Sikkerhetskopier til hvor?</string>
   <string name="backup_backup_message">Sikkerhetskopier til telefon eller andre steder via delefunksjonen (e-post, Google Drive etc.)?</string>
   <string name="backup_phone_storage">Telefonlager</string>
@@ -448,11 +439,11 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="backup_application_info">Applikasjonsfil (.apk)</string>
   <string name="backup_to">Sikkerhetskopier til…</string>
   <string name="backup_restore_from">Gjenopprett fra…</string>
-  <!--Restore = overwrite existing. Import = merge into existing-->
+  
   <string name="backup_restore_from2">Gjenopprett eller importer fra…</string>
   <string name="backup_restore">Gjenopprett</string>
   <string name="backup_restore2">Gjenopprett eller importer</string>
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
+  
   <string name="restore_what">Hva ønsker du å gjenopprette?</string>
   <string name="restore_app_database">Gjenopprett appens database fra…</string>
   <string name="restore_database">Gjenopprett databasefil</string>
@@ -472,14 +463,14 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="install_zip_canceled">Installasjon av modul avbrutt</string>
   <string name="restore">Gjenopprett</string>
   <string name="import2">Importer</string>
-  <!--First argument is the name of first label, second and third are the counts of labels & bookmarks, respectively-->
-  <!--About-->
+  
+  
   <string name="module_about_copyright">Opphavsrett: %s</string>
   <string name="module_about_installed_version">Installert versjon: %1$s (%2$s)</string>
   <string name="module_about_latest_version">Siste versjon: %1$s (%2$s)</string>
   <string name="module_about_versification">Versifisering: %s</string>
   <string name="module_about_osisId">OSIS ID: %s</string>
-  <!--Bug reporting-->
+  
   <string name="send_bug_report_title1">Feilrapport</string>
   <string name="send_feedback_title">Tilbakemelding</string>
   <string name="send_bug_report_title">Tilbakemelding/feilrapport</string>
@@ -499,7 +490,7 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="bug_report_screenshot">Skjermdump av applikasjonen da kræsjen skjedde, eller da feilrapporten ble opprettet.</string>
   <string name="bug_report_attachment_line_1">Det hjelper applikasjons-utviklerne mye å ha disse filene vedlagt i feilrapporten.</string>
   <string name="report_bug_heading_4">Enhetsinformasjon:</string>
-  <!--Document types-->
+  
   <string name="doc_type_all">Alle dokumenter</string>
   <string name="doc_type_bible">Bibler</string>
   <string name="doc_type_commentary">Bibelkommentarer</string>
@@ -507,9 +498,9 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="doc_type_book">Bøker</string>
   <string name="doc_type_map">Kart</string>
   <string name="doc_type_addons">Tillegg</string>
-  <!--Languages-->
+  
   <string name="lang_default">Standard</string>
-  <!--General-->
+  
   <string name="okay">OK</string>
   <string name="cancel">Avbryt</string>
   <string name="yes">Ja</string>
@@ -522,7 +513,7 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="reset_generic">Tilbakestill</string>
   <string name="watch_tutorial_video">Se opplæringsvideo (engelsk)</string>
   <string name="verse_not_found">Vers ble ikke funnet</string>
-  <!--Errors-->
+  
   <string name="report_error">Send feilrapport</string>
   <string name="error_occurred">En feil har oppstått</string>
   <string name="error_occurred_crash_last_time">Denne applikasjonen krasjet siste du brukte den. For å hjelpe oss å avdekke feilen, hadde vi satt pris på om du sendte inn en feilrapport.</string>
@@ -534,10 +525,10 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="error_skip">Hopp over</string>
   <string name="bug_report_email_title">Send feilrapport via e-post</string>
   <string name="bug_report_email_text">Vennligst velg din foretrukne e-post app for å sende rapporten til utviklerteamet.</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">Tekst til tale</string>
   <string name="notification_channel_progress_status">Melding om fremgangsstatus for nedlasting av dokumenter osv.</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">Ny</string>
   <string name="switch_to_workspace">Arbeidsområder</string>
   <string name="delete_workspace">Fjern</string>
@@ -557,7 +548,7 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="reset_settings">Tilbakestill</string>
   <string name="workspace_dismiss">Avvis</string>
   <string name="workspace_listing_with_current">%s (gjeldende)</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">Dette er en prøveutgave (beta)</string>
   <string name="beta_notice_content_1">
         I prøveversjonen er det nye egenskaper som ikke er fullstendig testet, 
@@ -572,8 +563,8 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="beta_notice_dismiss_until_update">Fjern melding inntil neste versjon</string>
   <string name="stable_notice_title">Applikasjonen har blitt oppgradert!</string>
   <string name="upgrade_video_message">Vennligst se video over nye funksjoner i denne utgaven (%s).</string>
-  <!--History-->
-  <!--Help-->
+  
+  
   <string name="help_nav_title">Navigasjon</string>
   <string name="help_bookmarks_title">Bokmerker og mine notater</string>
   <string name="help_studypads_text">
@@ -583,24 +574,24 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
         I tillegg til bokmerker, kan man også ha bolker med tekst i et studiebrett.
 </string>
   <string name="help_search_title">Søk</string>
-  <!--TODO: to be removed-->
+  
   <string name="help_search_text">Tekstsøk kan inneholde spesialtegn som *, ?, AND, OR, NOT
         (se \"Apache Lucene - Query Parser Syntax\" for mer informasjon)
     </string>
   <string name="help_workspaces_title">Arbeidsområder</string>
   <string name="help_hidden_features_title">Skjulte snarveier</string>
   <string name="help_window_pinning_title">Feste vindu</string>
-  <!--Welcome text-->
+  
   <string name="redownload_documents">Last ned igjen</string>
   <string name="welcome_message">Takk for at du laster ned %s. Det er for øyeblikket ingen bibeldokumenter installert. For å fortsette, vennligst installér
         minst ett dokument ved å laste ned fra internett, eller ved å laste inn en sikkerhetskopi i
         ZIP-format.</string>
-  <!--Supported file formats for documents-->
-  <!--argument is app_name_andbible (AndBible).-->
-  <!--argument is app_name_andbible (AndBible).-->
+  
+  
+  
   <string name="redownload_message">
         En liste av tidligere bøker/dokumenter ble funnet. Klikk nedenfor for å laste disse ned igjen.</string>
-  <!--Uncategorized-->
+  
   <string name="close">Lukk</string>
   <string name="first_time_help_do_not_show_again">Jeg forstår</string>
   <string name="first_time_help_show_next_time">Vis igjen neste gang</string>
@@ -633,26 +624,26 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="verse_share_advertise">Delt gjennom %s.</string>
   <string name="abbreviate_reference">Forkorting av referansen</string>
   <string name="version_name">Bibelmodulnavn</string>
-  <!--meaning, bible version name-->
+  
   <string name="show_ellipsis">Vis ellipse (…)</string>
   <string name="backup_button">Sikkerhetskopi</string>
   <string name="back_button">Tilbake</string>
   <string name="upgrading_database">Oppgraderer databasen. Vennligst vent…</string>
   <string name="initializing_app">Setter opp applikasjonen…</string>
   <string name="show_notes">Vis notater</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
+  
   <string name="play">Google Play</string>
   <string name="proceed_anyway">Fortsett allikevel</string>
   <string name="rate_title">Vurdering og anmeldelse av appen</string>
   <string name="rate_message6">
         Før du gir en negativ vurdering, vennligst les følgende:
     </string>
-  <!--parameters are actions (file a bug, send email)-->
-  <!--param is "please report maintainers"-->
+  
+  
   <string name="rate_message2">
         Dersom en modul/bibeloversettelse har en feil, %s.
     </string>
-  <!--param is "please read what you can do"-->
+  
   <string name="rate_message3">
         Dersom en bibeloversettelse/modul ikke er tilgjengelig i applikasjonen, %s.
     </string>
@@ -692,21 +683,21 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="export_fileformat">Eksporter som %s</string>
   <string name="import_items">Importer %s</string>
   <string name="import_from_db">Importer fra appens databasefil</string>
-  <!--OSIS reference is the Bible reference in OSIS standard format, e.g. "Gen.1.1-Gen.1.3"-->
-  <!--Bible reference is the Bible reference in human readable format, e.g. "Genesis 1:1-3"-->
+  
+  
   <string name="document">Moduler</string>
   <string name="book">Bok</string>
-  <!--Chapter is the chapter number in the book, starting from 1-->
-  <!--Verse is the verse number in the chapter, starting from 1-->
-  <!--Ordinals are running index of Bible verses in a bible document, starting from 0.-->
-  <!--Offsets are used to indicate from which character a bookmark starts.-->
+  
+  
+  
+  
   <string name="chooser_OT_abbrev">GT</string>
   <string name="chooser_NT_abbrev">NT</string>
   <string name="chooser_style_grid">Tabell</string>
   <string name="chooser_style_lists">Lister</string>
   <string name="chooser_select">Velg %s</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
-  <!--will be added to incomplete_translation as a link-->
+  
+  
   <string name="instructions_for_translators">instruksjoner for oversettere</string>
   <string name="questions_title">Spørsmål?</string>
   <string name="questions_title2">Trenger du hjelp?</string>
@@ -716,19 +707,19 @@ Courtesy of Wholesome Words, http://www.wholesomewords.org/, permission granted
   <string name="strongs_text_and_links">Tekster og lenker</string>
   <string name="permission_required">Tilgang kreves</string>
   <string name="labels_search_hint">Søk</string>
-  <!--Discrete mode settings-->
-  <!--Context: calculator. Wrong number format etc.-->
-  <!--Gives sintructions about the settings (for discrete mode) and also information about another app version that is available to be downloaded, that is better suited for persecuted.-->
-  <!--Window synchronize groups-->
-  <!--Custom repositories-->
-  <!--Custom document repositories that can store any AndBible-compatible documents. User can easily install documents from such repositories by adding repository url here.-->
+  
+  
+  
+  
+  
+  
   <string name="custom_repositories_info_button_label">Informasjon</string>
-  <!--Open links in AndBible (Deep linking)-->
-  <!--Device cloud synchronization-->
+  
+  
   <string name="synchronizing">Synkroniserer…</string>
-  <!--... after restoring from backup file-->
+  
   <string name="last_updated">Sist endret: %s</string>
-  <!--MyBible/MySword module support-->
-  <!--Other / uncategorized-->
+  
+  
   <string name="prefs_swipe_mode_chapter">Kapittel</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

@@ -1,26 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--
-  ~ Copyright (c) 2022 Martin Denham, Tuomas Airaksinen and the AndBible contributors.
-  ~
-  ~ This file is part of AndBible: Bible Study (http://github.com/AndBible/and-bible).
-  ~
-  ~ AndBible is free software: you can redistribute it and/or modify it under the
-  ~ terms of the GNU General Public License as published by the Free Software Foundation,
-  ~ either version 3 of the License, or (at your option) any later version.
-  ~
-  ~ AndBible is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
-  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-  ~ See the GNU General Public License for more details.
-  ~
-  ~ You should have received a copy of the GNU General Public License along with AndBible.
-  ~ If not, see http://www.gnu.org/licenses/.
-  -->
-
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="app_name_short">Учење Библије</string>
   <string name="app_name_medium">Учење Библије (Анд Библија)</string>
   <string name="app_name_long">Учење Библије, од \"And Bible Open Source Project\"</string>
-  <!--Startup & Help-->
+  
   <string name="help_nav_title">Навигација</string>
   <string name="help_nav_text">Прелазак на следеће или претходно поглавље превлачећи прстом по екрану.
         Дупли притисак на текст у Библији контролише режим целог екрана.
@@ -74,7 +57,7 @@
     </string>
   <string name="version_text">Верзија%s</string>
   <string name="no_sdcard_error">Молим убаците СД картицу и рестартујте апликацију.</string>
-  <!--Main menu-->
+  
   <string name="menu">Мени</string>
   <string name="chooseBook">Документ</string>
   <string name="selectPassage">Одељак</string>
@@ -88,13 +71,13 @@
   <string name="administration">Управљање</string>
   <string name="rate_application">Оцените и опишите у Гугл Продавници</string>
   <string name="chooce_document">Изабери документ</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Изабери књигу</string>
   <string name="choosePassageChapterName">Изабери поглавље</string>
   <string name="choosePassageVerseName">Изабери стих</string>
   <string name="bible">Библија</string>
   <string name="deuterocanonical">Девтероканонске</string>
-  <!--Search-->
+  
   <string name="search_index">Индекс претраге</string>
   <string name="index_creation_required">Индекс је потребан за претрагу.</string>
   <string name="create_index_for">Потребан је индекс за претрагу. \n\nНаправите индекс за %s?</string>
@@ -105,11 +88,11 @@
   <string name="search_in">Пронађи у %s</string>
   <string name="do_in_background">Настави у позадини</string>
   <string name="rebuild_index_button">Поново изгради</string>
-  <!--Tasks-->
+  
   <string name="progress_status">Напредак</string>
   <string name="task_kill_warning">Ови дуготрајни задаци могу бити прекинути ако се пребацити на другу апликацију пре но што заврше.</string>
   <string name="no_tasks_running">Нема задатака који се тренутно извршавају.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Пронађи стихове</string>
   <string name="search_all_words">Све речи</string>
   <string name="search_any_word">Било која реч</string>
@@ -122,7 +105,7 @@
   <string name="search_old_testament">Стари Завет</string>
   <string name="search_current_book">Тренутна књига</string>
   <string name="error_executing_search">Нерегуларан упит за претрагу</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_summary">Прикажи бројеве стихова</string>
   <string name="prefs_verse_per_line_summary">Прикажи сваки стих у посебном реду</string>
   <string name="prefs_show_bookmarks_summary">Одштриклирај да се сакрију сви обележивачи</string>
@@ -205,7 +188,7 @@
   <string name="font_size_title">Величина текста</string>
   <string name="full_screen_hide_buttons_pref_title">Сакриј линију дугмића прозора у режиму целог екрана</string>
   <string name="full_screen_hide_buttons_pref_summary">Аутоматски сакриј линију дугмића прозора са дна екрана, када се пребацује у режим рада целог екрана.</string>
-  <!--Colors preferences-->
+  
   <string name="prefs_text_colors_menutitle">Поставке боја</string>
   <string name="window_color_settings_title">Поставке боје прозора</string>
   <string name="workspace_color_settings_title">Подразумеване поставке боја за радну површ</string>
@@ -220,7 +203,7 @@
   <string name="cpv_custom">Прилагођено</string>
   <string name="cpv_select">Одабери</string>
   <string name="cpv_transparency">Провидност</string>
-  <!--Window-->
+  
   <string name="new_window">Нови прозор</string>
   <string name="windowClose">Затвори</string>
   <string name="windowMaximise">Максимизирај</string>
@@ -233,18 +216,18 @@
   <string name="copy_settings_to_window">Прозор %d (%s: %s)</string>
   <string name="change_to_normal">Промени у обичан прозор</string>
   <string name="window_pin_mode">Истакни</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Не постоје белешке у овом поглављу</string>
   <string name="no_verse_notes">У овом стиху нема белешки</string>
   <string name="previous">Претходна</string>
   <string name="next">Следећа</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Молим преузмите Стронгове речнике јеврејског и грчког</string>
   <string name="all_greek_occurrences">Пронађи сва појављивања</string>
   <string name="all_hebrew_occurrences">Пронађи сва појављивања</string>
   <string name="no_indexed_bible_with_strongs_ref">Морате преузети Библију која садржи Стронгове бројеве и преузети индекс путем Претраге</string>
   <string name="morph_robinson_not_installed">Молим преузмите речник \"Robinson\'s Morphological Analysis Codes\"</string>
-  <!--Module download-->
+  
   <string name="download">Преузми документе</string>
   <string name="download_confirmation">Преузимање Библије са Интернета?</string>
   <string name="download_source_message">Документи су преузети са:\n https://www.crosswire.org,\n https://ibtrussia.org,\n https://ebible.org, and\n https://andbible.github.io</string>
@@ -273,7 +256,7 @@
   <string name="download_errors">Грешке преузимања</string>
   <string name="failed_repositories_message">Неуспело повезивање на ризнице следећег документа: \n\n%s\n\n</string>
   <string name="failed_downloads_message">Следеће датотеке не могу бити преузете:n\n%s\n\n</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Учитај документа кроз ЗИП</string>
   <string name="install_zip_module">Угради библијски модул</string>
   <string name="install_zip_successfull">Модул је успешно инсталиран</string>
@@ -284,7 +267,7 @@
   <string name="install_zip_title">Молим сачекајте. Учитавам Зип архиву.</string>
   <string name="overwrite_files">Следеће датотеке већ постоје: %s Преписати?</string>
   <string name="overwrite_files_title">Препиши датотеке?</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">План читања</string>
   <string name="rdg_plan_selector_title">Изабери План читања</string>
   <string name="rdg_plan_day">Дан %s</string>
@@ -331,23 +314,23 @@
         Прочитајте Библију двапут, читајући Нови Завет и Псалме двапут.
         Љубазноћу Холсом Вордс,  http://www.wholesomewords.org/, дозвољено је коришћење
     </string>
-  <!--Document context menu-->
+  
   <string name="delete">Обриши</string>
   <string name="delete_index">Избриши индекс претраге</string>
   <string name="about">О програму</string>
   <string name="delete_doc">Обриши %s?</string>
   <string name="delete_search_index_doc">Обрисати индекс од %s?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Фусноте и референце</string>
   <string name="verse_action_copy">Копирај</string>
   <string name="share_verse">Дели...</string>
   <string name="share_verse_subject_2">Стих Библије је подељен са вама користећи %s.</string>
   <string name="compare_translations">Упореди преводе</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Отвори везу овде</string>
   <string name="open_link_in_new_window">Отвори везу у новом прозору</string>
   <string name="open_link_in_special_window">Отвори везу у посебном прозору</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks">Обележивачи</string>
   <string name="add_bookmark">Додај обележивач</string>
   <string name="delete_bookmark">Обриши обележивач</string>
@@ -361,29 +344,29 @@
   <string name="label_name_prompt">Име</string>
   <string name="label_unlabelled">Неозначено</string>
   <string name="style">Стил</string>
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
   <string name="sort_by_date">Датумски редослед</string>
   <string name="sort_by_bible_book">Библијски редослед</string>
   <string name="sort_by_alphabetical">Алфабетни редослед</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Речник</string>
   <string name="search_dictionary_hint">Претрага речника</string>
-  <!--General Book-->
+  
   <string name="general_book">Књига</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d поглавље</string>
   <string name="some_chapters">%d поглавља</string>
   <string name="rest_of_book">До краја књиге</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d стих</string>
   <string name="some_verses">%d стихова</string>
   <string name="rest_of_chapter">Крај поглавља</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d страница</string>
   <string name="some_pages">%d странице</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Заустави</string>
   <string name="pause">Паузирај</string>
   <string name="rewind">Премотај уназад</string>
@@ -391,7 +374,7 @@
   <string name="tts_lang_not_available">Језик није доступан.</string>
   <string name="speak_queue">Ред</string>
   <string name="speak_repeat">Понови</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Брзина изговора</string>
   <string name="speak_and_play_earcons_title">Изговори и пусти кратке звуке за</string>
   <string name="playback_settings_title">Поставке репродукције</string>
@@ -447,30 +430,21 @@
         онда можете имати другачије поставке за ове књиге,
         када су ове поставке сачуване у одговарајуће обележиваче.
     </string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>Господ</item>
     <item>Бог</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Јахве</item>
     <item>Јахве</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_book_changed">Књига промењена.</string>
   <string name="speak_chapter_changed">Поглавље</string>
@@ -483,11 +457,11 @@
         Понављање одељка је аутоматски онемогућено због
         тога што је изговор стартован изванодређеног распона стихова.
     </string>
-  <!--User Notes-->
+  
   <string name="mynotes">Моје белешке</string>
   <string name="mynote_add">Додај Моју белешку</string>
   <string name="mynote_saved">Моја белешка је сачувана</string>
-  <!--Backup and restore-->
+  
   <string name="backup_and_restore">Резервна копија и враћање</string>
   <string name="backup_modules">Резервна копија докумената на...</string>
   <string name="backup_app_database">Сними резервну копију базе података на...</string>
@@ -513,14 +487,14 @@
   <string name="send_backup_file">Пошаљи датотеку резервне копије</string>
   <string name="backup_modules_title">Одабери модуле за резервну копију</string>
   <string name="install_zip_canceled">Уградња модула отказана</string>
-  <!--About-->
+  
   <string name="module_about_copyright">Ауторска права: %s</string>
   <string name="module_about_installed_version">Уграђена верзија: %s (%s)</string>
   <string name="module_about_latest_version">Последња верзија; %s (%s)</string>
   <string name="module_about_versification">Стил стихова: %s</string>
   <string name="module_about_repository">Ризница дистрибуције: %s</string>
   <string name="module_about_osisId">OSIS ИД: %s</string>
-  <!--Bug reporting-->
+  
   <string name="send_bug_report_title">Пријави грешку</string>
   <string name="report_bug_email_subject_2">Пријава грешке за %s %s</string>
   <string name="report_bug_email_message">
@@ -539,16 +513,16 @@
         \n\n
         Информације о уређају: \n
         %s</string>
-  <!--Document types-->
+  
   <string name="doc_type_all">Све врсте</string>
   <string name="doc_type_bible">Библија</string>
   <string name="doc_type_commentary">Коментар</string>
   <string name="doc_type_dictionary">Речник</string>
   <string name="doc_type_book">Књига</string>
   <string name="doc_type_map">Карта</string>
-  <!--Languages-->
+  
   <string name="lang_default">Подразумевани</string>
-  <!--General-->
+  
   <string name="okay">ОК</string>
   <string name="cancel">Откажи</string>
   <string name="yes">Да</string>
@@ -560,7 +534,7 @@
   <string name="edit">Измени</string>
   <string name="watch_tutorial_video">Погледајте видео са упутствима (на енглеском)</string>
   <string name="verse_not_found">Стих није пронађен</string>
-  <!--Errors-->
+  
   <string name="report_error">Пријави грешку</string>
   <string name="error_occurred">Догодила се грешка</string>
   <string name="error_occurred_with_link">Догодила се грешка. %s</string>
@@ -568,10 +542,10 @@
   <string name="error_page_too_large">Страница је превелика да би се учитала</string>
   <string name="error_key_not_in_document">Није пронађено у документу</string>
   <string name="empty_list">Нема ставки за приказ</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">Текст у изговор</string>
   <string name="notification_channel_progress_status">Статус обавештења о напретку за преузимање докумената и сл.</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">Нови</string>
   <string name="switch_to_workspace">Радне површи</string>
   <string name="delete_workspace">Уклони</string>
@@ -591,7 +565,7 @@
   <string name="reset_settings">Ресет</string>
   <string name="workspace_dismiss">Откажи</string>
   <string name="workspace_listing_with_current">%s (тренутно)</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">Ово је бета верзија!</string>
   <string name="beta_notice_content_1">
         У бета издању, постоје нове могућности које нису темељно тестиране,
@@ -608,11 +582,11 @@
   <string name="beta_notice_github">Гитхаб</string>
   <string name="beta_notice_dismiss">Откажи</string>
   <string name="beta_notice_dismiss_until_update">Склони до следећег ажурирања</string>
-  <!--History-->
+  
   <string name="history_for">Историја (%s: Прозор %d)</string>
-  <!--Uncategorized-->
+  
   <string name="close">Затвори</string>
   <string name="something_with_parenthesis">%s (%s)</string>
   <string name="first_time_help_do_not_show_again">Разумем</string>
   <string name="first_time_help_show_next_time">Прикажи и следећи пут</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

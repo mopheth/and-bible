@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="app_name_andbible">AndBible</string>
   <string name="app_name_short">Bible</string>
@@ -7,7 +7,7 @@
   <string name="project">Projekt AndBible s otevřeným kódem</string>
   <string name="version_text">Verze %s</string>
   <string name="no_sdcard_error">Prosím zasuňte SD kartu a restartujte aplikaci.</string>
-  <!--Main menu-->
+  
   <string name="menu">Menu</string>
   <string name="chooseBook">Dokument</string>
   <string name="selectPassage">Pasáž</string>
@@ -23,13 +23,13 @@
   <string name="administration">Správa</string>
   <string name="rate_application">Ohodnotit a recenzovat</string>
   <string name="chooce_document">Vybrat dokument</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Vybrat knihu</string>
   <string name="choosePassageChapterName">Vybrat kapitolu</string>
   <string name="choosePassageVerseName">Vybrat verš</string>
   <string name="bible">Bible</string>
   <string name="deuterocanonical">Deuterokanonické</string>
-  <!--Search-->
+  
   <string name="search_index">Vyhledávací index</string>
   <string name="index_creation_required">K hledání je nutný index.</string>
   <string name="create_index_for">K hledání je nutný index. \n\nVytvořit index pro %s?</string>
@@ -41,13 +41,13 @@
   <string name="do_in_background">Pokračovat na pozadí</string>
   <string name="rebuild_index_button">Znovu vytvořit</string>
   <string name="creating_index_for">Vytváří se index pro %s…</string>
-  <!--X results in module Y-->
+  
   <string name="search_with_results2">Výsledkem %1s je %2s</string>
-  <!--Tasks-->
+  
   <string name="progress_status">Průběh</string>
   <string name="task_kill_warning">Tyto dlouho běžící úlohy mohou být zrušeny pokud před jejich dokončením přepnete na jinou aplikaci.</string>
   <string name="no_tasks_running">Nejsou spuštěny žádné úlohy.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Hledat verše</string>
   <string name="search_all_words">Všechna slova</string>
   <string name="search_any_word">Jakékoli slovo</string>
@@ -62,11 +62,11 @@
   <string name="search_current_book">Současná kniha</string>
   <string name="error_executing_search">Neplatný dotaz</string>
   <string name="type_text_or_bible_reference">Zadej text nebo biblický odkaz</string>
-  <!--Open (bible reference X)-->
+  
   <string name="go_to_ref">Otevřít %s</string>
-  <!--Finx "(keywords x)", keywords based on text selection-->
+  
   <string name="search_what">Hledat \"%s\"</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_title">Kapitoly a čísla veršů</string>
   <string name="prefs_show_verseno_summary">Zobrazit kapitoly a čísla veršů</string>
   <string name="prefs_e_ink_mode_title">Černobílý mód </string>
@@ -186,7 +186,7 @@
   <string name="prefs_enable_bluetooth_summary">Použít tlačítka Bluetooth pro start/stop předčítání.</string>
   <string name="create_bookmark">Vytvořit novou záložku</string>
   <string name="create_bookmark_with_a_note">Vytvořit novou záložku s poznámkou</string>
-  <!--Colors preferences-->
+  
   <string name="prefs_text_colors_menutitle">Nastavení barev</string>
   <string name="window_color_settings_title">Nastavení barev okna</string>
   <string name="workspace_color_settings_title">Výchozí hodnoty nastavení barev pracovní plochy</string>
@@ -202,7 +202,7 @@
   <string name="cpv_custom">Vlastní</string>
   <string name="cpv_select">Vybrat</string>
   <string name="cpv_transparency">Průhlednost</string>
-  <!--Window-->
+  
   <string name="new_window">Nové okno</string>
   <string name="windowClose">Zavřít</string>
   <string name="windowMaximise">Maximalizovat</string>
@@ -215,17 +215,17 @@
   <string name="copy_settings_to_window">Okno %1$d (%2$s: %3$s)</string>
   <string name="change_to_normal">Přepnout na normální okno</string>
   <string name="window_pin_mode">Připnout</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Kapitola neobsahuje poznámky</string>
   <string name="no_verse_notes">Verš neobsahuje poznámky</string>
   <string name="previous">Předchozí</string>
   <string name="next">Další</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Prosím stáhněte Strongův hebrejský a řecký slovník</string>
   <string name="no_indexed_bible_with_strongs_ref">Je potřeba stáhnout Bibli, obsahující Strongova čísla a také vytvořit k této Bibli index přes Hledat</string>
   <string name="morph_robinson_not_installed">Stáhněte prosím slovník \'Robinson\'s Morphological Analysis Codes\'</string>
   <string name="go_to_downloads">Přejít na stažené položky</string>
-  <!--Module download-->
+  
   <string name="download">Stáhnout dokumenty</string>
   <string name="redownload">Znovu stáhnout dokumenty</string>
   <string name="download_confirmation">Stáhnout Bibli z Internetu?</string>
@@ -255,7 +255,7 @@ Veškeré zdroje jsou dostupné přes šifrovaný kanál (HTTPS).</string>
   <string name="failed_repositories_message">Nelze se spojit s následujícím serverem: \n\n%s\n\n</string>
   <string name="failed_downloads_message">Následující soubory nemohly být staženy:\n\n%s\n\n</string>
   <string name="cant_delete_document">Tento dokument nemůže být odstraněn.</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Načíst dokumenty ze souborů</string>
   <string name="install_zip_module">Instalace modulu Bible</string>
   <string name="install_zip_module_discrete">Instalovat modul Kalkulačka</string>
@@ -268,7 +268,7 @@ Veškeré zdroje jsou dostupné přes šifrovaný kanál (HTTPS).</string>
   <string name="overwrite_files_title">Přepsat soubory?</string>
   <string name="could_not_overwrite_files">Nelze přesat soubory: %s. Kromě toho byla instalace úspěšná.</string>
   <string name="install_do_you_want">Chcete instalovat modul (%s)?</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">Plán čtení</string>
   <string name="reading_plans_plural">Plány čtení</string>
   <string name="rdg_plan_selector_title">Vybrat plán čtení</string>
@@ -330,28 +330,28 @@ Veškeré zdroje jsou dostupné přes šifrovaný kanál (HTTPS).</string>
         Přečtení celé Bible za 2 roky. NZ a žalmy se přečtou dvakrát.
         Se svolením Wholesome Words,  http://www.wholesomewords.org/, povolení uděleno
     </string>
-  <!--Document context menu-->
+  
   <string name="delete">Smazat</string>
   <string name="delete_index">Smazat vyhledávací index</string>
   <string name="about">O dokumentu</string>
   <string name="delete_doc">Smazat %s?</string>
   <string name="delete_search_index_doc">Smazat index k %s?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Poznámky a odkazy</string>
   <string name="share_verse">Sdílet…</string>
   <string name="share_verse_widget_title">Sdílet výběr</string>
   <string name="share_verse_subject_2">Byl vám nasdílen biblický verš pomocí %s.</string>
   <string name="compare_translations">Porovnat překlady</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Otevřít odkaz zde</string>
   <string name="open_link_in_new_window">Otevřít v novém okně</string>
   <string name="open_link_in_special_window">Otevřít ve speciálním okně</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks_and_mynotes_title">Záložky a poznámky</string>
   <string name="migrated_my_notes">Poznámky přesunuty</string>
   <string name="bookmarks">Záložky</string>
   <string name="bookmark_added">Záložka přidána</string>
-  <!--Bookmark / note labels-->
+  
   <string name="labels">Štítky</string>
   <string name="manage_labels">Spravovat záložky</string>
   <string name="assign_labels">Přiřadit popisky</string>
@@ -374,7 +374,7 @@ Veškeré zdroje jsou dostupné přes šifrovaný kanál (HTTPS).</string>
   <string name="auto_assign_labels1">Automaticky přidávat k novým záložkám</string>
   <string name="auto_assign_labels_primary">Automaticky značit jako primární</string>
   <string name="label_color">Barva štítku</string>
-  <!--can be removed-->
+  
   <string name="label_color_example">Příklad</string>
   <string name="marker_style">Zobrazit pouze značku záložky výběru</string>
   <string name="marker_style_whole_verse">Zobrazit pouze značku záložky pro celý verš</string>
@@ -387,31 +387,31 @@ Veškeré zdroje jsou dostupné přes šifrovaný kanál (HTTPS).</string>
     </string>
   <string name="bookmark_warning3">Opravdu chcete aktualizovat modul?</string>
   <string name="bookmark_warning4">Je doporučeno zálohovat tento modul před jeho aktualizací.</string>
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
   <string name="sort_by_date">Řadit dle data</string>
   <string name="sort_by_bible_book">Biblické pořadí</string>
   <string name="sort_by_alphabetical">Abecední pořadí</string>
-  <!--notes = user notes ("My Notes") that are attached to bookmark-->
+  
   <string name="filter_by_notes">Hledat v poznámkách</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Slovník</string>
   <string name="search_dictionary_hint">Hledat ve slovníku</string>
-  <!--General Book-->
+  
   <string name="general_book">Kniha</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">Kapitola %d</string>
   <string name="some_chapters">%d kapitol</string>
   <string name="rest_of_book">Ke konci knihy</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">Verš %d</string>
   <string name="some_verses">%d veršů</string>
   <string name="rest_of_chapter">Ke konci kapitoly</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">Strana %d</string>
   <string name="some_pages">%d stran</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Zastavit</string>
   <string name="pause">Pauza</string>
   <string name="rewind">Přetočit</string>
@@ -419,7 +419,7 @@ Veškeré zdroje jsou dostupné přes šifrovaný kanál (HTTPS).</string>
   <string name="tts_lang_not_available">Jazyk není dostupný.</string>
   <string name="speak_queue">Fronta</string>
   <string name="speak_repeat">Opakovat</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Rychlost předčítání</string>
   <string name="speak_and_play_earcons_title">Přečíst a přehrát upozorňující zvuky pro</string>
   <string name="playback_settings_title">Nastavení předčítání</string>
@@ -456,28 +456,28 @@ Veškeré zdroje jsou dostupné přes šifrovaný kanál (HTTPS).</string>
   <string name="speak_autobookmarking_disabled">Automatická tvorba záložek vypnuta!</string>
   <string name="system_speak_settings">Otevřít systémové nastavení TTS</string>
   <string name="auto_assing_labels_help1">Zde můžete nastavit, které štítky se automaticky přiřadí k vytvářeným záložkám.</string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
+  
   <string name="setting_scope">Nastavení se vztahuje na %s.</string>
   <string name="setting_scope_window">toto okno</string>
   <string name="setting_scope_workspace">tuto pracovní plochu</string>
   <string name="assing_labels_help1">Záložka může mít více štítků.</string>
-  <!--param is bookmark icon-->
+  
   <string name="assing_labels_help2">Pomocí %s nastavíte barvu štítku.</string>
-  <!--param is auto-assign label icon-->
+  
   <string name="assing_labels_help3">Pomocí %s nastavíte automatické přidávání štítku novým záložkám.</string>
-  <!--param is heart icon-->
+  
   <string name="assing_labels_help4">Pomocí %s přidáte štítek mezi oblíbené.</string>
-  <!--param is refresh icon-->
+  
   <string name="assing_labels_help5">Pomocí %s setřídíte seznam.</string>
   <string name="workspace_text_options_help_title">Nastavení textu pracovní plochy</string>
   <string name="workspace_text_options_help1">Tato nastavení určují výchozí hodnoty všech oken pracovní plochy.</string>
   <string name="workspace_text_options_help2">Můžete je upravit v nastavení konkrétního okna.</string>
   <string name="window_text_options_help_title">Nastavení textu okna</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help1">Ikona %s značí, že se nastavení přebírá z pracovní plochy.</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help2">Ikona %s značí, že nastavení pro toto okno bylo změněno.</string>
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
+  
   <string name="text_options_reset_help">Pomocí tlačítka %1$s vrátíte nastavení zpět na %2$s.</string>
   <string name="reset_defaults">výchozí hodnoty</string>
   <string name="reset_workspace_defaults">výchozí hodnoty pracovní plochy</string>
@@ -499,30 +499,21 @@ u kterého zastavíte předčítání příště. Posunou se jen štítky před�
         ale Římanům pomaleji se zvukovým upozorněním při změně kapitoly, pak
         můžete mít pro tyto knihy jiné nastavení předčítání,        pokud je uložíte v odpovídajících záložkách.
     </string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>Pán</item>
     <item>Bůh</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Jahve</item>
     <item>Jahve</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_book_changed">Kniha změněna.</string>
   <string name="speak_chapter_changed">Kapitola</string>
@@ -535,9 +526,9 @@ u kterého zastavíte předčítání příště. Posunou se jen štítky před�
 Režim opakování pasáže se automaticky vypnul, protože
 bylo spuštěno předčítání mimo stanovený rozsah veršů.
 </string>
-  <!--User Notes-->
+  
   <string name="mynotes">Poznámky</string>
-  <!--Backup and restore-->
+  
   <string name="backup_backup_title">Umístění zálohy</string>
   <string name="backup_backup_message">Zálohovat do telefonu nebo pomocí sdílení (e-mail, Google Drive apod.)?</string>
   <string name="backup_phone_storage">Úložiště telefonu</string>
@@ -553,12 +544,12 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="backup_document_info">Bible, komentáře, slovníky, mapy atd.</string>
   <string name="backup_to">Zálohovat do...</string>
   <string name="backup_restore_from">Obnovit z...</string>
-  <!--Restore = overwrite existing. Import = merge into existing-->
+  
   <string name="backup_restore_from2">Obnova nebo import z...</string>
   <string name="backup_restore">Obnovit</string>
   <string name="backup_restore2">Obnova nebo import</string>
   <string name="overwrite_something">Přepsat %s?</string>
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
+  
   <string name="restore_what">Které položky chcete obnovit?</string>
   <string name="restore_app_database">Obnovit databázi aplikace z…</string>
   <string name="restore_database">Obnovit databázový soubor</string>
@@ -581,15 +572,15 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="install_zip_canceled">Instalace modulu zrušena</string>
   <string name="restore">Obnovit</string>
   <string name="import2">Import</string>
-  <!--First argument is the name of first label, second and third are the counts of labels & bookmarks, respectively-->
-  <!--About-->
+  
+  
   <string name="module_about_copyright">Autorská práva: %s</string>
   <string name="module_about_installed_version">nstalovaná verze: %1$s (%2$s)</string>
   <string name="module_about_latest_version">Poslední verze: %1$s (%2$s)</string>
   <string name="module_about_versification">Veršování: %s</string>
   <string name="module_about_repository">Zdrojový server: %s</string>
   <string name="module_about_osisId">Zkratka OSIS: %s</string>
-  <!--Bug reporting-->
+  
   <string name="send_bug_report_title1">Nahlášení chyby</string>
   <string name="send_feedback_title">Zpětná vazba</string>
   <string name="send_bug_report_title">Zpětná vazba / hlášení chyb</string>
@@ -609,7 +600,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="bug_report_screenshot">Screenshot aplikace při chybě nebo v momentě vytvoření hlášení chyby.</string>
   <string name="bug_report_attachment_line_1">Připojíte-li k hlášení následující soubory, velmi tím usnadníte vývojářům práci s opravou chyby.</string>
   <string name="report_bug_heading_4">Informace o zařízení:</string>
-  <!--Document types-->
+  
   <string name="doc_type_all">Všechny typy</string>
   <string name="doc_type_bible">Bible</string>
   <string name="doc_type_commentary">Komentář</string>
@@ -617,9 +608,9 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="doc_type_book">Kniha</string>
   <string name="doc_type_map">Mapa</string>
   <string name="doc_type_addons">Doplňky</string>
-  <!--Languages-->
+  
   <string name="lang_default">Výchozí</string>
-  <!--General-->
+  
   <string name="okay">OK</string>
   <string name="cancel">Zrušit</string>
   <string name="yes">Ano</string>
@@ -632,7 +623,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="reset_generic">Resetovat</string>
   <string name="watch_tutorial_video">Instruktážní video (Angličtina)</string>
   <string name="verse_not_found">Verš nebyl nalezen</string>
-  <!--Errors-->
+  
   <string name="report_error">Zaslat hlášení</string>
   <string name="error_occurred">Vznikla chyba</string>
   <string name="error_occurred_crash_last_time">Při posledním použití aplikace havarovala. Opravu případné chyby aplikace nám usnadní, pokud nám zašlete chybové hlášení.</string>
@@ -645,10 +636,10 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="error_skip">Přeskočit</string>
   <string name="bug_report_email_title">Nahlášení chyby emailem</string>
   <string name="bug_report_email_text">Dále prosím vyberte preferovanou mailovou aplikaci (například Gmail) pro poslání hlášení chyby vývojovému týmu.</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">Převod textu na řeč</string>
   <string name="notification_channel_progress_status">Upozornění o průběhu stavu stahování dokumentu atd.</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">Nová</string>
   <string name="switch_to_workspace">Pracovní plochy</string>
   <string name="delete_workspace">Odstranit</string>
@@ -668,7 +659,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="reset_settings">Resetovat</string>
   <string name="workspace_dismiss">Odejít</string>
   <string name="workspace_listing_with_current">%s (aktuální)</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">Toto je beta verze!</string>
   <string name="beta_flag">BETA</string>
   <string name="beta_notice_content_1">
@@ -689,9 +680,9 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="stable_notice_title">Aplikace byla upgradována!</string>
   <string name="upgrade_video_message">Podívejte se na video o novinkách této verze (%s).</string>
   <string name="stable_notice_par1">Nová verze %1$s %2$s úspěšně nainstalována!</string>
-  <!--History-->
+  
   <string name="history_for">Historie (%1$s: Okno %2$d)</string>
-  <!--Help-->
+  
   <string name="help_nav_title">Navigace</string>
   <string name="help_nav_text">Na další či předchozí kapitolu se přesunete tažením prstu přes obrazovku.
         Dvojklikem na text Bible se zobrazení přepne na celou obrazovku.
@@ -718,7 +709,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
        Kromě záložek je možné do studijní složky zapisovat vlastní text.
 </string>
   <string name="help_search_title">Hledat</string>
-  <!--TODO: to be removed-->
+  
   <string name="help_search_text">Vyhledávaný text může obsahovat zvláštní znaky jako *, ?, AND, OR, NOT
         (pro více informací viz \"Apache Lucene - Query Parser Syntax\")
 </string>
@@ -751,16 +742,16 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
        mít při četbě Bible stále otevřené biblické texty a rychle přepínat mezi komentáři a
        dalšími materiály.
 </string>
-  <!--Welcome text-->
+  
   <string name="redownload_documents">Rychle stáhnout</string>
   <string name="welcome_message">Děkujeme, že jste si stáhli náš produkt %s. Aktuálně nemáte nainstalovanou žádnou Bibli či jiný dokument. Pokračujte instalací alespoň jednoho dokumentu z Internetu nebo instalací zálohy ZIP souboru.
     </string>
-  <!--Supported file formats for documents-->
+  
   <string name="supported_formats_title">Podporované formáty</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="choose_file">Je nutné vybrat soubor, který se má nahrát do %s. </string>
   <string name="supported_formats">Podporované formáty pro načtení dokumentu ze souboru: %s</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="format_zip">Zip soubor obsahující Sword modul(y) nebo záložní soubor dokumentů (*.abmd) vytvořen %s</string>
   <string name="format_mysword">MySword dokumenty (*.mybible)</string>
   <string name="format_mybible">MyBible dokumenty (*.SQLite3)</string>
@@ -770,7 +761,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="redownload_message">
        Nalezen seznam předchozích knih/dokumentů. Pro snadné znovustažení klikněte níže.
 </string>
-  <!--Uncategorized-->
+  
   <string name="close">Zavřít</string>
   <string name="something_with_parenthesis">%1$s (%2$s)</string>
   <string name="first_time_help_do_not_show_again">Rozumím</string>
@@ -828,7 +819,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="show_reference_at_front">Zobrazit před veršem</string>
   <string name="abbreviate_reference">Zkrácený název</string>
   <string name="version_name">Název verze</string>
-  <!--meaning, bible version name-->
+  
   <string name="show_version_name">Zahrnout verzi</string>
   <string name="show_ellipsis">Zobrazit zkrácení (…)</string>
   <string name="show_quotes">Zobrazit uvozovky</string>
@@ -837,7 +828,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="upgrading_database">Upgraduji databázi. Vyčkejte…</string>
   <string name="initializing_app">Příprava spuštění…</string>
   <string name="show_notes">Zobrazit poznámky</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
+  
   <string name="old_webview">Používáte starou verzi balíčku Android WebView (%1$s). Musíte aktualizovat Android WebView minimálně na verzi %2$s, kterou vyžaduje %3$s. Na většině zařízení je to možné provést pomocí %4$s.</string>
   <string name="play">Google Play</string>
   <string name="proceed_anyway">Přesto pokračovat</string>
@@ -849,15 +840,15 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="rate_message6">
         Pokud chcete dát negativní hodnocení, prosíme zvažte následující:
     </string>
-  <!--parameters are actions (file a bug, send email)-->
+  
   <string name="rate_message1">
         Pokud máte s aplikací určitý problém, prosím, namísto toho %1$s nebo %2$s.
     </string>
-  <!--param is "please report maintainers"-->
+  
   <string name="rate_message2">
         Jestliže je problém v textu nebo překladu, %s.
     </string>
-  <!--param is "please read what you can do"-->
+  
   <string name="rate_message3">
         Pokud není v aplikaci dostupný určitý text, %s.
 </string>
@@ -931,22 +922,22 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="import_from_db">Importovat databázový soubor</string>
   <string name="import_error">Import databázového souboru se nezdařil. Soubor může mít špatný formát nebo je vytvořen velmi starou verzí %s.</string>
   <string name="export_bookmarks_csv">Exportovat záložky jako %s</string>
-  <!--OSIS reference is the Bible reference in OSIS standard format, e.g. "Gen.1.1-Gen.1.3"-->
+  
   <string name="osis_reference">OSIS Reference</string>
-  <!--Bible reference is the Bible reference in human readable format, e.g. "Genesis 1:1-3"-->
+  
   <string name="bible_reference"> Biblický odkaz</string>
   <string name="document">Dokument</string>
   <string name="book">Kniha</string>
-  <!--Chapter is the chapter number in the book, starting from 1-->
+  
   <string name="chapter_start">Začátek kapitoly</string>
-  <!--Verse is the verse number in the chapter, starting from 1-->
+  
   <string name="verse_start">Začátek verše</string>
   <string name="chapter_end">Konec kapitoly</string>
   <string name="verse_end">Konec verše</string>
   <string name="id">Identifikátor</string>
-  <!--Ordinals are running index of Bible verses in a bible document, starting from 0.-->
+  
   <string name="created_at">Vytvořeno</string>
-  <!--Offsets are used to indicate from which character a bookmark starts.-->
+  
   <string name="bookmark_notes">Poznámky k záložce</string>
   <string name="chooser_range">Rozsah</string>
   <string name="chooser_jump">Přejít</string>
@@ -956,9 +947,9 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="chooser_style_lists">Seznam</string>
   <string name="chooser_select">Vybrat %s</string>
   <string name="chooser_pref_reset">Nepřecházet na 1. kapitolu/verš při výběru knihy/kapitoly</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
+  
   <string name="incomplete_translation">Omlouváme se, uživatelské rozhraní je pouze částečně přeloženo v jazyce %1$s. Je tomu tak, protože %2$sje vytvářena dobrovolníky. S překladem aplikace můžete pomoci, vizte %3$s.</string>
-  <!--will be added to incomplete_translation as a link-->
+  
   <string name="instructions_for_translators">instrukce pro překladatele</string>
   <string name="questions_title">Otázky?</string>
   <string name="questions_title2">Potřebujete pomoci?</string>
@@ -973,7 +964,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="labels_search_hint">Hledat</string>
   <string name="search_mode_content">Obsah</string>
   <string name="progress_status_permission">Pro zobrazení upozornění (stav stahování, zpracování, stav předčítání), potřebujeme schválení oprávnění. </string>
-  <!--Discrete mode settings-->
+  
   <string name="app_name_calculator">Jednoduchá kalkulačka</string>
   <string name="prefs_persecution_cat">Nastavení pro pronásledované</string>
   <string name="prefs_discrete_mode">Skrýt náboženské symboly</string>
@@ -982,11 +973,11 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="prefs_calculator_pin">PIN pro kalkulátor</string>
   <string name="prefs_calculator_pin_desc">PIN kód pro vstup do aplikace z režimu Kalkulačka.</string>
   <string name="calc_division_by_zero">Dělení nulou není možné</string>
-  <!--Context: calculator. Wrong number format etc.-->
+  
   <string name="calc_wrong_format">Chybný formát</string>
   <string name="calc_wrong_format_operand">Chybný formát. Operátor bez čísel?</string>
   <string name="prefs_persecuted_help">Nejdříve čtěte následující!</string>
-  <!--Gives sintructions about the settings (for discrete mode) and also information about another app version that is available to be downloaded, that is better suited for persecuted.-->
+  
   <string name="prefs_persecuted_summary">Instrukce pro nastavení a používání diskrétní verze aplikace.</string>
   <string name="calculator_par1">
         Před vstupem do samotné aplikace se zobrazí kalkulačka.
@@ -1009,13 +1000,13 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="discrete_mode_link">
         Poslední verzi diskrétní varianty aplikace můžete stáhnout z  %s.
     </string>
-  <!--Window synchronize groups-->
+  
   <string name="sync_group_submenu">Synchronizovat skupiny</string>
   <string name="sync_group_n">Skupina %d</string>
   <string name="disable_sync">Zakázat synchronizaci</string>
   <string name="open_in_window">Otevřít výsledky v okně</string>
-  <!--Custom repositories-->
-  <!--Custom document repositories that can store any AndBible-compatible documents. User can easily install documents from such repositories by adding repository url here.-->
+  
+  
   <string name="custom_repositories">Vlastní repozitáře</string>
   <string name="custom_repositories_empty_list_message">Žádné vlastní repozitáře nejsou definovány</string>
   <string name="custom_repositories_create_button_label">Přidat vlastní repozitář</string>
@@ -1031,12 +1022,12 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="duplicate_custom_repository">Repozitář %s již existuje a není možné jej znovu přidat.</string>
   <string name="packages_dir">Adresář balíků (Zip soubory)</string>
   <string name="warn_bad_document">Upozornění: Tento dokument může být ve špatné technické kvalitě (i jen částečně).</string>
-  <!--Open links in AndBible (Deep linking)-->
+  
   <string name="open_bible_links_title">Open Bible odkazy v AndBible</string>
   <string name="open_bible_links_summary">Při kliknutí na odkaz/link, který je podporován aplikací, otevři jej v AndBible</string>
   <string name="copyReference">Zkopírovat odkaz do schránky</string>
   <string name="reference_copied_to_clipboard">Odkaz zkopírován do schránky</string>
-  <!--Device cloud synchronization-->
+  
   <string name="prefs_sync_introduction_summary1">
         Zvolte, jakou internetovou službu chcete pro synchronizaci více zařízení použít.
     </string>
@@ -1081,7 +1072,7 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="sync_disabling">Prozatím vypínám synchronizaci pro %s .</string>
   <string name="sync_update_app">K pokračování synchronizace si prosím aktualizujte aplikaci.</string>
   <string name="sign_in_failed">Přihlášení k synchronizační službě selhalo.</string>
-  <!--... after restoring from backup file-->
+  
   <string name="disabling_sync">Vypínám synchronizaci se síťovým uložištěm. Je potřeba ji po obnově znovu zapnout manuálně.</string>
   <string name="report">Hlášení</string>
   <string name="sync_error">Nastala chyba při synchronizaci</string>
@@ -1089,12 +1080,12 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="restore_from_cloud_description">Jesliže máte zapnutou synchronizaci v jiném zařízení, můžete začít obnovou databáze ze sítě.</string>
   <string name="enable_sync">Povolit synchronizaci</string>
   <string name="last_updated">Aktualizováno: %s</string>
-  <!--MyBible/MySword module support-->
+  
   <string name="sqlite_cant_read">Soubor nelze číst</string>
   <string name="sqlite_invalid_file">Neplatný modul nebo jméno souboru: %s</string>
   <string name="sqlite_cant_write">Soubor nelze zapsat (přepsat)</string>
   <string name="install_failed_reason">Instalace modulu selhala; důvod: %s.</string>
-  <!--Other / uncategorized-->
+  
   <string name="app_opened_elsewhere">Aplikace spuštěna jinde</string>
   <string name="open_here">Otevřít zde</string>
   <string name="external_link">Externí odkaz</string>
@@ -1135,4 +1126,4 @@ bylo spuštěno předčítání mimo stanovený rozsah veršů.
   <string name="select_custom_icon">Vybrat vlastní ikonu pro záložku</string>
   <string name="memorize_description">Zapamatujte si biblické verše</string>
   <string name="memorize_abbreviation">Zapamatovat</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

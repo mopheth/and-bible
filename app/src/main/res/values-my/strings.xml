@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="app_name_short">ကျမ်းစာလေ့လာခြင်း</string>
   <string name="app_name_long">AndBible: သမ္မာကျမ်းစာ</string>
   <string name="version_text">ဗားရှင်း %s</string>
   <string name="no_sdcard_error">ကျေးဇူးပြုပြီး အက်စ်ဒီကဒ်ကို ထည့်ပါ၊ ထို့နောက် အက်ပ်ကို ပိတ်ပြီးပြန်ဖွင့်ပါ။</string>
-  <!--Main menu-->
+  
   <string name="menu">မီနူး</string>
   <string name="chooseBook">မှတ်တမ်း</string>
   <string name="selectPassage">ကျမ်းပိုဒ်</string>
@@ -20,13 +20,13 @@
   <string name="administration">အုပ်ချုပ်မှု</string>
   <string name="rate_application">&amp; အားအဆင့်သတ်မှတ်ပါ၊ သုံးသပ်ပါ</string>
   <string name="chooce_document">မှတ်တမ်းရွေးချယ်ပါ</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">စာအုပ်ရွေးချယ်ပါ</string>
   <string name="choosePassageChapterName">အခန်းကြီးရွေးချယ်ပါ</string>
   <string name="choosePassageVerseName">အခန်းငယ်ရွေးချယ်ပါ</string>
   <string name="bible">သမ္မာကျမ်းစာ</string>
   <string name="deuterocanonical">တရားဟောရာကျမ်းဆိုင်ရာ စည်းမျဉ်း</string>
-  <!--Search-->
+  
   <string name="search_index">အညွှန်း ရွေးချယ်ပါ</string>
   <string name="index_creation_required">ရှာဖွေရန် အညွှန်းတစ်ခု လိုအပ်သည်</string>
   <string name="create_index_for">ရှာဖွေရန် အညွှန်းတစ်ခု လိုအပ်ပါသည်။ \n\nCreate %sအတွက် အညွှန်း ဖန်တီးလိုပါသလား။</string>
@@ -37,12 +37,12 @@
   <string name="search_in">%s တွင် ရှာဖွေပါ</string>
   <string name="do_in_background">နောက်ခံတွင် ဆက်အသုံးပြုပါ</string>
   <string name="rebuild_index_button">ပြန်လည်တည်ဆောက်ပါ</string>
-  <!--X results in module Y-->
-  <!--Tasks-->
+  
+  
   <string name="progress_status">လုပ်ငန်းစဉ် </string>
   <string name="task_kill_warning">လည်ပတ်နေသောလုပ်ငန်းများသည် မပြီးဆုံးသေးခင် အခြားအက်ပ်များ ပြောင်းလဲအသုံးပြုပါက ရပ်တန့်သွားနိုင်သည်။ </string>
   <string name="no_tasks_running">မည်သည့်လုပ်ငန်းမှ ယခုလက်ရှိအသုံးပြုခြင်းမရှိပါ။ </string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">အခန်းငယ်များကို ရှာဖွေပါ</string>
   <string name="search_all_words">စကားလုံးများ အားလုံး</string>
   <string name="search_any_word">မည်သည့်စကားလုံး မဆို</string>
@@ -55,9 +55,9 @@
   <string name="search_old_testament">ဓမ္မဟောင်းကျမ်း</string>
   <string name="search_current_book">လက်ရှိစာအုပ်</string>
   <string name="error_executing_search">စုံစမ်းရှာဖွေမှု မမှန်ကန်ပါ</string>
-  <!--Open (bible reference X)-->
-  <!--Finx "(keywords x)", keywords based on text selection-->
-  <!--Preferences-->
+  
+  
+  
   <string name="prefs_show_verseno_title">အခန်းကြီး &amp; အခန်းငယ်နံပါတ်များ</string>
   <string name="prefs_show_verseno_summary">အခန်းကြီး &amp;အားပြပါ; အခန်းငယ်နံပါတ်များ</string>
   <string name="prefs_e_ink_mode_title">အနက်ရောင် &amp; အဖြူရောင် အသွင်</string>
@@ -170,7 +170,7 @@
   <string name="pref_font_family_label_name">ဖောင့်စာလုံး မိသားစု (%s)</string>
   <string name="prefs_font_family_summary">မိသားစု ဖောင့်စာလုံးကို ပြောင်းပါ။ အကြံပေးချက်: Download Documents / Add-ons မှတစ်ဆင့် အခြားဖောင့်များကို ထည့်သွင်းနိုင်ပါသည်။ </string>
   <string name="prefs_text_bookmarks_title">စာညှပ် &amp; ကိုယ်ပိုင်မှတ်စု ဆက်တင်များ</string>
-  <!--Colors preferences-->
+  
   <string name="prefs_text_colors_menutitle">အရောင်ဆက်တင်များ</string>
   <string name="window_color_settings_title">ဝင်းဒိုး အရောင် ဆက်တင်များ</string>
   <string name="workspace_color_settings_title">အလုပ်ခွင် အရောင်ဆက်တင်များကို မူလနေရာထားရှိခြင်း</string>
@@ -185,7 +185,7 @@
   <string name="cpv_custom">မိမိအကြိုက်ပြောင်းလဲခြင်း</string>
   <string name="cpv_select">ရွေးချယ်ပါ</string>
   <string name="cpv_transparency">ဖောက်ထွင်းမြင်တွေ့ရခြင်း</string>
-  <!--Window-->
+  
   <string name="new_window">ဝင်းဒိုးအသစ်</string>
   <string name="windowClose">ပိတ်ပါ</string>
   <string name="windowMaximise">အကြီးချဲ့ပါ</string>
@@ -196,16 +196,16 @@
   <string name="copy_settings_to_workspace">အလုပ်ခွင်</string>
   <string name="change_to_normal">ပုံမှန် ဝင်းဒိုးသို့ ပြောင်းပါ</string>
   <string name="window_pin_mode">တွဲပါ</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">ဤအခန်းကြီးတွင် မှတ်စုများမရှိပါ</string>
   <string name="no_verse_notes">ဤအခန်းငယ်တွင် မှတ်စုများမရှိပါ</string>
   <string name="previous">ယခင်</string>
   <string name="next"> နောက်တစ်ခု</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Strong ဟီဘရူးနှင့် ဂရိ အဘိဓာန်များကို ကျေးဇူးပြု၍ ဒေါင်းလုပ်ဆွဲပါ</string>
   <string name="morph_robinson_not_installed">\'Robinson\'s Morphological Analysis Codes\' အဘိဓာန်ကို ကျေးဇူးပြု၍ ဒေါင်းလုပ်ဆွဲပါ</string>
   <string name="go_to_downloads">ဒေါင်းလုပ်များဆီသို့ သွားပါ</string>
-  <!--Module download-->
+  
   <string name="download">မှတ်တမ်းများကို ဒေါင်းလုပ်ဆွဲပါ</string>
   <string name="redownload">မှတ်တမ်းများကို ထပ်ခါဒေါင်းလုပ်ဆွဲပါ</string>
   <string name="download_confirmation">သမ္မာကျမ်းစာကို အင်တာနက်မှ ဒေါင်းလုပ်ဆွဲလိုပါသလား။</string>
@@ -233,7 +233,7 @@
   <string name="download_errors">ဒေါင်းလုပ် မှားယွင်းချက်များ</string>
   <string name="failed_repositories_message">အောက်ပါမှတ်တမ်းဆာဗာနှင့် ဆက်သွယ်၍မရပါ: \n\n%s\n\n</string>
   <string name="failed_downloads_message">အောက်ပါဖိုင်များကို ဒေါင်းလုပ်ဆွဲ၍မရပါ: \n\n%s\n\n</string>
-  <!--Install zip file-->
+  
   <string name="install_zip_module">Bible Module ကို ထည့်သွင်းအသုံးပြုပါ</string>
   <string name="install_zip_successfull">Module အား အောင်မြင်စွာ ထည့်သွင်းပြီးပါပြီ</string>
   <string name="extracting_zip_file">Zip ဖိုင်ကို ယခုထုတ်ယူပါ...</string>
@@ -241,7 +241,7 @@
   <string name="invalid_module">ဖိုင်တွင် တရားဝင် SWORD module မပါဝင်ပါ</string>
   <string name="overwrite_files">အောက်ပါဖိုင်များသည် ရှိပြီးသားဖြစ်သည်: %s ထပ်ရေးချင်ပါသလား။</string>
   <string name="overwrite_files_title">ဖိုင်များကို ထပ်ရေးချင်ပါသလား။ </string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">စာဖတ်ခြင်း အစီအစဉ်</string>
   <string name="reading_plans_plural">စာဖတ်ခြင်း အစီအစဉ်များ</string>
   <string name="rdg_plan_selector_title">စာဖတ်ခြင်း အစီအစဉ်တစ်ခုကို ရွေးချယ်ပါ</string>
@@ -295,28 +295,28 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
         ကျမ်းစာထဲမှ 2 နှစ်ဖတ်ပြီး၊  ဓမ္မသစ်နှင့် ဆာလံအား နှစ်ကြိမ်ဖတ်ရန်
          Wholesome Words ၏လောကဝတ်,  http://www.wholesomewords.org/, permission granted
     </string>
-  <!--Document context menu-->
+  
   <string name="delete">ဖျက်ပါ</string>
   <string name="delete_index">အညွှန်း ရှာဖွေမှုကို ဖျက်ပါ</string>
   <string name="about">အကြောင်း</string>
   <string name="delete_doc">ဖျက်ချင်ပါသလား %s။</string>
   <string name="delete_search_index_doc">အညွှန်းကို ဖျက်ချင်ပါသလား %s။</string>
-  <!--Verse context menu-->
+  
   <string name="notes">အောက်ခြေမှတ်တမ်းနှင့် ကိုးကားချက်များ</string>
   <string name="share_verse">ဝေမျှပါ...</string>
   <string name="share_verse_widget_title">ရွေးချယ်မှုကို ဝေမျှပါ</string>
   <string name="share_verse_subject_2">%s ကိုအသုံးပြုပြီး သင့်အား ကျမ်းစာတစ်ပိုဒ် ဝေမျှထားပါသည်။</string>
   <string name="compare_translations">ဘာသာပြန်များကို နှိုင်းယှဉ်ပါ</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">လင့်ကိုဤနေရာတွင် ဖွင့်ပါ</string>
   <string name="open_link_in_new_window">လင့်ကို ဝင်းဒိုးအသစ်တွင် ဖွင့်ပါ</string>
   <string name="open_link_in_special_window">လင့်ကို အထူးဝင်းဒိုးတွင် ဖွင့်ပါ</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks_and_mynotes_title">စာညှပ် &amp; ကိုယ်ပိုင်မှတ်စုများ</string>
   <string name="migrated_my_notes">ကိုယ်ပိုင် မှတ်စုများရွှေ့ပြောင်းပြီး</string>
   <string name="bookmarks">စာညှပ်များ</string>
   <string name="bookmark_added">စာညှပ်များ ပေါင်းထည့်ပြီး</string>
-  <!--Bookmark / note labels-->
+  
   <string name="labels">လေဘယ်လ်များ</string>
   <string name="manage_labels">လေဘယ်လ်များကို စီမံခန့်ခွဲပါ</string>
   <string name="assign_labels">လေဘယ်လ်များကို တာဝန်ပေးအပ်ပါ</string>
@@ -338,32 +338,32 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="auto_assign_labels1">စာညှပ်အသစ်များကို အလိုအလျောက် လေဘယ်လ်တပ်ရန် တာဝန်ပေးပါ</string>
   <string name="auto_assign_labels_primary">အလိုအလျောက်စနစ်အား ဦးစားပေးထားခြင်း</string>
   <string name="label_color">လေဘယ်လ် အရောင်</string>
-  <!--can be removed-->
+  
   <string name="label_color_example">ဥပမာ</string>
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
   <string name="sort_by_date">နေ့ရက် အစီအစဉ်</string>
   <string name="sort_by_bible_book">သမ္မာကျမ်းစာဆိုင်ရာ အစီအစဉ်</string>
   <string name="sort_by_alphabetical">အက္ခရာစဉ်</string>
-  <!--notes = user notes ("My Notes") that are attached to bookmark-->
-  <!--Dictionary-->
+  
+  
   <string name="dictionary">အဘိဓာန်များ</string>
   <string name="search_dictionary_hint">အဘိဓာန်တွင် ရှာပါ</string>
-  <!--General Book-->
+  
   <string name="general_book">စာအုပ်</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d အခန်းကြီး</string>
   <string name="some_chapters">%d အခန်းကြီးများ</string>
   <string name="rest_of_book">စာအုပ်၏ အဆုံး</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d အခန်းငယ်</string>
   <string name="some_verses">%d အခန်းငယ်များ</string>
   <string name="rest_of_chapter">အခန်းကြီး၏ အဆုံး</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d စာမျက်နှာ</string>
   <string name="some_pages">%d စာမျက်နှာများ</string>
-  <!--Speak - Common-->
+  
   <string name="stop">ရပ်ပါ</string>
   <string name="pause">ခေတ္တရပ်တန့်ရန်</string>
   <string name="rewind">နောက်ပြန်လှည့်ပါ</string>
@@ -371,7 +371,7 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="tts_lang_not_available">ဤဘာသာစကား မရနိုင်သေးပါ</string>
   <string name="speak_queue">တန်းစီပါ</string>
   <string name="speak_repeat">ထပ်လုပ်ပါ</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">စကားပြော အမြန်နှုန်း</string>
   <string name="speak_and_play_earcons_title">...အတွက် အတိုကောက်အသံကို ပြောပါ၊ ဖွင့်ပါ</string>
   <string name="playback_settings_title">Playback ဆက်တင်များ</string>
@@ -408,28 +408,28 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="speak_autobookmarking_disabled">အလိုအလျောက် စာညှပ်ခြင်းကို ပိတ်လိုက်ပါပြီ</string>
   <string name="system_speak_settings">Open system TTS ဆက်တင်များ</string>
   <string name="auto_assing_labels_help1">သင်ဖန်တီးထားသည့် စာညှပ်များတွင် အလိုအလျာက်အလုပ်လုပ်သည့် လေဘယ်လ်များကို ဤနေရာတွင် ပြုပြင်နိုင်သည်။ </string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
+  
   <string name="setting_scope">ဤဆက်တင်သည် %s သို့လည်း အကျုံးဝင်သည် </string>
   <string name="setting_scope_window">ဤဝင်းဒိုး</string>
   <string name="setting_scope_workspace">ဤအလုပ်ခွင်</string>
   <string name="assing_labels_help1">စာညှပ်တစ်ခုစီကို လေဘယ်လ်များစွာ တပ်စေနိုင်ပါသည်။</string>
-  <!--param is bookmark icon-->
+  
   <string name="assing_labels_help2">အသုံးပြုပါ %sမည်သည့် လေဘယ်လ်အရောင် ပေါ်သည်ကို အတိအကျပြောရန် </string>
-  <!--param is auto-assign label icon-->
+  
   <string name="assing_labels_help3">နှိပ်ပါ %s  ထိုလေဘယ်လ်မှ စာညှပ်အသစ်များအား အလိုအလျောက် လေဘယ်လ်တပ်စေရန် တင်္ကေတကိုနှိပ်ပါ။</string>
-  <!--param is heart icon-->
+  
   <string name="assing_labels_help4">နှိပ်ပါ %s လျင်မြန်စွာ ဝင်ရောက်ခွင့်အတွက် သင်၏အနှစ်သက်ဆုံးစာရင်းကို လေဘယ်လ်ထည့်ရန်။</string>
-  <!--param is refresh icon-->
+  
   <string name="assing_labels_help5">သင်၏ရွေးချယ်မှုများအတိုင်း စာရင်းကို ပြန်စီရန် %sကိုနှိပ်ပါ။ </string>
   <string name="workspace_text_options_help_title">အလုပ်ခွင် စာသား ရွေးချယ်စရာများ</string>
   <string name="workspace_text_options_help1">အလုပ်ခွင်တွင်ရှိသည့် ဝင်းဒိုးအားလုံး မူလနေရာသို့ပြန်လည်ထားရှိခြင်းကို ဤဆက်တင်များက ထိန်းချုပ်သည်။ </string>
   <string name="workspace_text_options_help2">သီးခြားဝင်းဒိုး ဆက်တင်များကို ပြောင်းလဲခြင်းဖြင့် ဤအရာများကို ပြန်လည်ပယ်ဖျက်နိုင်သည်။ </string>
   <string name="window_text_options_help_title">ဝင်းဒိုး စာသား ရွေးချယ်စရာများ</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help1">ဆက်တင်များသည် အလုပ်ခွင်ရှိဆက်တင်များမှ လာသည်ဟု %s တင်္ကေတမှ ဖော်ပြသည်။</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help2">ဤဆက်တင်သည် သီးသန့်ဝင်းဒိုးတစ်ခုအတွက် ပြောင်းလဲထားပြီဟု %s တင်္ကေတမှ ဖော်ပြသည်။</string>
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
+  
   <string name="reset_defaults">ပုံသေ တန်ဖိုးများ</string>
   <string name="reset_workspace_defaults">အလုပ်ခွင် ပုံသေ တန်ဖိုးများ</string>
   <string name="speak_bookmark_help">စာညှပ်အကူအညီကို အသံဖြင့်ပြောပါ</string>
@@ -439,30 +439,21 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
 ဤ setting ကိုရွေးချယ်သည့်အခါ စာညှပ်များ စကားသံထွက်ရန် Special playback settings (စကားပြော မျက်နှာပြင် ပေါ်ရှိ \"Playback Settings\")ကို သိမ်းဆည်းထားပါသည်။ စကားပြော စာညှပ်တစ်ခုမှ စကားပြောခြင်းကို ပြန်စတင်လိုက်သည့်အခါ သိမ်းဆည်းထားသည့် playback settings သည် စာညှပ်မှ တစ်ဆင့် ရွေးဖွင့်ပါသည်။ </string>
   <string name="speak_help_playback_settings_example">
 ဥပမာအနေဖြင့် သင်သည် ကမ္ဘာဦးကျမ်းမှ ရောမဩဝါဒစာအထိ နားထောင်မည်ဆိုစို့။ ကမ္ဘာဦးကျမ်းကို အခန်းကြီးအပြောင်းအလဲ အသိပေးစာများမပါပဲ  အသံမြန်မြန်ဖြင့်ဖွင့်ပြီး၊ ရောမဩဝါဒစာကိုမူ အခန်းကြီးအပြောင်းအလဲကို အသံဖြင့်အသိပေးပြီး ပိုနှေးစွာဖွင့်လိုပါက ၎င်းစာအုပ်များအတွက် သီးခြား playback setting များကိုချိန်ပြီး ၎င်း setting များကို သက်ဆိုင်ရာစာညှပ်များတွင် သိမ်းထားခြင်းဖြင့် ပြုလုပ်နိုင်သည်။ </string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>သခင်</item>
     <item>ဘုရားသခင်</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Yahweh</item>
     <item>Yahweh</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_book_changed">စာအုပ်ပြောင်းလဲပြီး</string>
   <string name="speak_chapter_changed">အခန်းကြီး</string>
@@ -475,15 +466,15 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
         ကျမ်းပိုဒ် ထပ်ကျာ့ခြင်း အသွင်အပြင်အား​ ပိတ်ထားပါသည်။
         အကြောင်းမှာ အခန်းငယ်အတွက် သတ်မှတ်ထားသည့်နှုန်းအား ကျော်လွန်၍အသံကိုဖွင့်ထားသောကြောင့်ဖြစ်သည်။
     </string>
-  <!--User Notes-->
+  
   <string name="mynotes">ကိုယ်ပိုင်မှတ်စုများ</string>
-  <!--Backup and restore-->
+  
   <string name="backup_backup_title">ဘယ်နေရာတွင် အရန်ဖိုင်လုပ်မည်နည်း။ </string>
   <string name="backup_backup_message">ဖုန်း သို့မဟုတ် အခြားနေရာများဖြစ်တဲ့ ဝေမျှ လုပ်ဆောင်ချက် (email, Google Drive etc.)တို့တွင် အရန်ဖိုင် လုပ်လိုပါသလား။ </string>
   <string name="backup_phone_storage">ဖုန်းသိုလှောင်ပမာဏ</string>
   <string name="backup_and_restore">&amp; အားအရန်ဖိုင် ပြုလုပ်ပါ; ပြန်ယူပါ</string>
-  <!--Restore = overwrite existing. Import = merge into existing-->
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
+  
+  
   <string name="restore_what">မည်သည့်အရာကို ပြန်ယူလိုပါသနည်း။ </string>
   <string name="restore_app_database">အက်ပ် ဒေတာဘေ့စ်အား ...မှ ပြန်ယူပါ</string>
   <string name="restore_database">ဒေတာဘေ့စ်ဖိုင်ကို ပြန်ယူပါ</string>
@@ -500,13 +491,13 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="send_backup_file">အရန်ဖိုင်တစ်ခုကို ပို့ပါ</string>
   <string name="backup_modules_title">အရန်ဖိုင်လုပ်မည့် သင်ခန်းစာများကို ရွေးချယ်ပါ</string>
   <string name="install_zip_canceled">သင်ခန်းစာ ထည့်သွင်းခြင်းအား ပယ်ဖျက်လိုက်ပါပြီ</string>
-  <!--First argument is the name of first label, second and third are the counts of labels & bookmarks, respectively-->
-  <!--About-->
+  
+  
   <string name="module_about_copyright">မူပိုင်ခွင့်: %s</string>
   <string name="module_about_versification">ဗားရှင်းဖွဲ့နွဲ့နည်း: %s</string>
   <string name="module_about_repository">ဖြန့်ဖြူးခြင်း ဆာဗာ: %s</string>
   <string name="module_about_osisId">OSIS ID: %s</string>
-  <!--Bug reporting-->
+  
   <string name="send_bug_report_title1">စက်ချို့ယွင်းမှု သတင်းပို့ခြင်း</string>
   <string name="send_feedback_title">တုံ့ပြန်ချက်</string>
   <string name="send_bug_report_title">တုံ့ပြန်ချက် / စက်ချို့ယွင်းမှု သတင်းပို့ခြင်း</string>
@@ -525,7 +516,7 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="bug_report_screenshot">စက်ချို့ယွင်းမှုဖြစ်ပေါ်ချိန် သို့မဟုတ် စက်ချို့ယွင်းမှု သတင်းပို့ထားသည့် အက်ပ်၏ screenshot </string>
   <string name="bug_report_attachment_line_1">ဤဖိုင်များကိုတွဲပေးခြင်းဖြင့် သတင်းပို့ထားသည့်ချို့ယွင်းမှုများ ပြပြင်ရာတွင် ဖန်တီးသူများအား အထောက်အကူ ဖြစ်စေပါသည်။</string>
   <string name="report_bug_heading_4">ကိရိယာ သတင်းအချက်အလက်</string>
-  <!--Document types-->
+  
   <string name="doc_type_all">အမျိုးအစားအားလုံး</string>
   <string name="doc_type_bible">သမ္မာကျမ်းစာ</string>
   <string name="doc_type_commentary">အနက်ဖွင့်ကျမ်း</string>
@@ -533,9 +524,9 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="doc_type_book">စာအုပ်</string>
   <string name="doc_type_map">မြေပုံ</string>
   <string name="doc_type_addons">Add-ons</string>
-  <!--Languages-->
+  
   <string name="lang_default">ပုံသေ</string>
-  <!--General-->
+  
   <string name="okay">အိုကေ</string>
   <string name="cancel">ပယ်ဖျက်ပါ</string>
   <string name="yes">ဟုတ်တယ်</string>
@@ -548,7 +539,7 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="reset_generic">ပြန်လည်သတ်မှတ်ပါ</string>
   <string name="watch_tutorial_video">လမ်းညွှန် ဗီဒီယိုကိုကြည့်ပါ (အင်္ဂလိပ်)</string>
   <string name="verse_not_found">အခန်းငယ် ရှာမတွေ့ပါ</string>
-  <!--Errors-->
+  
   <string name="report_error">သတင်းပို့ပါ</string>
   <string name="error_occurred">မှားယွင်းမှုတစ်ခု ဖြစ်ပေါ်သည်</string>
   <string name="error_occurred_crash_last_time">ဤအက်ပ်ကို နောက်ဆုံး သင်သုံးခဲ့စဉ်တွင် ပျက်သွားပါသည်။ ချို့ယွင်းမှုကိုပြုပြင်ရန် ချို့ယွင်းမှုသတင်းပို့ပေးနိုင်ပါက ကျွန်တော်တို့ကျေးဇူးတင်ရှိပါမည်။ </string>
@@ -559,10 +550,10 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="error_key_not_in_document2">%s မှတ်တမ်းတွင် ရှာမတွေ့ပါ %s.</string>
   <string name="empty_list">ဖော်ပြရန် မည်သည့်အကြောင်းအရာမှမရှိပါ</string>
   <string name="error_skip">ကျော်သွားပါ</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">အသံဖြင့်ပြောရန် စာသား</string>
   <string name="notification_channel_progress_status">မှတ်တမ်း ဒေါင်းလုပ်ဆွဲခြင်းများ.. အစရှိသည်များ အတွက် လုပ်ငန်းစဉ် အခြေအနေပြ သတိပေးချက်</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">အသစ် </string>
   <string name="switch_to_workspace">အလုပ်ခွင်များ</string>
   <string name="delete_workspace">ဖယ်ရှားပါ</string>
@@ -582,7 +573,7 @@ Internal plan နှင့် အမည်တူသည့် sdcard Jsword/readi
   <string name="reset_settings">ပြန်လည်သတ်မှတ်ပါ</string>
   <string name="workspace_dismiss">ပယ်ချပါ</string>
   <string name="workspace_listing_with_current">%s (လက်ရှိ)</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">beta ဗားရှင်းဖြစ်သည်။ </string>
   <string name="beta_notice_content_1">
 Beta ဗားရှင်းတွင် စနစ်တကျမစမ်းသပ် ရသေးသည့် အသွင်အပြင်သစ်များစွာရှိသည့်အတွက် beta အသုံးပြုရာတွင် ချွတ်ယွင်းချက် ကဲ့သို့သော မထင်မှတ်ထားသည့် အပြုအမူများတွေ့ကြုံ ရနိုင်သည်။ ထို့ကြောင့် သာမန်ကျမ်းစာ အသုံးပြုသူများသည် တည်ငြိမ်သည့် ဗားရှင်းကိုသာ အသုံးပြုရန် အကြုံပြုလိုပါသည်။ </string>
@@ -598,8 +589,8 @@ Beta ဗားရှင်းတွင် စနစ်တကျမစမ်း�
   <string name="beta_notice_dismiss_until_update">နောက် အပ်ပ်ဒိတ် မတိုင်မီအထိ ပယ်ချပါ</string>
   <string name="stable_notice_title">အက်ပ်ပလီကေးရှင်းကို အဆင့်မြှင့်တင်ပြီးပါပြီ။</string>
   <string name="upgrade_video_message">ဤအသစ်ထုတ်ထားသည့် (%s)၏ အသွင်အပြင်အသစ်များကို တင်ထားသည့် ဗီဒီကိုအသစ်ကို ကျေးဇူးပြုပြီး ကြည့်ပါ။ </string>
-  <!--History-->
-  <!--Help-->
+  
+  
   <string name="help_nav_title">ညွှန်ကြားပြသခြင်း</string>
   <string name="help_nav_text">မျက်နှာပြင်ကို သင်၏လက်မနှင့် ပွတ်ဆွဲခြင်းဖြင့် ရှေ့နှင့်နောက် အခန်းကြီးသို့ သွားပါ။ မျက်နှာပြင် အပြည့်အသွင်ကို ပြောင်းရန် ကျမ်းစာစာသားအား နှစ်ချက်နှိပ်ပါ။ မျက်နှာပြင်ခွဲခြင်းများ (ဝင်းဒိုးများဟု လည်းခေါ်)တွင် ညာဖက် အပေါ်ထောင့်၌ မီနူးခလုတ် ရှိပြီး ၎င်းသည် ဝင်းဒိုးသီးသန့် လုပ်ဆာင်ချက် အများအပြားကို အသုံးပြုခွင့်အပါအဝင် ဝင်းဒိုးသွင်ပြင်နှင့် အပြုအမူများအား စိတ်ကြိုက် ဖန်တီးခွင့်ကို ပေးသည်။  </string>
   <string name="help_contextmenus_title">အကြောင်းအရာ မီနူးများ</string>
@@ -611,7 +602,7 @@ open context menu သို့မဟုတ် action mode ကိုကြာက�
   <string name="help_studypads_text">
 လေ့လာရေးစာရွက်များသည် တရားဟောချက် မှတ်စုများကို အလွယ်တကူ ရေးနိုင်ရန်၊ တရားဟော ချက် ပြင်ဆင်နိုင်ရန် သို့မဟုတ် ကျမ်းစာအညွှန်း များစွာပါဝင်သည့် ကိုယ်ပိုင်ကျမ်းစာလေ့လာချက် မှတ်စုများကို ရေးချနိုင်ရန် ဖန်တီးထားခြင်း ဖြစ်သည်။ လေ့လာရေးစာရွက်တစ်ရွက်စီကို စာညှပ်လေ ဘယ်လ်တစ်ခုနှင့် ဆက်စပ်ထားပါသည်။ ထိုသက်ဆိုင်ရာလေဘယ်လ်များဖြင့် ဖန်တီးပြီးသော စာညှပ်များအားလုံးသည် လေ့လာရေး စာရွက်မှတ်တမ်းတွင် ပေါ်လာမည်ဖြစ်သည်။ လေ့လာရေးစာရွက်တစ်ရွက်တွင် စာညှပ်များအပြင် စိတ်ကြိုက်ဖန်တီးနိုင်သည့် စာသားထည့်သွင်းခြင်း များလည်း ပါဝင်နိုင်သည်။  </string>
   <string name="help_search_title">ရှာဖွေပါ</string>
-  <!--TODO: to be removed-->
+  
   <string name="help_search_text">စာသားရှာဖွေရာတွင် အထူးတင်္ကေတများဖြစ်သည့် *, ?, AND, OR, NOT တို့ပါဝင်နိုင်သည်
         (အသေးစိတ်ကို \"Apache Lucene - Query Parser Syntax\" တွင် ကြည့်ပါ)
     </string>
@@ -624,16 +615,16 @@ open context menu သို့မဟုတ် action mode ကိုကြာက�
   <string name="help_window_pinning_title">ဝင်းဒိုးတွင် တွဲထားခြင်း</string>
   <string name="help_window_pinning_text">
 ဝင်းဒိုးတွဲထားခြင်းကို ရွေးချယ်စရာမီနူး (ညာဖက်အပေါ်ထောင့်ရှိ အစက်သုံးစက်)မှ ခွင့်ပြုပေးနိုင်သည်။ ဝင်းဒိုးတွဲထားခြင်းကို ခွင့်ပြုပေးသည့်အခါ ကျမ်းစာမြင်ကွင်းတွင် တွဲထားသည့်ဝင်းဒိုးများစွာပြထားနိုင်သော်လည်း တွဲမထားသည့်ဝင်းဒိုးတစ်ခုသာ ပြနိုင်သည်။ တွဲထားသည့်ဝင်းဒိုးများသည် အရင်ပေါ်နေမည် ဖြစ်ပြီး၊ နောက်မှ တွဲမထားသည့်ဝင်းဒိုး ပေါ်လာပါမည်။ သင့်အနေဖြင့် ကျမ်းစာမှတ်တမ်း များအား တွဲထားသည့်ဝင်းဒိုးအဖြစ်ထားပြီး အနက်ဖွင့်ကျမ်းများနှင့်မြေပုံ စသည်တို့ကို တွဲမထားသည့်ဝင်းဒိုးအနေဖြင့် ဖွင့်နိုင်ပါသည်။ ထိုသို့ပြုလုပ်ပါက ကျမ်းစာလေ့လာသည့်အခါ ကျမ်းစာမှတ်တမ်းများကို အမြဲလွယ်ကူစွာဖွင့်နိုင်ပြီး အနက်ဖွင့်ကျမ်းနှင့် အခြားထပ်ထည့်လိုသည့် စာအုပ်များကို အမြန်ဖွင့်နိုင်မည်ဖြစ်သည်။ </string>
-  <!--Welcome text-->
+  
   <string name="redownload_documents">အမြန် ပြန်လည်ဒေါင်းလုပ်ဆွဲပါ</string>
   <string name="welcome_message">%s ဒေါင်းလုပ်ဆွဲသည့်အတွက် ကျေးဇူးတင်ပါသည်။ လက်ရှိတွင် သမ္မာကျမ်းစာနှင့် မှတ်စုများ ထည့်သွင်းထားခြင်း မရှိပါ။ ဆက်လက် လုပ်ဆောင်ရန် အနည်းဆုံး မှတ်စု 1 ခုကို အင်တာနက်မှ ဒေါင်းလုပ်ဆွဲခြင်း သို့မဟုတ် အရန် zip ဖိုင်မှတ်စုတစ်ခုကို ဖွင့်ခြင်းဖြင့် ထည့်သွင်းပေးပါ။ </string>
-  <!--Supported file formats for documents-->
-  <!--argument is app_name_andbible (AndBible).-->
-  <!--argument is app_name_andbible (AndBible).-->
+  
+  
+  
   <string name="redownload_message">
         ယခင်က စာအုပ်များ /မှတ်စုများစာရင်းကို တွေ့ရှိထားပါသည်။ သူတို့ကို အလွယ်တကူ ထပ်ဒေါင်းလုပ်ဆွဲရန် အောက်တွင် နှိပ်ပါ။
     </string>
-  <!--Uncategorized-->
+  
   <string name="close">ပိတ်ပါ</string>
   <string name="first_time_help_do_not_show_again">နားလည်ပါသည်</string>
   <string name="first_time_help_show_next_time">နောက်တစ်ကြိမ်တွင် ထပ်ဖော်ပြပါ</string>
@@ -681,25 +672,25 @@ open context menu သို့မဟုတ် action mode ကိုကြာက�
   <string name="verse_share_advertise">%sကို အသုံးပြုပြီး ဝေမျှပြီးပါပြီ</string>
   <string name="abbreviate_reference">ကိုးကားချက် အတိုကောက်</string>
   <string name="version_name">ဗားရှင်း အမည်</string>
-  <!--meaning, bible version name-->
+  
   <string name="backup_button">အရန်ဖိုင်</string>
   <string name="back_button">နောက်သို့</string>
   <string name="upgrading_database">ဒေတာဘေ့စ်ကို အဆင့်မြှင့်တင်ခြင်း။ ကျေးဇူးပြု၍ စောင့်ပါ...</string>
   <string name="initializing_app">အက်ပလီကေးရှင်းကို စတင်ခြင်း... </string>
   <string name="show_notes">မှတ်စုများကို ပြပါ</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
+  
   <string name="play">Google Play</string>
   <string name="proceed_anyway">မည်သို့ပင်ဆိုစေ ဆက်သွားပါ</string>
   <string name="rate_title">အက်ပ်အား နှုန်းသတ်မှတ်ခြင်းနှင့်သုံးသပ်ခြင်း</string>
   <string name="rate_message6">
         အနုတ်သဘောမသုံးသပ်ခင် ကျေးဇူးပြုပြီး အောက်ပါအချက်ကိုထည့်သွင်းစဉ်းစားစေလိုပါသည်။
     </string>
-  <!--parameters are actions (file a bug, send email)-->
-  <!--param is "please report maintainers"-->
+  
+  
   <string name="rate_message2">
         အချို့စာသား / ကျမ်းစာဘာသာပြန်တွင် မှားယွင်းချက် ရှိလျှင်%s.
     </string>
-  <!--param is "please read what you can do"-->
+  
   <string name="rate_message3">
         အက်ပ်တွင် အချို့စာသားများ မရှိလျှင်%s.
     </string>
@@ -761,14 +752,14 @@ open context menu သို့မဟုတ် action mode ကိုကြာက�
   <string name="import_items">%sသွင်းပါ</string>
   <string name="import_from_db">အက်ပ် ​ဒေတာဘေ့စ်ဖိုင်မှ သွင်းပါ</string>
   <string name="import_error">အက်ပ်ဒေတာဘေ့စ်မှ ထည့်သွင်းခြင်း မအောင်မြင်ပါ။ ဒေတာဘေ့စ်ဖိုင်သည် ဖွဲ့စည်းမှုပုံစံ မှားယွင်းခြင်း သို့မဟုတ် အလွန်ဟောင်းသည့်ဗားရှင်း %s ဖြင့်လုပ်ထားခြင်းကြောင့် ဖြစ်နိုင်သည်။ </string>
-  <!--OSIS reference is the Bible reference in OSIS standard format, e.g. "Gen.1.1-Gen.1.3"-->
-  <!--Bible reference is the Bible reference in human readable format, e.g. "Genesis 1:1-3"-->
+  
+  
   <string name="document">မှတ်တမ်း</string>
   <string name="book">စာအုပ်</string>
-  <!--Chapter is the chapter number in the book, starting from 1-->
-  <!--Verse is the verse number in the chapter, starting from 1-->
-  <!--Ordinals are running index of Bible verses in a bible document, starting from 0.-->
-  <!--Offsets are used to indicate from which character a bookmark starts.-->
+  
+  
+  
+  
   <string name="chooser_range">အတိုင်းအတာ</string>
   <string name="chooser_jump">ခုန်ပါ</string>
   <string name="chooser_OT_abbrev">ဓမ္မဟောင်းကျမ်း</string>
@@ -777,8 +768,8 @@ open context menu သို့မဟုတ် action mode ကိုကြာက�
   <string name="chooser_style_lists">စာရင်းများ</string>
   <string name="chooser_select"> %sကို ရွေးပါ</string>
   <string name="chooser_pref_reset">စာအုပ်/အခန်းကြီးကို ရွေးချယ်ထားသည့်အခါ အခန်းကြီး/အခန်းငယ်ကို 1 သို့ ပြန်လည်မသတ်မှတ်ပါနှင့်</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
-  <!--will be added to incomplete_translation as a link-->
+  
+  
   <string name="instructions_for_translators">ဘာသာပြန်သူများအတွက် လမ်းညွှန်ချက်များ</string>
   <string name="questions_title">မေးခွန်းမေးလိုပါသလား။</string>
   <string name="questions_title2">အကူအညီ လိုပါသလား။</string>
@@ -787,18 +778,18 @@ open context menu သို့မဟုတ် action mode ကိုကြာက�
   <string name="strongs_links">လင့်ခ်များ</string>
   <string name="verse_tip">အခန်းငယ် များစွာ သို့မဟုတ် တစ်စိတ်တစ်ပိုင်းကို မှတ်သားလိုလျှင် ကျမ်းစာစာသားအား ကြာကြာဖိထားရပါမည်</string>
   <string name="labels_search_hint">ရှာဖွေပါ</string>
-  <!--Discrete mode settings-->
-  <!--Context: calculator. Wrong number format etc.-->
-  <!--Gives sintructions about the settings (for discrete mode) and also information about another app version that is available to be downloaded, that is better suited for persecuted.-->
-  <!--Window synchronize groups-->
-  <!--Custom repositories-->
-  <!--Custom document repositories that can store any AndBible-compatible documents. User can easily install documents from such repositories by adding repository url here.-->
+  
+  
+  
+  
+  
+  
   <string name="custom_repositories_info_button_label">သတင်းအချက်အလက်</string>
-  <!--Open links in AndBible (Deep linking)-->
-  <!--Device cloud synchronization-->
-  <!--... after restoring from backup file-->
+  
+  
+  
   <string name="last_updated">နောက်ဆုံး အဆင်မြှင့်တင်ပြီး: %s</string>
-  <!--MyBible/MySword module support-->
-  <!--Other / uncategorized-->
+  
+  
   <string name="prefs_swipe_mode_chapter">အခန်းကြီး</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>

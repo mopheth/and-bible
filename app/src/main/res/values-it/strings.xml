@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
   <string name="app_name_andbible">AndBible</string>
   <string name="app_name_short">Studi Biblici</string>
@@ -7,7 +7,7 @@
   <string name="project">AndBible progetto open source</string>
   <string name="version_text">Versione %s</string>
   <string name="no_sdcard_error">Inserisci una scheda SD e riavvia l\'applicazione.</string>
-  <!--Main menu-->
+  
   <string name="menu">Menu</string>
   <string name="chooseBook">Documento</string>
   <string name="selectPassage">Passaggio</string>
@@ -23,13 +23,13 @@
   <string name="administration">Amministrazione </string>
   <string name="rate_application">Vota e recensisci</string>
   <string name="chooce_document">Scegli un documento</string>
-  <!--Passage navigation-->
+  
   <string name="choosePassageBookName">Scegli un libro</string>
   <string name="choosePassageChapterName">Scegli un capitolo</string>
   <string name="choosePassageVerseName">Scegli un versetto</string>
   <string name="bible">Bibbia</string>
   <string name="deuterocanonical">Deuterocanonici</string>
-  <!--Search-->
+  
   <string name="search_index">Indice di Ricerca</string>
   <string name="index_creation_required">È richiesto un indice per la ricerca.</string>
   <string name="create_index_for">È richiesto un indice per la ricerca. \n\nCreare indice per %s?</string>
@@ -41,13 +41,13 @@
   <string name="do_in_background">Continua in sottofondo</string>
   <string name="rebuild_index_button">Ricostruisci</string>
   <string name="creating_index_for">Creazione indice per %s…</string>
-  <!--X results in module Y-->
+  
   <string name="search_with_results2">%1s risultati in %2s</string>
-  <!--Tasks-->
+  
   <string name="progress_status">Progresso</string>
   <string name="task_kill_warning">Queste operazioni lunghe potrebbero interrompersi se passi ad un\'altra applicazione prima della fine.</string>
   <string name="no_tasks_running">Non ci sono operazioni in corso al momento.</string>
-  <!--Search-->
+  
   <string name="search_words_group_prompt">Trova versetti</string>
   <string name="search_all_words">Tutte le parole</string>
   <string name="search_any_word">Ogni parola</string>
@@ -62,11 +62,11 @@
   <string name="search_current_book">Libro attuale</string>
   <string name="error_executing_search">Ricerca non valida</string>
   <string name="type_text_or_bible_reference">Inserisci il testo o il riferimento biblico</string>
-  <!--Open (bible reference X)-->
+  
   <string name="go_to_ref">Apri %s</string>
-  <!--Finx "(keywords x)", keywords based on text selection-->
+  
   <string name="search_what">Trova \"%s\"</string>
-  <!--Preferences-->
+  
   <string name="prefs_show_verseno_title">Numeri di capitolo e versetto</string>
   <string name="prefs_show_verseno_summary">Mostra numeri di capitolo e versetto</string>
   <string name="prefs_e_ink_mode_title">Modalità bianco e nero</string>
@@ -187,7 +187,7 @@
   <string name="prefs_enable_bluetooth_summary">Gestisce i tasti multimediali Bluetooth per avviare/fermare la dizione.</string>
   <string name="create_bookmark">Crea un nuovo segnalibro</string>
   <string name="create_bookmark_with_a_note">Crea un nuovo segnalibro con una nota</string>
-  <!--Colors preferences-->
+  
   <string name="prefs_text_colors_menutitle">Impostazioni colore</string>
   <string name="window_color_settings_title">Impostazioni del colore della finestra</string>
   <string name="workspace_color_settings_title">Impostazioni predefinite del colore dello spazio di lavoro</string>
@@ -203,7 +203,7 @@
   <string name="cpv_custom">Personalizzato</string>
   <string name="cpv_select">Seleziona</string>
   <string name="cpv_transparency">Trasparenza</string>
-  <!--Window-->
+  
   <string name="new_window">Nuova finestra</string>
   <string name="windowClose">Chiudi</string>
   <string name="windowMaximise">Massimizza</string>
@@ -216,17 +216,17 @@
   <string name="copy_settings_to_window">Finestra %1$d (%2$s: %3$s)</string>
   <string name="change_to_normal">Passa alla finestra normale</string>
   <string name="window_pin_mode">Fissa</string>
-  <!--Notes screen-->
+  
   <string name="no_chapter_notes">Non esistono appunti su questo capitolo</string>
   <string name="no_verse_notes">Non esistono appunti su questo versetto</string>
   <string name="previous">Precedente</string>
   <string name="next">Successivo</string>
-  <!--Strongs-->
+  
   <string name="strongs_not_installed">Scarica il dizionario ebraico e greco di Strong </string>
   <string name="no_indexed_bible_with_strongs_ref">Devi scaricare una Bibbia che contenga i numeri Strong e generarne l\'indice in Ricerca</string>
   <string name="morph_robinson_not_installed">Scarica il dizionario dei codici di analisi morfologica di Robinson</string>
   <string name="go_to_downloads">Vai ai Download</string>
-  <!--Module download-->
+  
   <string name="download">Scarica documenti</string>
   <string name="redownload">Riscarica documenti</string>
   <string name="download_confirmation">Scaricare una Bibbia da Internet?</string>
@@ -253,7 +253,7 @@
   <string name="failed_repositories_message">Impossibile collegarsi al seguente server: \n\n%s\n\n</string>
   <string name="failed_downloads_message">Non è stato possibile scaricare i seguenti file:\n\n%s\n\n</string>
   <string name="cant_delete_document">Questo documento non può essere cancellato.</string>
-  <!--Install zip file-->
+  
   <string name="install_zip">Carica Documenti Dai File</string>
   <string name="install_zip_module">Installa il modulo biblico</string>
   <string name="install_zip_module_discrete">Installa Modulo Calcolatrice</string>
@@ -266,7 +266,7 @@
   <string name="overwrite_files_title">Sovrascrivi file?</string>
   <string name="could_not_overwrite_files">Impossibile sovrascrivere i file: %s. A parte questo, l\'installazione è andata a buon fine.</string>
   <string name="install_do_you_want">Vuoi installare il modulo (%s)?</string>
-  <!--Daily Reading Plan-->
+  
   <string name="rdg_plan_title">Piano di lettura</string>
   <string name="reading_plans_plural">Piani di lettura</string>
   <string name="rdg_plan_selector_title">Scegli un piano di lettura</string>
@@ -312,28 +312,28 @@ Questo piano si basa sul sistema di lettura M’Cheyne, con quattro diverse lett
   <string name="plan_name_y2ot1ntps2">2 anni tramite Bibbia, NT + PS due volte</string>
   <string name="plan_description_y2ot1ntps2">
 Leggi la Bibbia in 2 anni, leggendo due volte NT e Salmi. Per gentile concessione di Wholesome Words, http://www.wholesomewords.org/, autorizzazione concessa</string>
-  <!--Document context menu-->
+  
   <string name="delete">Cancella</string>
   <string name="delete_index">Cancella l\'indice di ricerca</string>
   <string name="about">Informazioni</string>
   <string name="delete_doc">Cancella %s?</string>
   <string name="delete_search_index_doc">Cancellare l\'indice di %s?</string>
-  <!--Verse context menu-->
+  
   <string name="notes">Note e referenze</string>
   <string name="share_verse">Condividere…</string>
   <string name="share_verse_widget_title">Condividi selezione</string>
   <string name="share_verse_subject_2">Un versetto della Bibbia è stato condiviso con te usando %s.</string>
   <string name="compare_translations">Confronta le traduzioni</string>
-  <!--Link context menu-->
+  
   <string name="open_link_in_this_window">Apri il link qui</string>
   <string name="open_link_in_new_window">Apri il link in una nuova finestra</string>
   <string name="open_link_in_special_window">Apri il link in una finestra speciale</string>
-  <!--Bookmarks-->
+  
   <string name="bookmarks_and_mynotes_title">Segnalibri e Annotazioni</string>
   <string name="migrated_my_notes">Migrazione di Annotazioni</string>
   <string name="bookmarks">Segnalibri</string>
   <string name="bookmark_added">Segnalibro aggiunto</string>
-  <!--Bookmark / note labels-->
+  
   <string name="labels">Etichette</string>
   <string name="manage_labels">Gestisci etichette</string>
   <string name="assign_labels">Assegna le etichette</string>
@@ -356,7 +356,7 @@ Leggi la Bibbia in 2 anni, leggendo due volte NT e Salmi. Per gentile concession
   <string name="auto_assign_labels1">Auto-assegna a nuovi segnalibri</string>
   <string name="auto_assign_labels_primary">Auto-assegna come principale</string>
   <string name="label_color">Colore dell\'etichetta</string>
-  <!--can be removed-->
+  
   <string name="label_color_example">Esempio</string>
   <string name="marker_style">Evidenzia solo i segnalibri di selezione</string>
   <string name="marker_style_whole_verse">Evidenzia solo i segnalibri di versi interi</string>
@@ -369,31 +369,31 @@ Leggi la Bibbia in 2 anni, leggendo due volte NT e Salmi. Per gentile concession
     </string>
   <string name="bookmark_warning3">Vuoi ancora aggiornare il modulo?</string>
   <string name="bookmark_warning4">Si consiglia di eseguire il backup del modulo prima dell\'aggiornamento.</string>
-  <!--Sort orders used for Bookmarks and MyNotes-->
+  
   <string name="sort_by_date">Ordine per data</string>
   <string name="sort_by_bible_book">Ordine biblico</string>
   <string name="sort_by_alphabetical">Ordine alfabetico</string>
-  <!--notes = user notes ("My Notes") that are attached to bookmark-->
+  
   <string name="filter_by_notes">Cerca note</string>
-  <!--Dictionary-->
+  
   <string name="dictionary">Dizionario</string>
   <string name="search_dictionary_hint">Cerca nel dizionario</string>
-  <!--General Book-->
+  
   <string name="general_book">Libro</string>
-  <!--Speak-->
-  <!--plurals tags referencing the below have been moved to untranslated_strings.xml-->
-  <!--Speak - Bible-->
+  
+  
+  
   <string name="one_chapter">%d Capitolo</string>
   <string name="some_chapters">%d capitoli</string>
   <string name="rest_of_book">Alla fine del libro</string>
-  <!--Speak - Commentary-->
+  
   <string name="one_verse">%d versetto</string>
   <string name="some_verses">%d versetti</string>
   <string name="rest_of_chapter">Alla fine del capitolo</string>
-  <!--Speak - Dictionary and other-->
+  
   <string name="one_page">%d pagina</string>
   <string name="some_pages">%d pagine</string>
-  <!--Speak - Common-->
+  
   <string name="stop">Fermati</string>
   <string name="pause">Pausa</string>
   <string name="rewind">Riavvolgere</string>
@@ -401,7 +401,7 @@ Leggi la Bibbia in 2 anni, leggendo due volte NT e Salmi. Per gentile concession
   <string name="tts_lang_not_available">La lingua non è disponibile.</string>
   <string name="speak_queue">Coda</string>
   <string name="speak_repeat">Ripeti</string>
-  <!--Speak - Bible-->
+  
   <string name="speak_speed_title">Velocità del testo parlato</string>
   <string name="speak_and_play_earcons_title">Parla e riproduci effetti acustici per</string>
   <string name="playback_settings_title">Impostazioni di riproduzione</string>
@@ -438,28 +438,28 @@ Leggi la Bibbia in 2 anni, leggendo due volte NT e Salmi. Per gentile concession
   <string name="speak_autobookmarking_disabled">Segnalibri automatici disabilitato!</string>
   <string name="system_speak_settings">Apri le impostazioni del sistema TTS</string>
   <string name="auto_assing_labels_help1">Qui puoi impostare quali etichette assegnare automaticamente ai segnalibri creati.</string>
-  <!--parameter is ether setting_scope_window or setting_scope_workspace-->
+  
   <string name="setting_scope">Questa impostazione si applica a %s.</string>
   <string name="setting_scope_window">questa finestra</string>
   <string name="setting_scope_workspace">questo spazio di lavoro</string>
   <string name="assing_labels_help1">A ogni segnalibro si possono assegnare etichette multiple.</string>
-  <!--param is bookmark icon-->
+  
   <string name="assing_labels_help2">Usa %s per specificare quale colore di etichetta mostrare.</string>
-  <!--param is auto-assign label icon-->
+  
   <string name="assing_labels_help3">Tocca l\'icona %s se vuoi che l\'etichetta sia assegnata automaticamente ai nuovi segnalibri.</string>
-  <!--param is heart icon-->
+  
   <string name="assing_labels_help4">Tocca %s per aggiungere l\'etichetta all\'elenco dei tuoi preferiti per accesso rapido.</string>
-  <!--param is refresh icon-->
+  
   <string name="assing_labels_help5">Tocca %s per riordinare l\'elenco in base alle tue scelte.</string>
   <string name="workspace_text_options_help_title">Opzioni testo dello spazio di lavoro</string>
   <string name="workspace_text_options_help1">Queste impostazioni sono quelle predefinite per tutte le finestre dello spazio di lavoro.</string>
   <string name="workspace_text_options_help2">Per definire delle eccezioni puoi cambiare le impostazioni individuali delle finestre.</string>
   <string name="window_text_options_help_title">Opzioni testo della finestra</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help1">L\'icona %s indica che l\'impostazione deriva da quelle dello spazio di lavoro.</string>
-  <!--Parameter is actual icon-->
+  
   <string name="window_text_options_help2">L\'icona %s indica che questa impostazione è stata cambiata per questa specifica finestra.</string>
-  <!--First parameter is actual icon. Second parameter is either "default values" or "workspace default values"-->
+  
   <string name="text_options_reset_help">Usa %1$s per reimpostare tutte queste impostazioni ai %2$s.</string>
   <string name="reset_defaults">valori predefiniti</string>
   <string name="reset_workspace_defaults">valori predefiniti dello spazio di lavoro</string>
@@ -474,30 +474,21 @@ desidera ascoltare la Genesi parlata rapidamente senza notifiche di modifica dei
 ma per i romani più lentamente con suoni udibili delle cuffie sui cambi di capitolo, quindi
 puoi avere impostazioni di riproduzione diverse per questi libri,
 quando queste impostazioni vengono salvate nei segnalibri corrispondenti.</string>
-  <!--List of (max 5) words that will be searched and replaced by their counterpart in divinename_replace
-         if they are found in <divineName> tag in the document (i.e. LORD etc, in capital letters).
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_original">
     <item>Signore</item>
     <item>Dio</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
-  <!--List of (max 5) words that we will replace those words listed in divinename_original.
-
-         Please note that this is not translation but you need to think about what words need to be replaced
-         in your language. These will be used if "Replace divinename with Yahweh" feature is enabled
-         in speak settings.-->
+  
   <string-array name="speak_divinename_replace">
     <item>Yahweh</item>
     <item>Yahweh</item>
-    <item></item>
-    <item></item>
-    <item></item>
+    <item />
+    <item />
+    <item />
   </string-array>
   <string name="speak_book_changed">Libro cambiato.</string>
   <string name="speak_chapter_changed">Capitolo</string>
@@ -508,9 +499,9 @@ quando queste impostazioni vengono salvate nei segnalibri corrispondenti.</strin
   <string name="speak_fifth">Quinto</string>
   <string name="verse_range_mode_disabled">
 La ripetizione del passaggio è stata disattivata automaticamente perché il dialogo è iniziato al di fuori della gamma di versetti definita.</string>
-  <!--User Notes-->
+  
   <string name="mynotes">Annotazioni</string>
-  <!--Backup and restore-->
+  
   <string name="backup_backup_title">Dove salvare?</string>
   <string name="backup_backup_message">Eseguire il backup sul telefono o altrove tramite la funzione Condividi (e-mail, Google Drive ecc.)?</string>
   <string name="backup_phone_storage">Memoria del telefono</string>
@@ -526,12 +517,12 @@ La ripetizione del passaggio è stata disattivata automaticamente perché il dia
   <string name="backup_document_info">Bibbie, commentari, dizionari, mappe ecc.</string>
   <string name="backup_to">Esegui backup su…</string>
   <string name="backup_restore_from">Ripristina da…</string>
-  <!--Restore = overwrite existing. Import = merge into existing-->
+  
   <string name="backup_restore_from2">Ripristina o Importa da…</string>
   <string name="backup_restore">Ripristina</string>
   <string name="backup_restore2">Ripristina o Importa</string>
   <string name="overwrite_something">Sovrascrivere %s?</string>
-  <!--What items (study pads, bookmarks etc) user wants to restore from app db backup file?-->
+  
   <string name="restore_what">Cosa vuoi ripristinare?</string>
   <string name="restore_app_database">Ripristina il database dell\'app da...</string>
   <string name="restore_database">Ripristina il file del database</string>
@@ -557,16 +548,16 @@ La ripetizione del passaggio è stata disattivata automaticamente perché il dia
   <string name="restore">Ripristina</string>
   <string name="import2">Importa</string>
   <string name="export_studypads_help">Il file contenente gli Appunti di studio esportati (cioè Etichette e Segnalibri) può essere importato andando in Menu Principale -&gt; Backup e ripristino.</string>
-  <!--First argument is the name of first label, second and third are the counts of labels & bookmarks, respectively-->
+  
   <string name="bookmarks_db_stats">\"%1$s\" e %2$s altre Etichette / Appunti di studio e %3$s Segnalibri</string>
-  <!--About-->
+  
   <string name="module_about_copyright">Copyright: %s</string>
   <string name="module_about_installed_version">Versione installata: %1$s (%2$s)</string>
   <string name="module_about_latest_version">Ultima versione: %1$s (%2$s)</string>
   <string name="module_about_versification">Versificazione: %s</string>
   <string name="module_about_repository">Server di distribuzione: %s</string>
   <string name="module_about_osisId">OSIS ID: %s</string>
-  <!--Bug reporting-->
+  
   <string name="send_bug_report_title1">Segnala un problema</string>
   <string name="send_feedback_title">Feedback</string>
   <string name="send_bug_report_title">Segnala un problema</string>
@@ -586,7 +577,7 @@ La ripetizione del passaggio è stata disattivata automaticamente perché il dia
   <string name="bug_report_screenshot">Screenshot dell\'app effettuato quando si è verificato il problema, o quando la segnalazione del bug è stata creata.</string>
   <string name="bug_report_attachment_line_1">Questi allegati sono molto utili agli sviluppatori dell\'app nel risolvere i problemi segnalati.</string>
   <string name="report_bug_heading_4">Informazioni sul dispositivo:</string>
-  <!--Document types-->
+  
   <string name="doc_type_all">Tutti i tipi</string>
   <string name="doc_type_bible">Bibbia</string>
   <string name="doc_type_commentary">Commentario</string>
@@ -594,9 +585,9 @@ La ripetizione del passaggio è stata disattivata automaticamente perché il dia
   <string name="doc_type_book">Libro</string>
   <string name="doc_type_map">Mappa</string>
   <string name="doc_type_addons">Componenti aggiuntivi</string>
-  <!--Languages-->
+  
   <string name="lang_default">Predefinito</string>
-  <!--General-->
+  
   <string name="okay">OK</string>
   <string name="cancel">Annulla</string>
   <string name="yes">Si</string>
@@ -609,7 +600,7 @@ La ripetizione del passaggio è stata disattivata automaticamente perché il dia
   <string name="reset_generic">Ripristina</string>
   <string name="watch_tutorial_video">Guarda il video tutorial (inglese)</string>
   <string name="verse_not_found">Versetto non trovato</string>
-  <!--Errors-->
+  
   <string name="report_error">Spedisci il rapporto</string>
   <string name="error_occurred">Si è verificato un errore</string>
   <string name="error_occurred_crash_last_time">L\'ultima volta che hai usato l\'applicazione, è andata in errore. Per aiutarci a risolvere il bug, ti saremmo grati se ci inviassi una segnalazione di errore.</string>
@@ -622,10 +613,10 @@ La ripetizione del passaggio è stata disattivata automaticamente perché il dia
   <string name="error_skip">Salta</string>
   <string name="bug_report_email_title">Invia segnalazione di errore via email</string>
   <string name="bug_report_email_text">Successivamente, seleziona l\'applicazione di posta elettronica preferita (ad esempio Gmail) per inviare la segnalazione al team di sviluppo.</string>
-  <!--Notifications-->
+  
   <string name="notification_channel_tts_status">Pronuncia</string>
   <string name="notification_channel_progress_status">Notifica dello stato di avanzamento per lo scaricamento di documenti ecc.</string>
-  <!--Workspaces-->
+  
   <string name="new_workspace">Nuovo</string>
   <string name="switch_to_workspace">Spazi di lavoro</string>
   <string name="delete_workspace">Rimuovi</string>
@@ -645,7 +636,7 @@ La ripetizione del passaggio è stata disattivata automaticamente perché il dia
   <string name="reset_settings">Ripristina</string>
   <string name="workspace_dismiss">Abbandona</string>
   <string name="workspace_listing_with_current">%s (corrente)</string>
-  <!--Beta notice-->
+  
   <string name="beta_notice_title">Questa è la versione beta!</string>
   <string name="beta_flag">BETA</string>
   <string name="beta_notice_content_1">
@@ -660,9 +651,9 @@ Gli utenti beta sono incoraggiati a segnalare bug tramite Google Play o (preferi
   <string name="stable_notice_title">L\'applicazione è stata aggiornata!</string>
   <string name="upgrade_video_message">Guarda il video esplicativo delle nuove caratteristiche di questa versione (%s).</string>
   <string name="stable_notice_par1">La nuova versione %1$s di %2$s è stata installata con successo!</string>
-  <!--History-->
+  
   <string name="history_for">Cronologia (%1$s: Finestra %2$d)</string>
-  <!--Help-->
+  
   <string name="help_nav_title">Navigazione</string>
   <string name="help_nav_text">Vai al capitolo successivo o precedente facendo scorrere lo schermo con un dito.
 Tocca due volte il testo della Bibbia per attivare la modalità a schermo intero.
@@ -679,7 +670,7 @@ Premi a lungo i collegamenti per scegliere se desideri aprirli nella finestra co
   <string name="help_studypads_text">
 Gli Appunti di studio sono progettati per facilitare la scrittura di appunti per la preparazione di sermoni, o semplicemente per annotare note personali di studio della Bibbia con riferimenti biblici multipli. Ogni Appunto di studio è associato a un\'etichetta di Segnalibro. Tutti i Segnalibri creati con una specifica etichetta appaiono automaticamente nel documento dell\'appunto di studio. Oltre ai Segnalibri, si possono inserire voci di testo personalizzate negli Appunti di studio.</string>
   <string name="help_search_title">Ricerca</string>
-  <!--TODO: to be removed-->
+  
   <string name="help_search_text">Il testo di ricerca può includere caratteri speciali come *,?, AND, OR, NOT
   (vedi \"Apache Lucene - Sintassi del parser di query\" per maggiori dettagli)
 </string>
@@ -706,16 +697,16 @@ quello di scorrere verso il basso dalla barra degli strumenti. Puoi anche usare 
   <string name="help_window_pinning_text">
 Puoi fissare le finestre dal menù opzioni (icona con tre punti, angolo in alto a destra).
 Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vista Bibbia, ma solo una finestra non fissa. Le finestre fisse vengono mostrate per prime, e dopo quelle non fisse. Potresti trovare utile aprire i documenti della Bibbia come finestre fisse, mentre i commentari, mappe, ecc. come finestre non fisse. In questo modo puoi facilmente avere i documenti biblici sempre aperti, e passare rapidamente ai commentari e ad altro materiale extra durante lo studio della Bibbia.</string>
-  <!--Welcome text-->
+  
   <string name="redownload_documents">Riscarica rapidamente</string>
   <string name="welcome_message">Grazie per aver scaricato %s. Al momento non hai Bibbie o documenti installati. Per continuare, per favore installa almeno 1 documento scaricandolo da internet, oppure caricandolo da un backup su file zip.
     </string>
-  <!--Supported file formats for documents-->
+  
   <string name="supported_formats_title">Formati supportati</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="choose_file">È necessario scegliere il file da caricare su %s. </string>
   <string name="supported_formats">Formati supportati per il caricamento di documenti da file: %s</string>
-  <!--argument is app_name_andbible (AndBible).-->
+  
   <string name="format_zip">File zip contenente i moduli Sword, o file di backup documenti (*.abmd) creato da %s</string>
   <string name="format_mysword">Documenti MySword (*.mybible)</string>
   <string name="format_mybible">Documenti MyBible (*.SQLite3)</string>
@@ -725,7 +716,7 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="redownload_message">
         E\' stato trovato un elenco di libri/documenti precedenti. Tocca qui sotto per riscaricarli facilmente.
     </string>
-  <!--Uncategorized-->
+  
   <string name="close">Chiudi</string>
   <string name="something_with_parenthesis">%1$s (%2$s)</string>
   <string name="first_time_help_do_not_show_again">Ho capito</string>
@@ -786,7 +777,7 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="show_reference_at_front">Mostra a inizio verso</string>
   <string name="abbreviate_reference">Abbrevia riferimento</string>
   <string name="version_name">Nome versione</string>
-  <!--meaning, bible version name-->
+  
   <string name="show_version_name">Includi nome della versione</string>
   <string name="show_ellipsis">Mostra tre puntini (…)</string>
   <string name="show_quotes">Mostra virgolette</string>
@@ -796,7 +787,7 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="upgrading_database">Sto aggiornando il database. Attendi...</string>
   <string name="initializing_app">Inizializzo l\'applicazione...</string>
   <string name="show_notes">Mostra annotazioni</string>
-  <!--1. parameter is current Webview version. 2. minimum version 3. app name 4. Google Play link that takes user to WebView entry in Google Play to upgrade it.-->
+  
   <string name="old_webview">Il pacchetto Android WebView è troppo vecchio (%1$s). Devi aggiornare il tuo Android WebView almeno alla versione %2$s per usare %3$s. Per la maggior parte dei dispositivi è possibile farlo da %4$s.</string>
   <string name="play">Google Play</string>
   <string name="proceed_anyway">Procedi ugualmente</string>
@@ -808,15 +799,15 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="rate_message6">
         Prima di lasciare una recensione negativa, per favore considera quanto segue:
     </string>
-  <!--parameters are actions (file a bug, send email)-->
+  
   <string name="rate_message1">
         Se hai problemi con l\'app, per favore %1$s o %2$s.
     </string>
-  <!--param is "please report maintainers"-->
+  
   <string name="rate_message2">
         Se ci sono problemi con il testo o con una traduzione della Bibbia, %s.
     </string>
-  <!--param is "please read what you can do"-->
+  
   <string name="rate_message3">
         Se un testo in particolare non è disponibile nell\'applicazione, %s.
     </string>
@@ -891,24 +882,24 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="import_from_db">Importa dal database dell\'applicazione</string>
   <string name="import_error">L\'importazione del database dell\'app non è riuscita. Il file di database potrebbe essere in un formato sbagliato o creato da una versione troppo vecchia di %s.</string>
   <string name="export_bookmarks_csv">Esporta segnalibri come %s</string>
-  <!--OSIS reference is the Bible reference in OSIS standard format, e.g. "Gen.1.1-Gen.1.3"-->
+  
   <string name="osis_reference">Riferimento OSIS</string>
-  <!--Bible reference is the Bible reference in human readable format, e.g. "Genesis 1:1-3"-->
+  
   <string name="bible_reference">Riferimento biblico</string>
   <string name="document">Documento</string>
   <string name="book">Libro</string>
-  <!--Chapter is the chapter number in the book, starting from 1-->
+  
   <string name="chapter_start">Inizio capitolo</string>
-  <!--Verse is the verse number in the chapter, starting from 1-->
+  
   <string name="verse_start">Inizio verso</string>
   <string name="chapter_end">Fine capitolo</string>
   <string name="verse_end">Fine verso</string>
   <string name="id">Identificatore</string>
-  <!--Ordinals are running index of Bible verses in a bible document, starting from 0.-->
+  
   <string name="ordinal_start">Inizio ordinale</string>
   <string name="ordinal_end">Fine ordinale</string>
   <string name="created_at">Creato il</string>
-  <!--Offsets are used to indicate from which character a bookmark starts.-->
+  
   <string name="start_offset">Offset iniziale</string>
   <string name="end_offset">Offset finale</string>
   <string name="custom_icon">Icona personalizzata</string>
@@ -922,9 +913,9 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="chooser_style_lists">Elenchi</string>
   <string name="chooser_select">Seleziona %s</string>
   <string name="chooser_pref_reset">Non reimpostare il capitolo/versetto a 1 quando un libro o capitolo viene selezionato</string>
-  <!--First param is language name, second is app name (app_name_long), third is "instruction for translators" which will be marked as a hyperlink in dialog. I hope we will never need this string, but nobody knows if some translators will drop us one day ...-->
+  
   <string name="incomplete_translation">Spiacente, abbiamo solo una traduzione parziale dell\'interfaccia nella lingua %1$s. Questo perché %2$s è sviluppato interamente da volontari. Se puoi aiutarci nelle traduzioni, per favore vedi %3$s.</string>
-  <!--will be added to incomplete_translation as a link-->
+  
   <string name="instructions_for_translators">istruzioni per i traduttori</string>
   <string name="questions_title">Domande?</string>
   <string name="questions_title2">Serve aiuto?</string>
@@ -943,7 +934,7 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="search_results_matches">%d risultati</string>
   <string name="search_results_match">1 risultato</string>
   <string name="progress_status_permission">Per mostrare le notifiche (stato dello scaricamento, elaborazione, pronuncia), abbiamo bisogno della tua autorizzazione.</string>
-  <!--Discrete mode settings-->
+  
   <string name="app_name_calculator">Semplice Calcolatrice</string>
   <string name="prefs_persecution_cat">Impostazioni per i perseguitati</string>
   <string name="prefs_discrete_mode">Nascondi simboli religiosi</string>
@@ -952,11 +943,11 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="prefs_calculator_pin">PIN calcolatrice</string>
   <string name="prefs_calculator_pin_desc">Codice PIN per accedere all\'app quando viene visualizzata la calcolatrice.</string>
   <string name="calc_division_by_zero">Divisione per zero non consentita</string>
-  <!--Context: calculator. Wrong number format etc.-->
+  
   <string name="calc_wrong_format">Formato Errato</string>
   <string name="calc_wrong_format_operand">Formato Errato. Operatore senza numeri?</string>
   <string name="prefs_persecuted_help">Leggi prima questo!</string>
-  <!--Gives sintructions about the settings (for discrete mode) and also information about another app version that is available to be downloaded, that is better suited for persecuted.-->
+  
   <string name="prefs_persecuted_summary">Istruzioni per le impostazioni e informazioni sulle versioni discrete dell\'app.</string>
   <string name="calculator_par1">
         Prima di accedere all\'app, viene mostrata la schermata della calcolatrice.
@@ -979,13 +970,13 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="discrete_mode_link">
         Puoi scaricare l\'ultima versione discreta da %s.
     </string>
-  <!--Window synchronize groups-->
+  
   <string name="sync_group_submenu">Sincronizza gruppo</string>
   <string name="sync_group_n">Gruppo %d</string>
   <string name="disable_sync">Disattiva sincronizzazione</string>
   <string name="open_in_window">Apri risultati in una finestra</string>
-  <!--Custom repositories-->
-  <!--Custom document repositories that can store any AndBible-compatible documents. User can easily install documents from such repositories by adding repository url here.-->
+  
+  
   <string name="custom_repositories">Repository personalizzati</string>
   <string name="custom_repositories_empty_list_message">Nessun repository personalizzato definito</string>
   <string name="custom_repositories_create_button_label">Aggiungi Repository Personalizzato</string>
@@ -1001,12 +992,12 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="duplicate_custom_repository">Il repository con il nome %s esiste già, impossibile aggiungerne un altro.</string>
   <string name="packages_dir">Cartella dei pacchetti (file Zip)</string>
   <string name="warn_bad_document">Attenzione: Questo documento potrebbe essere (almeno in parte) di scarsa qualità tecnica.</string>
-  <!--Open links in AndBible (Deep linking)-->
+  
   <string name="open_bible_links_title">Apri collegamenti Bibbia in AndBible</string>
   <string name="open_bible_links_summary">Quando clicchi su collegamenti che fanno riferimento al formato URL supportato da AndBible per i versi biblici, verranno mostrati in AndBible</string>
   <string name="copyReference">Copia collegamento negli appunti</string>
   <string name="reference_copied_to_clipboard">Riferimento copiato negli appunti</string>
-  <!--Device cloud synchronization-->
+  
   <string name="prefs_sync_introduction_summary1">
         Scegli quale servizio cloud di backend usare per la sincronizzazione di più dispositivi.
     </string>
@@ -1052,7 +1043,7 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="sync_disabling">Disattivo la sincronizzazione di %s per ora.</string>
   <string name="sync_update_app">Aggiornare l\'applicazione per continuare la sincronizzazione.</string>
   <string name="sign_in_failed">Accesso fallito al backend di sincronizzazione.</string>
-  <!--... after restoring from backup file-->
+  
   <string name="disabling_sync">Disattivo la sincronizzazione del cloud. Dovrai riabilitarla manualmente dopo il ripristino.</string>
   <string name="report">Segnala</string>
   <string name="sync_error">Errore nella sincronizzazione del Cloud</string>
@@ -1060,12 +1051,12 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="restore_from_cloud_description">Se la sincronizzazione del dispositivo è attivata in un altro dispositivo, è possibile iniziare a ripristinare il database dal Cloud.</string>
   <string name="enable_sync">Attiva sincronizzazione</string>
   <string name="last_updated">Ultimo aggiornamento: %s</string>
-  <!--MyBible/MySword module support-->
+  
   <string name="sqlite_cant_read">Impossibile leggere il file</string>
   <string name="sqlite_invalid_file">File o nome modulo non valido: %s</string>
   <string name="sqlite_cant_write">Impossibile (sovra)scrivere file</string>
   <string name="install_failed_reason">L\'installazione del modulo non è riuscita per il seguente motivo: %s.</string>
-  <!--Other / uncategorized-->
+  
   <string name="app_opened_elsewhere">L\'app è aperta altrove</string>
   <string name="open_here">Apri qui</string>
   <string name="external_link">Collegamento esterno</string>
@@ -1109,4 +1100,4 @@ Quando questa funzione è attiva, puoi mostrare diverse finestre fisse nella vis
   <string name="invalid_url_message">L\'URL inserito non è valido. Inserisci un URL valido (ad esempio, https://nextcloud.example.com)</string>
   <string name="memorize_description">Memorizza versi della Bibbia</string>
   <string name="memorize_abbreviation">Memorizza</string>
-</resources>
+<string name="reading_theme">Color theme</string></resources>
